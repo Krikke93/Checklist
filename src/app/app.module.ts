@@ -5,6 +5,8 @@ import { AppComponent } from './app.component';
 import { CategoryComponent } from './category/category.component';
 import { GroupComponent } from './category/group/group.component';
 import { ItemComponent } from './category/group/item/item.component';
+import { CategoryService } from 'src/app/category/category.service';
+import { HttpModule } from '@angular/http';
 
 @NgModule({
   declarations: [
@@ -14,9 +16,12 @@ import { ItemComponent } from './category/group/item/item.component';
     ItemComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpModule
   ],
-  providers: [],
+  providers: [
+    CategoryService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,0 +1,41 @@
+[
+    {
+        "name": "Dungeons",
+        "subCategories": [
+            {
+                "name": "Snake pit",
+                "groups": []
+            },
+            {
+                "name": "Undead lair",
+                "groups": []
+            },
+            {
+                "name": "Abyss of Demons",
+                "groups": []
+            },
+            {
+                "name": "Shatters",
+                "groups": [
+                    {
+                        "name": "White bags",
+                        "items": [
+                            {
+                                "name": "bracer",
+                                "src": "bracer"
+                            },
+                            {
+                                "name": "gemstone",
+                                "src": "gemstone"
+                            },
+                            {
+                                "name": "crown",
+                                "src": "crown"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

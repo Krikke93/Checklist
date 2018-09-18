@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Group } from 'src/app/category/group/group.model';
+import { Input } from '@angular/core';
 
 @Component({
   selector: 'app-group',
@@ -6,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./group.component.css']
 })
 export class GroupComponent implements OnInit {
+
+  @Input() group: Group;
 
   constructor() { }
 
