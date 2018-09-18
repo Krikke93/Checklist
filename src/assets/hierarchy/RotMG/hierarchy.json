@@ -1,36 +1,64 @@
 [
     {
         "name": "Dungeons",
+        "src": "dungeons",
         "subCategories": [
             {
                 "name": "Snake pit",
+                "src": "snakepit",
                 "groups": []
             },
             {
                 "name": "Undead lair",
+                "src": "udl",
                 "groups": []
             },
             {
                 "name": "Abyss of Demons",
+                "src": "abyss",
                 "groups": []
             },
             {
                 "name": "Shatters",
+                "src": "shatters",
                 "groups": [
                     {
                         "name": "White bags",
+                        "src": "whitebag",
                         "items": [
                             {
-                                "name": "bracer",
+                                "name": "Bracer",
                                 "src": "bracer"
                             },
                             {
-                                "name": "gemstone",
+                                "name": "Gemstone",
                                 "src": "gemstone"
                             },
                             {
-                                "name": "crown",
+                                "name": "Crown",
                                 "src": "crown"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "ST bags",
+                        "src": "stbag",
+                        "items": [
+                            {
+                                "name": "Sentient Staff",
+                                "src": "sentient"
+                            },
+                            {
+                                "name": "Ancient Spell: Pierce",
+                                "src": "stspell"
+                            },
+                            {
+                                "name": "The Robe of Twilight",
+                                "src": "twilight"
+                            },
+                            {
+                                "name": "The Forgotten Ring",
+                                "src": "forgottenring"
                             }
                         ]
                     }
