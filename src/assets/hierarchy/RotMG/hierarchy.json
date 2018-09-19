@@ -6,17 +6,126 @@
             {
                 "name": "Snake pit",
                 "src": "snakepit",
-                "groups": []
+                "groups": [
+                    {
+                        "name": "White bags",
+                        "src": "whitebag",
+                        "items": [
+                            {
+                                "name": "Wand of the Bulwark",
+                                "src": "bulwark"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "ST bags",
+                        "src": "stbag",
+                        "items": [
+                            {
+                                "name": "Mini Stheno Skin",
+                                "src": "stheno"
+                            },
+                            {
+                                "name": "Mini Flying Stheno Pet Skin",
+                                "src": "stheno-pet"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Limited Edition",
+                        "src": "limited",
+                        "items": [
+                            {
+                                "name": "Eternal Snowflake Wand",
+                                "src": "ice-bulwark"
+                            }
+                        ]
+                    }
+                ]
             },
             {
                 "name": "Undead lair",
                 "src": "udl",
-                "groups": []
+                "groups": [
+                    {
+                        "name": "White bags",
+                        "src": "whitebag",
+                        "items": [
+                            {
+                                "name": "Doom Bow",
+                                "src": "doom-bow"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "ST bags",
+                        "src": "stbag",
+                        "items": [
+                            {
+                                "name": "Edictum Praetoris",
+                                "src": "edictum"
+                            },
+                            {
+                                "name": "Toga Picta",
+                                "src": "toga-picta"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Limited Edition",
+                        "src": "limited",
+                        "items": [
+                            {
+                                "name": "Bow of the Morning Star",
+                                "src": "morning-star"
+                            }
+                        ]
+                    }
+                ]
             },
             {
                 "name": "Abyss of Demons",
                 "src": "abyss",
-                "groups": []
+                "groups": [
+                    {
+                        "name": "White bags",
+                        "src": "whitebag",
+                        "items": [
+                            {
+                                "name": "Demon Blade",
+                                "src": "demonblade"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Golden bags",
+                        "src": "goldenbag",
+                        "items": [
+                            {
+                                "name": "Golden Femur",
+                                "src": "femur"
+                            },
+                            {
+                                "name": "Golden Ribcage",
+                                "src": "ribcage"
+                            },
+                            {
+                                "name": "Golden Skull",
+                                "src": "skull"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Limited Edition",
+                        "src": "limited",
+                        "items": [
+                            {
+                                "name": "Sword of Illumination",
+                                "src": "illumination"
+                            }
+                        ]
+                    }
+                ]
             },
             {
                 "name": "Shatters",
@@ -59,6 +168,16 @@
                             {
                                 "name": "The Forgotten Ring",
                                 "src": "forgottenring"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Limited Edition",
+                        "src": "limited",
+                        "items": [
+                            {
+                                "name": "Ice crown",
+                                "src": "ice-crown"
                             }
                         ]
                     }

@@ -1,10 +1,10 @@
-<div class="category-container col-12 pb-2 mt-1">
+<div class="category-container col-12 pb-2 mt-1 d-inline-block">
   <div class="col-12 d-inline-block">
     <img class="float-left d-inline-block mr-2" src="assets/images/{{game}}/categories/{{category.src}}.png" />
     <h3 class="category-header float-left">{{category.name}}</h3>
   </div>
-  <div class="category-groups col-12 border">
-    <div *ngFor="let subCategory of category.subCategories">
+  <div class="category-groups col-12 border-top d-inline-block">
+    <div class="col-6 float-left d-inline-block" *ngFor="let subCategory of category.subCategories">
       <app-category [category]="subCategory"></app-category>
     </div>
     <div *ngFor="let group of category.groups">

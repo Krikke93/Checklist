@@ -18,4 +18,11 @@ export class GroupComponent implements OnInit {
   ngOnInit() {
   }
 
+  allChecked(): boolean {
+    for(let item of this.group.items) {
+      if(!item.checked) return false;
+    }
+    return true;
+  }
+
 }

@@ -27,12 +27,14 @@ export class AppComponent implements OnDestroy, OnInit {
   ) { }
 
   ngOnInit(): void {
-    //this.storage.remove(this.STORE_KEY);
+    const categories = this.categoryService.getJSON();
     const storeCategories = JSON.parse(this.storage.get(this.STORE_KEY));
     if(storeCategories) {
-      this.categories = of(storeCategories);
+      categories.subscribe((jsonCategories) => {
+        this.categories = of(Object.assign(storeCategories, jsonCategories));
+      });
     } else {
-      this.categories = this.categoryService.getJSON();
+      this.categories = categories;
     }
   }
 

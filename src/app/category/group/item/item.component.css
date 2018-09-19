@@ -1,3 +1,5 @@
 img {
     cursor: pointer;
+    max-width: 40px;
+    max-height: 40px;
 }
