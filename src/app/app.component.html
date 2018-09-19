@@ -4,7 +4,7 @@
 </nav>
 <div class="container">
   <div class="row">
-    <div class="col-12" *ngFor="let category of categories | async">
+    <div class="col-12" *ngFor="let category of categories">
       <app-category [category]="category"></app-category>
     </div>
   </div>

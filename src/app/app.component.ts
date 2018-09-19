@@ -9,6 +9,7 @@ import { Inject } from '@angular/core';
 import { OnDestroy } from '@angular/core';
 import { HostListener } from '@angular/core';
 import { OnInit } from '@angular/core';
+import { map } from 'rxjs/operators';
 
 @Component({
   selector: 'app-root',
@@ -17,7 +18,7 @@ import { OnInit } from '@angular/core';
 })
 export class AppComponent implements OnDestroy, OnInit {
   game = environment.game;
-  categories: Observable<Category[]>;
+  categories: Category[];
 
   STORE_KEY = this.game + '_categories';
 
@@ -27,15 +28,13 @@ export class AppComponent implements OnDestroy, OnInit {
   ) { }
 
   ngOnInit(): void {
-    const categories = this.categoryService.getJSON();
-    const storeCategories = JSON.parse(this.storage.get(this.STORE_KEY));
-    if(storeCategories) {
-      categories.subscribe((jsonCategories) => {
-        this.categories = of(Object.assign(storeCategories, jsonCategories));
-      });
-    } else {
+    this.categoryService.getJSON().subscribe((categories) => {
       this.categories = categories;
-    }
+      const storeCategories = JSON.parse(this.storage.get(this.STORE_KEY));
+      if(storeCategories) {
+        this.categories = Object.assign(categories, storeCategories);
+      }
+    });
   }
 
   ngOnDestroy(): void {
@@ -53,7 +52,7 @@ export class AppComponent implements OnDestroy, OnInit {
   }
 
   store() {
-    this.categories.subscribe((categories) => this.storage.set(this.STORE_KEY, JSON.stringify(categories)));
+    this.storage.set(this.STORE_KEY, JSON.stringify(this.categories));
   }
 
 }
