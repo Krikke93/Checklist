@@ -5,7 +5,7 @@
       [style.opacity]="allChecked() ? '1' : '0.5'" />
     <h3 class="category-header float-left">{{category.name}}</h3>
   </div>
-  <div class="category-groups col-12 border-top d-inline-block">
+  <div class="category-groups col-12 border-top" [ngClass]="(category.groups)?'d-inline-block':'display-flex'">
     <div class="col-6 float-left d-inline-block" *ngFor="let subCategory of category.subCategories">
       <app-category [category]="subCategory"></app-category>
     </div>

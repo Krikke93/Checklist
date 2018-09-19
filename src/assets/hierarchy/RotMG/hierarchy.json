@@ -32,12 +32,64 @@
                         ]
                     },
                     {
+                        "name": "Cyan bags",
+                        "src": "cyanbag",
+                        "items": [
+                            {
+                                "name": "Snakeskin Armor",
+                                "src": "snakeskin-armor"
+                            },
+                            {
+                                "name": "Snakeskin Shield",
+                                "src": "snakeskin-shield"
+                            },
+                            {
+                                "name": "Snake Eye Ring",
+                                "src": "snakeeye-ring"
+                            }
+                        ]
+                    },
+                    {
                         "name": "Limited Edition",
                         "src": "limited",
                         "items": [
                             {
                                 "name": "Eternal Snowflake Wand",
                                 "src": "ice-bulwark"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Magic woods",
+                "src": "mwoods",
+                "groups": [
+                    {
+                        "name": "White bags",
+                        "src": "whitebag",
+                        "items": [
+                            {
+                                "name": "Spirit Staff",
+                                "src": "spirit-staff"
+                            },
+                            {
+                                "name": "Enchantment Orb",
+                                "src": "enchantment-orb"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Cyan bags",
+                        "src": "cyanbag",
+                        "items": [
+                            {
+                                "name": "Woodland Robe",
+                                "src": "woodland-robe"
+                            },
+                            {
+                                "name": "Fiary Ring",
+                                "src": "fiary-ring"
                             }
                         ]
                     }
