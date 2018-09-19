@@ -7,6 +7,7 @@ import { GroupComponent } from './category/group/group.component';
 import { ItemComponent } from './category/group/item/item.component';
 import { CategoryService } from 'src/app/category/category.service';
 import { HttpModule } from '@angular/http';
+import { StorageServiceModule} from 'angular-webstorage-service';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { HttpModule } from '@angular/http';
   ],
   imports: [
     BrowserModule,
-    HttpModule
+    HttpModule,
+    StorageServiceModule
   ],
   providers: [
     CategoryService
