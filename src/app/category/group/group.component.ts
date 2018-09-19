@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Group } from 'src/app/category/group/group.model';
 import { Input } from '@angular/core';
 import { environment } from '../../../environments/environment';
+import { CategoryService } from 'src/app/category/category.service';
 
 @Component({
   selector: 'app-group',
@@ -13,16 +14,13 @@ export class GroupComponent implements OnInit {
   game = environment.game;
   @Input() group: Group;
 
-  constructor() { }
+  constructor(private categoryService: CategoryService) { }
 
   ngOnInit() {
   }
 
   allChecked(): boolean {
-    for(let item of this.group.items) {
-      if(!item.checked) return false;
-    }
-    return true;
+    return this.categoryService.groupAllChecked(this.group);
   }
 
 }
