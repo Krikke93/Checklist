@@ -1,4 +1,4 @@
-<div *ngIf="!(allChecked(category) && settings.onlyEmpty)" class="category-container col-12 pb-2 mt-1 d-inline-block">
+<div *ngIf="!(allChecked(category) && settings.onlyEmpty) && !(allUnChecked(category) && settings.onlyChecked)" class="category-container col-12 pb-2 mt-1 d-inline-block">
   <div class="col-12 d-inline-block">
     <img class="float-left d-inline-block mr-2" 
       src="assets/images/{{game}}/categories/{{category.src}}.png"
@@ -6,7 +6,7 @@
     <h3 class="category-header float-left">{{category.name}}</h3>
   </div>
   <div class="category-groups col-12 border-top" [ngClass]="[(category.groups)?'d-inline-block':'display-flex', (settings.nightMode)?'border-secondary':'']">
-    <div *ngFor="let subCategory of category.subCategories" [ngClass]="(allChecked(subCategory) && settings.onlyEmpty)?'':'col-6 float-left d-inline-block'" >
+    <div *ngFor="let subCategory of category.subCategories" [ngClass]="(!(allChecked(subCategory) && settings.onlyEmpty) && !(allUnChecked(subCategory) && settings.onlyChecked))?'col-6 float-left d-inline-block':''" >
       <app-category [category]="subCategory" [(settings)]="settings"></app-category>
     </div>
     <div *ngFor="let group of category.groups">

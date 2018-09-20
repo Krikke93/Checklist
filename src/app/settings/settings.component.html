@@ -11,9 +11,13 @@
     <form class="col-6 float-left">
       <h4 class="border-bottom" [ngClass]="(settings.nightMode)?'border-secondary':''">Item Management</h4>
       <div class="form-check">
-        <input [checked]="settings.onlyEmpty" (change)="settings.onlyEmpty = !settings.onlyEmpty" type="checkbox" class="form-check-input" id="incomplete-only">
+        <input [checked]="settings.onlyEmpty" (change)="settings.toggleOnlyEmpty()" type="checkbox" class="form-check-input" id="incomplete-only">
         <label class="form-check-label" for="incomplete-only">Only show incomplete</label>
       </div>
+      <div class="form-check">
+          <input [checked]="settings.onlyChecked" (change)="settings.toggleOnlyChecked()" type="checkbox" class="form-check-input" id="checked-only">
+          <label class="form-check-label" for="checked-only">Only show completed</label>
+        </div>
     </form>
   </div>
 </div>

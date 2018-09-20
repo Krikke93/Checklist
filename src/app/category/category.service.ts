@@ -28,6 +28,13 @@ export class CategoryService {
       return true;
   }
 
+  public groupAllUnChecked(group: Group): boolean {
+    for(let item of group.items) {
+        if(item.checked) return false;
+    }
+    return true;
+  }
+
   public categoryAllChecked(category: Category): boolean {
     if(category.subCategories && category.subCategories.length > 0) {
       for(let subCategory of category.subCategories) {
@@ -37,6 +44,20 @@ export class CategoryService {
     if(category.groups && category.groups.length > 0) {
       for(let group of category.groups) {
         if(!this.groupAllChecked(group)) return false;
+      }
+    }
+    return true;
+  }
+
+  public categoryAllUnChecked(category: Category): boolean {
+    if(category.subCategories && category.subCategories.length > 0) {
+      for(let subCategory of category.subCategories) {
+        if(!this.categoryAllUnChecked(subCategory)) return false;
+      }
+    }
+    if(category.groups && category.groups.length > 0) {
+      for(let group of category.groups) {
+        if(!this.groupAllUnChecked(group)) return false;
       }
     }
     return true;

@@ -1,4 +1,4 @@
-<div *ngIf="!(allChecked() && settings.onlyEmpty)" class="group-container col-12 pt-1">
+<div *ngIf="!(allChecked() && settings.onlyEmpty) && !(allUnChecked() && settings.onlyChecked)" class="group-container col-12 pt-1">
   <div class="col-2 d-inline-block">
     <img class="float-left d-inline-block border-right" 
       src="assets/images/{{game}}/groups/{{group.src}}.png" 

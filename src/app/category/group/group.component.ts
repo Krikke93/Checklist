@@ -25,4 +25,8 @@ export class GroupComponent implements OnInit {
     return this.categoryService.groupAllChecked(this.group);
   }
 
+  allUnChecked(): boolean {
+    return this.categoryService.groupAllUnChecked(this.group);
+  }
+
 }
