@@ -65,30 +65,4 @@ export class CategoryService {
     return items;
   }
 
-  public storeAll(categories: Category[]) {
-    const items = this.getAllItems(categories);
-    for(let item of items) {
-      this.storage.set(this.getStorageKey(item), item.checked);
-    }
-  }
-
-  private getStorageKey(item: Item): string {
-    return `${environment.game}_checked_${item.src}`;
-  }
-
-  public loadAll(categories: Category[]) {
-    const items = this.getAllItems(categories);
-    for(let item of items) {
-      const storedValue = this.storage.get(this.getStorageKey(item));
-      item.checked = storedValue;
-    }
-  }
-
-  public eraseAll(categories: Category[]) {
-    const items = this.getAllItems(categories);
-    for(let item of items) {
-      this.storage.remove(this.getStorageKey(item));
-    }
-  }
-
 }

@@ -8,13 +8,15 @@ import { ItemComponent } from './category/group/item/item.component';
 import { CategoryService } from 'src/app/category/category.service';
 import { HttpModule } from '@angular/http';
 import { StorageServiceModule} from 'angular-webstorage-service';
+import { SettingsComponent } from './settings/settings.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CategoryComponent,
     GroupComponent,
-    ItemComponent
+    ItemComponent,
+    SettingsComponent
   ],
   imports: [
     BrowserModule,

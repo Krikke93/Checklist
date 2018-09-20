@@ -3,11 +3,12 @@
     <img class="float-left d-inline-block border-right" 
       src="assets/images/{{game}}/groups/{{group.src}}.png" 
       title="{{group.name}}" 
-      [style.opacity]="allChecked() ? '1' : '0.3'" />
+      [style.opacity]="allChecked() ? '1' : '0.3'"
+      [ngClass]="(settings.nightMode)?'border-secondary':''" />
   </div>
   <div class="group-items col-10 d-inline-block">
     <div class="float-left d-inline-block" *ngFor="let item of group.items">
-      <app-item [item]="item"></app-item>
+      <app-item [item]="item" [(settings)]="settings"></app-item>
     </div>
   </div>
 </div>

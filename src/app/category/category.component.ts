@@ -3,6 +3,7 @@ import { Category } from 'src/app/category/category.model';
 import { Input } from '@angular/core';
 import { environment } from '../../environments/environment';
 import { CategoryService } from 'src/app/category/category.service';
+import { Settings } from '../settings/settings.model';
 
 @Component({
   selector: 'app-category',
@@ -13,6 +14,7 @@ export class CategoryComponent implements OnInit {
 
   game = environment.game;
   @Input() category: Category;
+  @Input() settings: Settings;
 
   constructor(private categoryService: CategoryService) { }
 

@@ -5,6 +5,8 @@ import { CategoryService } from 'src/app/category/category.service';
 import { OnDestroy } from '@angular/core';
 import { HostListener } from '@angular/core';
 import { OnInit } from '@angular/core';
+import { Settings } from './settings/settings.model';
+import { LocalStorageService } from './storage/local-storage.service';
 
 @Component({
   selector: 'app-root',
@@ -14,15 +16,18 @@ import { OnInit } from '@angular/core';
 export class AppComponent implements OnDestroy, OnInit {
   game = environment.game;
   categories: Category[];
+  settings: Settings;
 
   constructor(
-    private categoryService: CategoryService
+    private categoryService: CategoryService,
+    private storageService: LocalStorageService
   ) { }
 
   ngOnInit(): void {
+    this.settings = new Settings();
     this.categoryService.getJSON().subscribe((categories) => {
       this.categories = categories;
-      this.categoryService.loadAll(this.categories);
+      this.storageService.loadAll(this.categories, this.settings);
     });
   }
 
@@ -36,12 +41,12 @@ export class AppComponent implements OnDestroy, OnInit {
   }
 
   reset() {
-    this.categoryService.eraseAll(this.categories);
+    this.storageService.eraseAll(this.categories);
     this.ngOnInit();
   }
 
   store() {
-    this.categoryService.storeAll(this.categories);
+    this.storageService.storeAll(this.categories, this.settings);
   }
 
 }

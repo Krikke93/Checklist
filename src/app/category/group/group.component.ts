@@ -3,6 +3,7 @@ import { Group } from 'src/app/category/group/group.model';
 import { Input } from '@angular/core';
 import { environment } from '../../../environments/environment';
 import { CategoryService } from 'src/app/category/category.service';
+import { Settings } from '../../settings/settings.model';
 
 @Component({
   selector: 'app-group',
@@ -13,6 +14,7 @@ export class GroupComponent implements OnInit {
 
   game = environment.game;
   @Input() group: Group;
+  @Input() settings: Settings;
 
   constructor(private categoryService: CategoryService) { }
 
