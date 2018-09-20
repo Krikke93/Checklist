@@ -1,4 +1,4 @@
-<div class="app-container" [ngClass]="(settings.nightMode)?'bg-lightdark text-light':'bg-white text-dark'">
+<div *ngIf="settings && categories" class="app-container" [ngClass]="(settings.nightMode)?'bg-lightdark text-light':'bg-white text-dark'">
   <nav class="navbar navbar-expand-md border-bottom" [ngClass]="(settings.nightMode)?'navbar-dark bg-dark border-secondary':'navbar-light bg-light'">
     <a class="navbar-brand" href="#">{{game}} Item Checklist</a>
 
@@ -12,14 +12,14 @@
           <a class="nav-link dropdown-toggle" href="#" id="settings" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Settings</a>
           <div class="dropdown-menu dropdown-menu-right" aria-labelledby="settings">
             <a class="dropdown-item" href="#" data-toggle="collapse" data-target="#more-options" aria-expanded="false" aria-controls="more-options">Show more options</a>
-            <a class="dropdown-item text-danger" href="#" (click)="reset()"><b>!</b> Reset all items</a>
+            <a class="dropdown-item text-danger" href="#" (click)="reset()"><b>!</b> Reset everything</a>
           </div>
         </li>
       </ul>
     </div>
   </nav>
   <div class="collapse border-bottom border-secondary pt-1" [ngClass]="(settings.nightMode)?'bg-dark':'bg-light'" id="more-options">
-    <app-settings [(settings)]="settings"></app-settings>
+    <app-settings *ngIf="categories" [(settings)]="settings" [categories]="categories"></app-settings>
   </div>
   <div class="container mt-3">
     <div class="row">

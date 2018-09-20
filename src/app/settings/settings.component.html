@@ -3,21 +3,33 @@
     <h3 class="border-bottom col-12" [ngClass]="(settings.nightMode)?'border-secondary':''">Extra Options</h3>
     <form class="col-6 float-left">
       <h4 class="border-bottom" [ngClass]="(settings.nightMode)?'border-secondary':''">Display</h4>
-      <div class="form-check">
-        <input [checked]="settings.nightMode" (change)="settings.nightMode = !settings.nightMode" type="checkbox" class="form-check-input" id="night-mode">
-        <label class="form-check-label" for="night-mode">Night Mode</label>
+      <div class="col-6">
+        <div class="form-check">
+          <input [checked]="settings.nightMode" (change)="settings.nightMode = !settings.nightMode" type="checkbox" class="form-check-input" id="night-mode">
+          <label class="form-check-label" for="night-mode">Night Mode</label>
+        </div>
       </div>
     </form>
     <form class="col-6 float-left">
       <h4 class="border-bottom" [ngClass]="(settings.nightMode)?'border-secondary':''">Item Management</h4>
-      <div class="form-check">
-        <input [checked]="settings.onlyEmpty" (change)="settings.toggleOnlyEmpty()" type="checkbox" class="form-check-input" id="incomplete-only">
-        <label class="form-check-label" for="incomplete-only">Only show incomplete</label>
-      </div>
-      <div class="form-check">
+      <div class="col-6 float-left">
+        <div class="form-check">
+          <input [checked]="settings.onlyEmpty" (change)="settings.toggleOnlyEmpty()" type="checkbox" class="form-check-input" id="incomplete-only">
+          <label class="form-check-label" for="incomplete-only">Only show incomplete</label>
+        </div>
+        <div class="form-check">
           <input [checked]="settings.onlyChecked" (change)="settings.toggleOnlyChecked()" type="checkbox" class="form-check-input" id="checked-only">
           <label class="form-check-label" for="checked-only">Only show completed</label>
         </div>
+      </div>
+      <div class="col-6 float-left">
+        <span class="font-weight-bold">Select the groups to display</span>
+        <div class="col-12">
+          <div class="float-left" *ngFor="let filter of settings.groupFilters">
+            <app-item [item]="filter" [(settings)]="settings" [folderName]="'groups'"></app-item>
+          </div>
+        </div>
+      </div>
     </form>
   </div>
 </div>

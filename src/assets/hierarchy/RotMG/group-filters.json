@@ -1,0 +1,27 @@
+[
+    {
+        "name": "White bags",
+        "src": "whitebag",
+        "checked": true
+    },
+    {
+        "name": "ST bags",
+        "src": "stbag",
+        "checked": true
+    },
+    {
+        "name": "Cyan bags",
+        "src": "cyanbag",
+        "checked": true
+    },
+    {
+        "name": "Golden bags",
+        "src": "goldenbag",
+        "checked": true
+    },
+    {
+        "name": "Limited Edition",
+        "src": "limited",
+        "checked": true
+    }
+]

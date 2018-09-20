@@ -1,7 +1,14 @@
+import { Item } from "../category/group/item/item.model";
+
 export class Settings {
     nightMode: boolean = false;
     onlyEmpty: boolean = false;
     onlyChecked: boolean = false;
+    groupFilters: Item[] = [];
+
+    constructor(groupFilters: Item[]) {
+        this.groupFilters = groupFilters;
+    }
 
     toggleOnlyEmpty() {
         this.onlyEmpty = !this.onlyEmpty;

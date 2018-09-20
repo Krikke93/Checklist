@@ -31,7 +31,7 @@ export class LocalStorageService {
     for(let item of items) {
       this.storage.remove(this.getItemStorageKey(item));
     }
-    this.storeSettings(new Settings());
+    this.storeSettings(new Settings([]));
   }
 
   public storeAllItems(categories: Category[]) {
@@ -57,12 +57,18 @@ export class LocalStorageService {
     this.storage.set(this.getSettingsStorageKey('nightMode'), settings.nightMode);
     this.storage.set(this.getSettingsStorageKey('onlyEmpty'), settings.onlyEmpty);
     this.storage.set(this.getSettingsStorageKey('onlyChecked'), settings.onlyChecked);
+    for(let filter of settings.groupFilters) {
+      this.storage.set(this.getSettingsStorageKey('filter_' + filter.src), filter.checked);
+    }
   }
 
   public loadSettings(settings: Settings) {
     settings.nightMode = this.storage.get(this.getSettingsStorageKey('nightMode'));
     settings.onlyEmpty = this.storage.get(this.getSettingsStorageKey('onlyEmpty'));
     settings.onlyChecked = this.storage.get(this.getSettingsStorageKey('onlyChecked'));
+    for(let filter of settings.groupFilters) {
+      filter.checked = this.storage.get(this.getSettingsStorageKey('filter_' + filter.src));
+    }
   }
 
   private getSettingsStorageKey(property: string): string {

@@ -14,6 +14,7 @@ export class ItemComponent implements OnInit {
   game = environment.game;
   @Input() item: Item;
   @Input() settings: Settings;
+  @Input() folderName: string = 'items';
 
   constructor() { }
 

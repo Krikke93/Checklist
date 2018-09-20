@@ -24,10 +24,12 @@ export class AppComponent implements OnDestroy, OnInit {
   ) { }
 
   ngOnInit(): void {
-    this.settings = new Settings();
-    this.categoryService.getJSON().subscribe((categories) => {
-      this.categories = categories;
-      this.storageService.loadAll(this.categories, this.settings);
+    this.categoryService.getGroupFiltersJSON().subscribe((groupFilters) => {
+      this.settings = new Settings(groupFilters);
+      this.categoryService.getCategoriesJSON().subscribe((categories) => {
+        this.categories = categories;
+        this.storageService.loadAll(this.categories, this.settings);
+      });
     });
   }
 

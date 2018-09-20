@@ -15,8 +15,14 @@ export class CategoryService {
 
   constructor(private http: Http, @Inject(LOCAL_STORAGE) private storage: StorageService) { }
 
-  public getJSON(): Observable<any> {
+  public getCategoriesJSON(): Observable<any> {
     return this.http.get(`../../assets/hierarchy/${environment.game}/hierarchy.json`).pipe(
+      map((res: any) => res.json())
+    );
+  }
+
+  public getGroupFiltersJSON(): Observable<any> {
+    return this.http.get(`../../assets/hierarchy/${environment.game}/group-filters.json`).pipe(
       map((res: any) => res.json())
     );
   }
@@ -84,6 +90,27 @@ export class CategoryService {
       }
     }
     return items;
+  }
+
+  public getAllGroups(categories: Category[]): Group[] {
+    let groups = [];
+    for(let category of categories) {
+      groups = [ ...groups, ...this.getAllGroupsFromCategory(category) ];
+    }
+    return groups;
+  }
+
+  public getAllGroupsFromCategory(category: Category): Group[] {
+    let groups = [];
+    if(category.subCategories && category.subCategories.length > 0) {
+      for(let subCategory of category.subCategories) {
+        groups = [ ...groups, ...this.getAllGroupsFromCategory(subCategory) ];
+      }
+    }
+    if(category.groups && category.groups.length > 0) {
+      groups = [ ...groups, ...category.groups ];
+    }
+    return groups;
   }
 
 }
