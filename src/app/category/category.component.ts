@@ -21,8 +21,8 @@ export class CategoryComponent implements OnInit {
   ngOnInit() {
   }
 
-  allChecked(): boolean {
-    return this.categoryService.categoryAllChecked(this.category);
+  allChecked(category: Category): boolean {
+    return this.categoryService.categoryAllChecked(category);
   }
 
 }

@@ -1,11 +1,18 @@
 <div class="container mt-3 mb-3">
   <div class="row">
     <h3 class="border-bottom col-12" [ngClass]="(settings.nightMode)?'border-secondary':''">Extra Options</h3>
-    <form class="col-6">
+    <form class="col-6 float-left">
       <h4 class="border-bottom" [ngClass]="(settings.nightMode)?'border-secondary':''">Display</h4>
       <div class="form-check">
         <input [checked]="settings.nightMode" (change)="settings.nightMode = !settings.nightMode" type="checkbox" class="form-check-input" id="night-mode">
         <label class="form-check-label" for="night-mode">Night Mode</label>
+      </div>
+    </form>
+    <form class="col-6 float-left">
+      <h4 class="border-bottom" [ngClass]="(settings.nightMode)?'border-secondary':''">Item Management</h4>
+      <div class="form-check">
+        <input [checked]="settings.onlyEmpty" (change)="settings.onlyEmpty = !settings.onlyEmpty" type="checkbox" class="form-check-input" id="incomplete-only">
+        <label class="form-check-label" for="incomplete-only">Only show incomplete</label>
       </div>
     </form>
   </div>

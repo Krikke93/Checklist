@@ -1,3 +1,7 @@
 .bg-lightdark {
     background-color: #3b4147!important
 }
+
+.app-container {
+    min-height: 100%;
+}

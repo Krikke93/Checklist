@@ -1,5 +1,6 @@
 <img  class="d-inline-block" 
-      src="assets/images/{{game}}/items/{{item.src}}.png" 
+      src="assets/images/{{game}}/items/{{item.src}}.png"
+      *ngIf="!(item.checked && settings.onlyEmpty)" 
       [style.opacity]="item.checked ? '1' : '0.3'"
       title="{{item.name}}"
       (click)="select()" />

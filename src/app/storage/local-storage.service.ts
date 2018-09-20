@@ -55,10 +55,12 @@ export class LocalStorageService {
 
   public storeSettings(settings: Settings) {
     this.storage.set(this.getSettingsStorageKey('nightMode'), settings.nightMode);
+    this.storage.set(this.getSettingsStorageKey('onlyEmpty'), settings.onlyEmpty);
   }
 
   public loadSettings(settings: Settings) {
     settings.nightMode = this.storage.get(this.getSettingsStorageKey('nightMode'));
+    settings.onlyEmpty = this.storage.get(this.getSettingsStorageKey('onlyEmpty'));
   }
 
   private getSettingsStorageKey(property: string): string {
