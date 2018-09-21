@@ -29,8 +29,8 @@ export class CategoryComponent implements OnInit {
     return this.categoryService.categoryAllUnChecked(category);
   }
 
-  visible(): boolean {
-    return !this.categoryService.categoryAllInvisible(this.category, this.settings);
+  visible(category: Category): boolean {
+    return !this.categoryService.categoryAllInvisible(category, this.settings);
   }
 
 }
