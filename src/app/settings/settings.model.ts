@@ -23,4 +23,12 @@ export class Settings {
             this.onlyEmpty = false;
         }
     }
+
+    hasGroupFilterActive(src: string) {
+        for(let filter of this.groupFilters) {
+            if(filter.src === src) return filter.checked;
+        }
+        return false;
+    }
+
 }
