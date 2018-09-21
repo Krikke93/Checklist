@@ -4,7 +4,7 @@
         "src": "dungeons",
         "subCategories": [
             {
-                "name": "Snake pit",
+                "name": "Snake Pit",
                 "src": "snakepit",
                 "groups": [
                     {
@@ -62,7 +62,7 @@
                 ]
             },
             {
-                "name": "Magic woods",
+                "name": "Magic Woods",
                 "src": "mwoods",
                 "groups": [
                     {
@@ -96,7 +96,7 @@
                 ]
             },
             {
-                "name": "Undead lair",
+                "name": "Undead Lair",
                 "src": "udl",
                 "groups": [
                     {
@@ -180,7 +180,7 @@
                 ]
             },
             {
-                "name": "Shatters",
+                "name": "The Shatters",
                 "src": "shatters",
                 "groups": [
                     {

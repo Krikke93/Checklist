@@ -1,8 +1,8 @@
 <div class="container mt-3 mb-3">
   <div class="row">
-    <h3 class="border-bottom col-12" [ngClass]="(settings.nightMode)?'border-secondary':''">Extra Options</h3>
+    <h3 class="border-bottom col-12" [ngClass]="(settings.nightMode)?'border-secondary':''"><i class="fas fa-wrench pr-1"></i> Extra Options</h3>
     <form class="col-6 float-left">
-      <h4 class="border-bottom" [ngClass]="(settings.nightMode)?'border-secondary':''">Display</h4>
+      <h4 class="border-bottom" [ngClass]="(settings.nightMode)?'border-secondary':''"><i class="fas fa-desktop pr-1"></i> Display</h4>
       <div class="col-6">
         <div class="form-check">
           <input [checked]="settings.nightMode" (change)="settings.nightMode = !settings.nightMode" type="checkbox" class="form-check-input" id="night-mode">
@@ -11,7 +11,7 @@
       </div>
     </form>
     <form class="col-6 float-left">
-      <h4 class="border-bottom" [ngClass]="(settings.nightMode)?'border-secondary':''">Item Management</h4>
+      <h4 class="border-bottom" [ngClass]="(settings.nightMode)?'border-secondary':''"><i class="fas fa-suitcase pr-1"></i> Item Management</h4>
       <div class="col-6 float-left">
         <div class="form-check">
           <input [checked]="settings.onlyEmpty" (change)="settings.toggleOnlyEmpty()" type="checkbox" class="form-check-input" id="incomplete-only">

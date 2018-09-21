@@ -1,4 +1,4 @@
-<div *ngIf="!(allChecked(category) && settings.onlyEmpty) && !(allUnChecked(category) && settings.onlyChecked)" class="category-container col-12 pb-2 mt-1 d-inline-block">
+<div *ngIf="visible()" class="category-container col-12 pb-2 mt-1 d-inline-block">
   <div class="col-12 d-inline-block">
     <img class="float-left d-inline-block mr-2" 
       src="assets/images/{{game}}/categories/{{category.src}}.png"

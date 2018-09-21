@@ -7,6 +7,7 @@ import { Group } from 'src/app/category/group/group.model';
 import { Category } from 'src/app/category/category.model';
 import { LOCAL_STORAGE, StorageService } from 'angular-webstorage-service';
 import { Item } from './group/item/item.model';
+import { Settings } from '../settings/settings.model';
 
 @Injectable({
   providedIn: 'root'
@@ -64,6 +65,22 @@ export class CategoryService {
     if(category.groups && category.groups.length > 0) {
       for(let group of category.groups) {
         if(!this.groupAllUnChecked(group)) return false;
+      }
+    }
+    return true;
+  }
+
+  public categoryAllInvisible(category: Category, settings: Settings): boolean {
+    if(category.subCategories && category.subCategories.length > 0) {
+      for(let subCategory of category.subCategories) {
+        if(!this.categoryAllInvisible(subCategory, settings)) return false;
+      }
+    }
+    if(category.groups && category.groups.length > 0) {
+      for(let group of category.groups) {
+        if(!settings.onlyChecked && !settings.onlyEmpty && settings.hasGroupFilterActive(group.src)) return false;
+        if(!this.groupAllUnChecked(group) && settings.onlyChecked && settings.hasGroupFilterActive(group.src)) return false;
+        if(!this.groupAllChecked(group) && settings.onlyEmpty && settings.hasGroupFilterActive(group.src)) return false;
       }
     }
     return true;

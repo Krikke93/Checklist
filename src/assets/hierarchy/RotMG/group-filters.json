@@ -2,26 +2,31 @@
     {
         "name": "White bags",
         "src": "whitebag",
-        "checked": true
+        "checked": true,
+        "isGroupFilter": true
     },
     {
         "name": "ST bags",
         "src": "stbag",
-        "checked": true
+        "checked": true,
+        "isGroupFilter": true
     },
     {
         "name": "Cyan bags",
         "src": "cyanbag",
-        "checked": true
+        "checked": true,
+        "isGroupFilter": true
     },
     {
         "name": "Golden bags",
         "src": "goldenbag",
-        "checked": true
+        "checked": true,
+        "isGroupFilter": true
     },
     {
         "name": "Limited Edition",
         "src": "limited",
-        "checked": true
+        "checked": true,
+        "isGroupFilter": true
     }
 ]
