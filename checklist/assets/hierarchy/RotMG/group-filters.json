@@ -1,0 +1,38 @@
+[
+    {
+        "name": "White bags",
+        "src": "whitebag",
+        "checked": true,
+        "isGroupFilter": true
+    },
+    {
+        "name": "Red bags",
+        "src": "redbag",
+        "checked": true,
+        "isGroupFilter": true
+    },
+    {
+        "name": "ST bags",
+        "src": "stbag",
+        "checked": true,
+        "isGroupFilter": true
+    },
+    {
+        "name": "Cyan bags",
+        "src": "cyanbag",
+        "checked": true,
+        "isGroupFilter": true
+    },
+    {
+        "name": "Golden bags",
+        "src": "goldenbag",
+        "checked": true,
+        "isGroupFilter": true
+    },
+    {
+        "name": "Limited Edition",
+        "src": "limited",
+        "checked": true,
+        "isGroupFilter": true
+    }
+]
