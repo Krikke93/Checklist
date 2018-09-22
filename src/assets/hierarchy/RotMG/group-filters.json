@@ -6,6 +6,12 @@
         "isGroupFilter": true
     },
     {
+        "name": "Red bags",
+        "src": "redbag",
+        "checked": true,
+        "isGroupFilter": true
+    },
+    {
         "name": "ST bags",
         "src": "stbag",
         "checked": true,

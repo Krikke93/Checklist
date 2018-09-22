@@ -7,6 +7,7 @@ export class Category {
     subCategories: Category[];
     groups: Group[];
     items: Item[];
+    spread: boolean = false;
 
     constructor(name: string, src?: string, subCategories?: Category[], groups?: Group[], items?: Item[]) {
         this.name = name;

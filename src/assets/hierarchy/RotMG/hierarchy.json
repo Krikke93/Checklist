@@ -4,6 +4,108 @@
         "src": "dungeons",
         "subCategories": [
             {
+                "name": "Spider Den",
+                "src": "spiderden",
+                "groups": [
+                    {
+                        "name": "Cyan bags",
+                        "src": "cyanbag",
+                        "items": [
+                            {
+                                "name": "Poison Fang Dagger",
+                                "src": "poisonfangdagger"
+                            },
+                            {
+                                "name": "Spider Eye Ring",
+                                "src": "spidereyering"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Forbidden Jungle",
+                "src": "jungle",
+                "groups": [
+                    {
+                        "name": "Cyan bags",
+                        "src": "cyanbag",
+                        "items": [
+                            {
+                                "name": "Staff of the Crystal Serpent",
+                                "src": "crystalserpent"
+                            },
+                            {
+                                "name": "Cracked Crystal Skull",
+                                "src": "crystalskull"
+                            },
+                            {
+                                "name": "Robe of the Tlatoani",
+                                "src": "tlatoani"
+                            },
+                            {
+                                "name": "Cracked Bone Ring",
+                                "src": "crystalbonering"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "The Hive",
+                "src": "hive",
+                "groups": [
+                    {
+                        "name": "Cyan bags",
+                        "src": "cyanbag",
+                        "items": [
+                            {
+                                "name": "Orb of Sweet Demise",
+                                "src": "demise"
+                            },
+                            {
+                                "name": "Honey Scepter",
+                                "src": "honeyscepter"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Magic Woods",
+                "src": "mwoods",
+                "groups": [
+                    {
+                        "name": "White bags",
+                        "src": "whitebag",
+                        "items": [
+                            {
+                                "name": "Spirit Staff",
+                                "src": "spirit-staff"
+                            },
+                            {
+                                "name": "Enchantment Orb",
+                                "src": "enchantment-orb"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Cyan bags",
+                        "src": "cyanbag",
+                        "items": [
+                            {
+                                "name": "Woodland Robe",
+                                "src": "woodland-robe"
+                            },
+                            {
+                                "name": "Fiary Ring",
+                                "src": "fiary-ring"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
                 "name": "Snake Pit",
                 "src": "snakepit",
                 "groups": [
@@ -62,34 +164,110 @@
                 ]
             },
             {
-                "name": "Magic Woods",
-                "src": "mwoods",
+                "name": "Sprite World",
+                "src": "sprite",
                 "groups": [
                     {
                         "name": "White bags",
                         "src": "whitebag",
                         "items": [
                             {
-                                "name": "Spirit Staff",
-                                "src": "spirit-staff"
+                                "name": "Staff of Extreme Prejudice",
+                                "src": "ep"
                             },
                             {
-                                "name": "Enchantment Orb",
-                                "src": "enchantment-orb"
+                                "name": "Cloak of the Planewalker",
+                                "src": "plane"
                             }
                         ]
                     },
                     {
-                        "name": "Cyan bags",
-                        "src": "cyanbag",
+                        "name": "Limited Edition",
+                        "src": "limited",
                         "items": [
                             {
-                                "name": "Woodland Robe",
-                                "src": "woodland-robe"
+                                "name": "Staff of Iceblast",
+                                "src": "iceblast"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Candyland Hunting Grounds",
+                "src": "cland",
+                "groups": [
+                    {
+                        "name": "White bags",
+                        "src": "whitebag",
+                        "items": [
+                            {
+                                "name": "Candy-Coated Armor",
+                                "src": "cc"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "ST bags",
+                        "src": "stbag",
+                        "items": [
+                            {
+                                "name": "Pixie-Enchanted Sword",
+                                "src": "pixie"
                             },
                             {
-                                "name": "Fiary Ring",
-                                "src": "fiary-ring"
+                                "name": "Seal of the Enchanted Forest",
+                                "src": "stseal"
+                            },
+                            {
+                                "name": "Fairy Plate",
+                                "src": "fairyplate"
+                            },
+                            {
+                                "name": "Ring of Pure Wishes",
+                                "src": "purewishes"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Haunted Cemetary",
+                "src": "cem",
+                "groups": [
+                    {
+                        "name": "White bags",
+                        "src": "whitebag",
+                        "items": [
+                            {
+                                "name": "Plague Poison",
+                                "src": "plague"
+                            },
+                            {
+                                "name": "Ressurected Warrior's Armor",
+                                "src": "resu"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "ST bags",
+                        "src": "stbag",
+                        "items": [
+                            {
+                                "name": "Etherite Dagger",
+                                "src": "etherite"
+                            },
+                            {
+                                "name": "Ghastly Drape",
+                                "src": "drape"
+                            },
+                            {
+                                "name": "Mantle of Skuld",
+                                "src": "mantleofskuld"
+                            },
+                            {
+                                "name": "Spectral Ring of Horrors",
+                                "src": "horrors"
                             }
                         ]
                     }
@@ -180,6 +358,702 @@
                 ]
             },
             {
+                "name": "Manor of the Immortals",
+                "src": "manor",
+                "groups": [
+                    {
+                        "name": "White bags",
+                        "src": "whitebag",
+                        "items": [
+                            {
+                                "name": "Tome of Purification",
+                                "src": "puri"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Cyan bags",
+                        "src": "cyanbag",
+                        "items": [
+                            {
+                                "name": "Bone Dagger",
+                                "src": "bonedagger"
+                            },
+                            {
+                                "name": "St. Abraham's Wand",
+                                "src": "stabrahams"
+                            },
+                            {
+                                "name": "Chasuble of Holy Light",
+                                "src": "chasuble"
+                            },
+                            {
+                                "name": "Ring of Divine Faith",
+                                "src": "divinefaith"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Golden bags",
+                        "src": "goldenbag",
+                        "items": [
+                            {
+                                "name": "Golden Candelabra",
+                                "src": "candelabra"
+                            },
+                            {
+                                "name": "Holy Cross",
+                                "src": "holycross"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "The Puppet Master's Theatre",
+                "src": "puppet",
+                "groups": [
+                    {
+                        "name": "White bags",
+                        "src": "whitebag",
+                        "items": [
+                            {
+                                "name": "Harlequin Armor",
+                                "src": "harlequin"
+                            },
+                            {
+                                "name": "Prism of Dancing Swords",
+                                "src": "dancingswords"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "ST bags",
+                        "src": "stbag",
+                        "items": [
+                            {
+                                "name": "Puppet Master Skin",
+                                "src": "puppetmaster"
+                            },
+                            {
+                                "name": "Jester Skin",
+                                "src": "jester"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Toxic Sewers",
+                "src": "sewers",
+                "groups": [
+                    {
+                        "name": "White bags",
+                        "src": "whitebag",
+                        "items": [
+                            {
+                                "name": "Murky Toxin",
+                                "src": "murky"
+                            },
+                            {
+                                "name": "Void Blade",
+                                "src": "voidblade"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "ST bags",
+                        "src": "stbag",
+                        "items": [
+                            {
+                                "name": "Slurp Knight",
+                                "src": "slurpknight"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Mad Lab",
+                "src": "lab",
+                "groups": [
+                    {
+                        "name": "White bags",
+                        "src": "whitebag",
+                        "items": [
+                            {
+                                "name": "Conducting Wand",
+                                "src": "conduct"
+                            },
+                            {
+                                "name": "Scepter of Fulmination",
+                                "src": "fulmi"
+                            },
+                            {
+                                "name": "Robe of the Mad Scientist",
+                                "src": "labrobe"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "ST bags",
+                        "src": "stbag",
+                        "items": [
+                            {
+                                "name": "Grotesque Scepter",
+                                "src": "grotesque"
+                            },
+                            {
+                                "name": "Horrific Claws",
+                                "src": "horrificclaws"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Cyan bags",
+                        "src": "cyanbag",
+                        "items": [
+                            {
+                                "name": "Experimental Ring",
+                                "src": "expo"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Golden bags",
+                        "src": "goldenbag",
+                        "items": [
+                            {
+                                "name": "Golden Bolt",
+                                "src": "bolt"
+                            },
+                            {
+                                "name": "Golden Nut",
+                                "src": "nut"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Parasite Chambers",
+                "src": "parasite",
+                "groups": [
+                    {
+                        "name": "White bags",
+                        "src": "whitebag",
+                        "items": [
+                            {
+                                "name": "Recurring Terror Spell",
+                                "src": "recurringterror"
+                            },
+                            {
+                                "name": "Scepter of Devastation",
+                                "src": "devastation"
+                            },
+                            {
+                                "name": "Tome of Pain",
+                                "src": "pain"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "ST bags",
+                        "src": "stbag",
+                        "items": [
+                            {
+                                "name": "Abomination's Wrath",
+                                "src": "abominationswrath"
+                            },
+                            {
+                                "name": "Garment of the Beast",
+                                "src": "garmentofthebeast"
+                            },
+                            {
+                                "name": "Parasitic Concoction",
+                                "src": "concoction"
+                            },
+                            {
+                                "name": "Hivemind Circlet",
+                                "src": "hivemind"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Davy Jones's Locker",
+                "src": "davy",
+                "groups": [
+                    {
+                        "name": "White bags",
+                        "src": "whitebag",
+                        "items": [
+                            {
+                                "name": "Spirit Dagger",
+                                "src": "spiritdagger"
+                            },
+                            {
+                                "name": "Ghostly Prism",
+                                "src": "ghostlyprism"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Cyan bags",
+                        "src": "cyanbag",
+                        "items": [
+                            {
+                                "name": "Spectral Cloth Armor",
+                                "src": "spectral"
+                            },
+                            {
+                                "name": "Captain's Ring",
+                                "src": "captainsring"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Golden bags",
+                        "src": "goldenbag",
+                        "items": [
+                            {
+                                "name": "Golden Chalice",
+                                "src": "chalice"
+                            },
+                            {
+                                "name": "Ruby Gemstone",
+                                "src": "rubygemstone"
+                            },
+                            {
+                                "name": "Pearl Necklace",
+                                "src": "pneck"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Mountain Temple",
+                "src": "mtemple",
+                "groups": [
+                    {
+                        "name": "White bags",
+                        "src": "whitebag",
+                        "items": [
+                            {
+                                "name": "Orb of Aether",
+                                "src": "aether"
+                            },
+                            {
+                                "name": "Wand of the Fallen",
+                                "src": "fallen"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "ST bags",
+                        "src": "stbag",
+                        "items": [
+                            {
+                                "name": "Kazekiri",
+                                "src": "kazekiri"
+                            },
+                            {
+                                "name": "Ryu's Blade",
+                                "src": "ryusblade"
+                            },
+                            {
+                                "name": "Kamishimo",
+                                "src": "kamishimo"
+                            },
+                            {
+                                "name": "Akuma's Tear",
+                                "src": "akumastear"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Lair of Draconis",
+                "src": "lod",
+                "groups": [
+                    {
+                        "name": "White bags",
+                        "src": "whitebag",
+                        "items": [
+                            {
+                                "name": "Sullen Blade",
+                                "src": "sullenblade"
+                            },
+                            {
+                                "name": "Leaf Dragon Hide Armor",
+                                "src": "leafhide"
+                            },
+                            {
+                                "name": "Water Dragon Silk Robe",
+                                "src": "waterrobe"
+                            },
+                            {
+                                "name": "Fire Dragon Battle Armor",
+                                "src": "firearmor"
+                            },
+                            {
+                                "name": "Midnight Star",
+                                "src": "midnightstar"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "ST bags",
+                        "src": "stbag",
+                        "items": [
+                            {
+                                "name": "Indomptable",
+                                "src": "indomptable"
+                            },
+                            {
+                                "name": "Helm of Draconic Dominance",
+                                "src": "draconicdominance"
+                            },
+                            {
+                                "name": "Zaarvox's Heart",
+                                "src": "zaarvoxheart"
+                            },
+                            {
+                                "name": "Amulet of Drakefyre",
+                                "src": "drakefyre"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Deadwater Docks",
+                "src": "ddocks",
+                "groups": [
+                    {
+                        "name": "White bags",
+                        "src": "whitebag",
+                        "items": [
+                            {
+                                "name": "Cutlass",
+                                "src": "cutlass"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Woodland Labyrinth",
+                "src": "wlab",
+                "groups": [
+                    {
+                        "name": "White bags",
+                        "src": "whitebag",
+                        "items": [
+                            {
+                                "name": "Leaf Bow",
+                                "src": "leafbow"
+                            },
+                            {
+                                "name": "Wakizashi of Eastern Winds",
+                                "src": "easternwinds"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "ST bags",
+                        "src": "stbag",
+                        "items": [
+                            {
+                                "name": "Woodland Huntress Skin",
+                                "src": "woodlandhuntress"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "The Crawling Depths",
+                "src": "cdepths",
+                "groups": [
+                    {
+                        "name": "White bags",
+                        "src": "whitebag",
+                        "items": [
+                            {
+                                "name": "Doku No Ken",
+                                "src": "doku"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "ST bags",
+                        "src": "stbag",
+                        "items": [
+                            {
+                                "name": "Symbiotic Ripper",
+                                "src": "symbioticripper"
+                            },
+                            {
+                                "name": "Rags of the Host",
+                                "src": "rags"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Ice Cave",
+                "src": "icecave",
+                "groups": [
+                    {
+                        "name": "White bags",
+                        "src": "whitebag",
+                        "items": [
+                            {
+                                "name": "Staff of Esben",
+                                "src": "esbenstaff"
+                            },
+                            {
+                                "name": "Skullish Remains of Esben",
+                                "src": "esbenskull"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Ocean Trench",
+                "src": "ocean",
+                "groups": [
+                    {
+                        "name": "White bags",
+                        "src": "whitebag",
+                        "items": [
+                            {
+                                "name": "Coral Bow",
+                                "src": "cbow"
+                            },
+                            {
+                                "name": "Coral Venom Trap",
+                                "src": "ctrap"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Cyan bags",
+                        "src": "cyanbag",
+                        "items": [
+                            {
+                                "name": "Coral Silk Armor",
+                                "src": "csilk"
+                            },
+                            {
+                                "name": "Coral Ring",
+                                "src": "coralring"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Golden bags",
+                        "src": "goldenbag",
+                        "items": [
+                            {
+                                "name": "Golden Cockle",
+                                "src": "cockle"
+                            },
+                            {
+                                "name": "Golden Conch",
+                                "src": "conch"
+                            },
+                            {
+                                "name": "Golden Horn Conch",
+                                "src": "horn"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Limited Edition",
+                        "src": "limited",
+                        "items": [
+                            {
+                                "name": "Arctic Bow",
+                                "src": "arcticbow"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Tomb of the Ancients",
+                "src": "tomb",
+                "groups": [
+                    {
+                        "name": "White bags",
+                        "src": "whitebag",
+                        "items": [
+                            {
+                                "name": "Tome of Holy Protection",
+                                "src": "prot"
+                            },
+                            {
+                                "name": "Ring of the Pyramid",
+                                "src": "pyra"
+                            },
+                            {
+                                "name": "Ring of the Sphinx",
+                                "src": "sphinx"
+                            },
+                            {
+                                "name": "Ring of the Nile",
+                                "src": "nile"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "ST bags",
+                        "src": "stbag",
+                        "items": [
+                            {
+                                "name": "Wand of Geb",
+                                "src": "wandofgeb"
+                            },
+                            {
+                                "name": "Book of Geb",
+                                "src": "bookofgeb"
+                            },
+                            {
+                                "name": "Shendyt of Geb",
+                                "src": "shendyt"
+                            },
+                            {
+                                "name": "Geb's Ring of Wisdom",
+                                "src": "gebring"
+                            },
+                            {
+                                "name": "Mini Nut Archer Skin",
+                                "src": "mininut"
+                            },
+                            {
+                                "name": "Mini Geb Skin",
+                                "src": "minigeb"
+                            },
+                            {
+                                "name": "Tomb Snake Pet Stone",
+                                "src": "tombsnake"
+                            },
+                            {
+                                "name": "Bes's Artifact",
+                                "src": "besartifact"
+                            },
+                            {
+                                "name": "Nut's Artifact",
+                                "src": "nutartifact"
+                            },
+                            {
+                                "name": "Geb's Artifact",
+                                "src": "gebartifact"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Golden bags",
+                        "src": "goldenbag",
+                        "items": [
+                            {
+                                "name": "Golden Ankh",
+                                "src": "ankh"
+                            },
+                            {
+                                "name": "Eye of Osiris",
+                                "src": "eyeofosiris"
+                            },
+                            {
+                                "name": "Pharaoh's Mask",
+                                "src": "pharaohsmask"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Limited Edition",
+                        "src": "limited",
+                        "items": [
+                            {
+                                "name": "Tome of Frigid Protection",
+                                "src": "icetome"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "The Nest",
+                "src": "nest",
+                "groups": [
+                    {
+                        "name": "White bags",
+                        "src": "whitebag",
+                        "items": [
+                            {
+                                "name": "Queen's Stinger Dagger",
+                                "src": "stinger"
+                            },
+                            {
+                                "name": "Hivemaster Helm",
+                                "src": "hivemasterhelm"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "ST bags",
+                        "src": "stbag",
+                        "items": [
+                            {
+                                "name": "Nectar Crossfire",
+                                "src": "nectarcrossfire"
+                            },
+                            {
+                                "name": "Honeytomb Snare",
+                                "src": "honeytombsnare"
+                            },
+                            {
+                                "name": "Apiary Armor",
+                                "src": "apiary"
+                            },
+                            {
+                                "name": "Honey Circlet",
+                                "src": "honeycirclet"
+                            },
+                            {
+                                "name": "Killer Bee Queen Pet Stone",
+                                "src": "killerbeepet"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Cyan bags",
+                        "src": "cyanbag",
+                        "items": [
+                            {
+                                "name": "Blue Beehemoth Armor",
+                                "src": "bluebee"
+                            },
+                            {
+                                "name": "Red Beehemoth Armor",
+                                "src": "redbee"
+                            },
+                            {
+                                "name": "Yellow Beehemoth Armor",
+                                "src": "yellowbee"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
                 "name": "The Shatters",
                 "src": "shatters",
                 "groups": [
@@ -234,6 +1108,175 @@
                         ]
                     }
                 ]
+            },
+            {
+                "name": "Lost Halls",
+                "src": "lh",
+                "subCategories": [
+                    {
+                        "name": "Main Area",
+                        "src": "lh",
+                        "groups": [
+                            {
+                                "name": "White bags",
+                                "src": "whitebag",
+                                "items": [
+                                    {
+                                        "name": "Sword of the Colossus",
+                                        "src": "colossussword"
+                                    },
+                                    {
+                                        "name": "Marble Seal",
+                                        "src": "marbleseal"
+                                    },
+                                    {
+                                        "name": "Breastplate of New Life",
+                                        "src": "breastplate"
+                                    },
+                                    {
+                                        "name": "Magical Lodestone",
+                                        "src": "potato"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "ST bags",
+                                "src": "stbag",
+                                "items": [
+                                    {
+                                        "name": "Carved Golem Remains",
+                                        "src": "golemremains"
+                                    },
+                                    {
+                                        "name": "Brain of the Golem",
+                                        "src": "golembrain"
+                                    },
+                                    {
+                                        "name": "Golem Garments",
+                                        "src": "golemgarments"
+                                    },
+                                    {
+                                        "name": "Rusty Cuffs",
+                                        "src": "cuffs"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "The Cultist Hideout",
+                        "src": "cultist",
+                        "groups": [
+                            {
+                                "name": "White bags",
+                                "src": "whitebag",
+                                "items": [
+                                    {
+                                        "name": "Staff of Unholy Sacrifice",
+                                        "src": "sacrifice"
+                                    },
+                                    {
+                                        "name": "Skull of Corrupted Souls",
+                                        "src": "corruptedsouls"
+                                    },
+                                    {
+                                        "name": "Ritual Robe",
+                                        "src": "ritualrobe"
+                                    },
+                                    {
+                                        "name": "Bloodshed Ring",
+                                        "src": "bloodshedring"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Cyan bags",
+                                "src": "cyanbag",
+                                "items": [
+                                    {
+                                        "name": "Vial of Pure Darkness",
+                                        "src": "vial"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "The Void",
+                        "src": "void",
+                        "groups": [
+                            {
+                                "name": "White bags",
+                                "src": "whitebag",
+                                "items": [
+                                    {
+                                        "name": "Omnipotence Ring",
+                                        "src": "omni"
+                                    },
+                                    {
+                                        "name": "Bow of the Void",
+                                        "src": "voidbow"
+                                    },
+                                    {
+                                        "name": "Quiver of the Shadows",
+                                        "src": "voidquiver"
+                                    },
+                                    {
+                                        "name": "Armor of Nil",
+                                        "src": "nil"
+                                    },
+                                    {
+                                        "name": "Sourcestone",
+                                        "src": "sourcestone"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Tops",
+                                "src": "redbag",
+                                "items": [
+                                    {
+                                        "name": "Dagger of Sinister Deeds",
+                                        "src": "t13dagger"
+                                    },
+                                    {
+                                        "name": "Bow of Mystical Energy",
+                                        "src": "t13bow"
+                                    },
+                                    {
+                                        "name": "Staff of the Vital Unity",
+                                        "src": "t13staff"
+                                    },
+                                    {
+                                        "name": "Wand of Evocation",
+                                        "src": "t13wand"
+                                    },
+                                    {
+                                        "name": "Sword of Splendor",
+                                        "src": "t13sword"
+                                    },
+                                    {
+                                        "name": "Sadamune",
+                                        "src": "t13katana"
+                                    },
+                                    {
+                                        "name": "Wyrmhide Armor",
+                                        "src": "t14leather"
+                                    },
+                                    {
+                                        "name": "Robe of the Starmother",
+                                        "src": "t14robe"
+                                    },
+                                    {
+                                        "name": "Dominion Armor",
+                                        "src": "t14armor"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "spread": true
             }
         ]
     }

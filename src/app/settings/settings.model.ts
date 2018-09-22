@@ -1,7 +1,7 @@
 import { Item } from "../category/group/item/item.model";
 
 export class Settings {
-    nightMode: boolean = false;
+    nightMode: boolean = true;
     onlyEmpty: boolean = false;
     onlyChecked: boolean = false;
     groupFilters: Item[] = [];
