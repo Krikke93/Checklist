@@ -1110,6 +1110,189 @@
                 ]
             },
             {
+                "name": "Oryx's Castle",
+                "src": "oryxcastle",
+                "subCategories": [
+                    {
+                        "name": "Main Area",
+                        "src": "oryxcastle",
+                        "groups": [
+                            {
+                                "name": "White bags",
+                                "src": "whitebag",
+                                "items": [
+                                    {
+                                        "name": "Ancient Stone Sword",
+                                        "src": "ass"
+                                    },
+                                    {
+                                        "name": "Spiteful Scutum",
+                                        "src": "scutum"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Oryx's Chamber",
+                        "src": "oryxchamber",
+                        "groups": [
+                            {
+                                "name": "Limited Edition",
+                                "src": "limited",
+                                "items": [
+                                    {
+                                        "name": "Chicken Leg of Doom",
+                                        "src": "cleg"
+                                    },
+                                    {
+                                        "name": "Anatis Staff",
+                                        "src": "anatis"
+                                    },
+                                    {
+                                        "name": "Apocalypse Feather",
+                                        "src": "apocalypsefeather"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Wine Cellar",
+                        "src": "winecellar",
+                        "groups": [
+                            {
+                                "name": "ST bags",
+                                "src": "stbag",
+                                "items": [
+                                    {
+                                        "name": "Sword of the Mad God",
+                                        "src": "swordofthemadgod"
+                                    },
+                                    {
+                                        "name": "Shield of the Mad God",
+                                        "src": "shieldofthemadgod"
+                                    },
+                                    {
+                                        "name": "Almandine Armor of Anger",
+                                        "src": "almandinearmor"
+                                    },
+                                    {
+                                        "name": "Almandine Ring of Wrath",
+                                        "src": "almandinering"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Lair of Shaitan",
+                        "src": "shaitan",
+                        "groups": [
+                            {
+                                "name": "White bags",
+                                "src": "whitebag",
+                                "items": [
+                                    {
+                                        "name": "Skull of Endless Torment",
+                                        "src": "torment"
+                                    },
+                                    {
+                                        "name": "Wakizashi of Crossing Fires",
+                                        "src": "crossingfires"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Puppet Master's Encore",
+                        "src": "pupenc",
+                        "groups": [
+                            {
+                                "name": "White bags",
+                                "src": "whitebag",
+                                "items": [
+                                    {
+                                        "name": "Thousand Shot",
+                                        "src": "tshot"
+                                    },
+                                    {
+                                        "name": "Prism of Dire Instability",
+                                        "src": "instability"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "ST bags",
+                                "src": "stbag",
+                                "items": [
+                                    {
+                                        "name": "Jaco",
+                                        "src": "jaco"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Cnidarian Reef",
+                        "src": "reef",
+                        "groups": [
+                            {
+                                "name": "White bags",
+                                "src": "whitebag",
+                                "items": [
+                                    {
+                                        "name": "Bottled Medusozoan",
+                                        "src": "medusozoan"
+                                    },
+                                    {
+                                        "name": "Cnidaria Rod",
+                                        "src": "cnidariarod"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "ST bags",
+                                "src": "stbag",
+                                "items": [
+                                    {
+                                        "name": "Jellyhead Trickster Skin",
+                                        "src": "jellyhead"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Ice Tomb",
+                        "src": "icetomb",
+                        "groups": [
+                            {
+                                "name": "Limited Edition",
+                                "src": "limited",
+                                "items": [
+                                    {
+                                        "name": "Frimarra",
+                                        "src": "frimarra"
+                                    },
+                                    {
+                                        "name": "Enchanted Ice Shard",
+                                        "src": "iceshard"
+                                    },
+                                    {
+                                        "name": "Ring of the Northern Light",
+                                        "src": "northernlight"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "spread": true
+            },
+            {
                 "name": "Lost Halls",
                 "src": "lh",
                 "subCategories": [
@@ -1270,6 +1453,137 @@
                                     {
                                         "name": "Dominion Armor",
                                         "src": "t14armor"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "spread": true
+            },
+            {
+                "name": "Limited Dungeons",
+                "src": "limited",
+                "subCategories": [
+                    {
+                        "name": "Battle for the Nexus",
+                        "src": "bnexus",
+                        "groups": [
+                            {
+                                "name": "Limited Edition",
+                                "src": "limited",
+                                "items": [
+                                    {
+                                        "name": "Sunshine Shiv",
+                                        "src": "sunshineshiv"
+                                    },
+                                    {
+                                        "name": "Robobow",
+                                        "src": "robobow"
+                                    },
+                                    {
+                                        "name": "KoalaPOW",
+                                        "src": "koalapow"
+                                    },
+                                    {
+                                        "name": "Wand of Spicy Spice",
+                                        "src": "spicy"
+                                    },
+                                    {
+                                        "name": "Doctor Swordsworth",
+                                        "src": "doctorswordsworth"
+                                    },
+                                    {
+                                        "name": "Arbiters Wrath",
+                                        "src": "arbiterswrath"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Belladonna's Garden",
+                        "src": "belladonna",
+                        "groups": [
+                            {
+                                "name": "Limited Edition",
+                                "src": "limited",
+                                "items": [
+                                    {
+                                        "name": "Bashing Bride Skin",
+                                        "src": "bashingbride"
+                                    },
+                                    {
+                                        "name": "Eligible Bachelor Skin",
+                                        "src": "eligiblebachelor"
+                                    },
+                                    {
+                                        "name": "Heart of Gold Prism",
+                                        "src": "heartofgold"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Rainbow Road",
+                        "src": "rainbowroad",
+                        "groups": [
+                            {
+                                "name": "Limited Edition",
+                                "src": "limited",
+                                "items": [
+                                    {
+                                        "name": "Miss Shamrock Wizard Skin",
+                                        "src": "shamrock"
+                                    },
+                                    {
+                                        "name": "Leprechaun's Walking Hat Pet Skin",
+                                        "src": "walkinghat"
+                                    },
+                                    {
+                                        "name": "Clover Bow",
+                                        "src": "cloverbow"
+                                    },
+                                    {
+                                        "name": "Sword of the Rainbow's End",
+                                        "src": "rainbowsword"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Mad God Mayham",
+                        "src": "mayham",
+                        "groups": [
+                            {
+                                "name": "Limited Edition",
+                                "src": "limited",
+                                "items": [
+                                    {
+                                        "name": "Random Spell Extraction Device",
+                                        "src": "ipad"
+                                    },
+                                    {
+                                        "name": "Krathana",
+                                        "src": "krathana"
+                                    },
+                                    {
+                                        "name": "Silex's Hammer",
+                                        "src": "silexhammer"
+                                    },
+                                    {
+                                        "name": "Jade Storm",
+                                        "src": "jadestorm"
+                                    },
+                                    {
+                                        "name": "Shield of Flowing Clarity",
+                                        "src": "flowingclarity"
+                                    },
+                                    {
+                                        "name": "Cloak of the Mad God",
+                                        "src": "cloakofthemadgod"
                                     }
                                 ]
                             }
