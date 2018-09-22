@@ -12,7 +12,7 @@
       <app-category [category]="subCategory" [(settings)]="settings"></app-category>
     </div>
     <div *ngFor="let group of category.groups">
-      <app-group [group]="group" [(settings)]="settings"></app-group>
+      <app-group [spread]="category.spread" [group]="group" [(settings)]="settings"></app-group>
     </div>
   </div>
 </div>

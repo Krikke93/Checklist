@@ -1593,5 +1593,245 @@
                 "spread": true
             }
         ]
+    },
+    {
+        "name": "The Realm",
+        "src": "realm",
+        "subCategories": [
+            {
+                "name": "Ent Ancient",
+                "src": "ent",
+                "groups": [
+                    {
+                        "name": "White bags",
+                        "src": "whitebag",
+                        "items": [
+                            {
+                                "name": "Quiver of Thunder",
+                                "src": "qot"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Lich",
+                "src": "lich",
+                "groups": [
+                    {
+                        "name": "ST bags",
+                        "src": "stbag",
+                        "items": [
+                            {
+                                "name": "The Phylactery",
+                                "src": "phylactery"
+                            },
+                            {
+                                "name": "Soul of the Bearer",
+                                "src": "soulofthebearer"
+                            },
+                            {
+                                "name": "Soulless Robe",
+                                "src": "soullessrobe"
+                            },
+                            {
+                                "name": "Ring of the Covetous Heart",
+                                "src": "covetousheart"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Ghost King",
+                "src": "ghostking",
+                "groups": [
+                    {
+                        "name": "ST bags",
+                        "src": "stbag",
+                        "items": [
+                            {
+                                "name": "Memento Mori",
+                                "src": "mementomori"
+                            },
+                            {
+                                "name": "Interregnum",
+                                "src": "interregnum"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Crystal Prisoner",
+                "src": "crystal",
+                "groups": [
+                    {
+                        "name": "White bags",
+                        "src": "whitebag",
+                        "items": [
+                            {
+                                "name": "Crystal Sword",
+                                "src": "csword"
+                            },
+                            {
+                                "name": "Crystal Wand",
+                                "src": "cwand"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "ST bags",
+                        "src": "stbag",
+                        "items": [
+                            {
+                                "name": "Mini Crystal Steed Pet Skin",
+                                "src": "minicrystalsteed"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Limited Edition",
+                        "src": "limited",
+                        "items": [
+                            {
+                                "name": "Enchanted Ice Blade",
+                                "src": "ice-csword"
+                            },
+                            {
+                                "name": "Frozen Wand",
+                                "src": "ice-cwand"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Unique Events",
+                "src": "skullshrine",
+                "groups": [
+                    {
+                        "name": "White bags",
+                        "src": "whitebag",
+                        "items": [
+                            {
+                                "name": "Dirk of Cronus",
+                                "src": "cronus"
+                            },
+                            {
+                                "name": "Seal of Blasphemous Prayer",
+                                "src": "oreo"
+                            },
+                            {
+                                "name": "Orb of Conflict",
+                                "src": "conflict"
+                            },
+                            {
+                                "name": "Tablet of the King's Avatar",
+                                "src": "tablet"
+                            },
+                            {
+                                "name": "Helm of the Juggernaut",
+                                "src": "jugg"
+                            },
+                            {
+                                "name": "Trap of the Vile Spirit",
+                                "src": "vile"
+                            },
+                            {
+                                "name": "Shield of Ogmur",
+                                "src": "ogmur"
+                            },
+                            {
+                                "name": "Kageboshi",
+                                "src": "kageboshi"
+                            },
+                            {
+                                "name": "Red Beehemoth Quiver",
+                                "src": "redquiver"
+                            },
+                            {
+                                "name": "Blue Beehemoth Quiver",
+                                "src": "bluequiver"
+                            },
+                            {
+                                "name": "Yellow Beehemoth Quiver",
+                                "src": "yellowquiver"
+                            },
+                            {
+                                "name": "Ray Katana",
+                                "src": "ray"
+                            },
+                            {
+                                "name": "Cloak of Bloody Surprises",
+                                "src": "bloody"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "ST bags",
+                        "src": "stbag",
+                        "items": [
+                            {
+                                "name": "Mini Sphinx Pet Skin",
+                                "src": "minisphinx"
+                            }
+                        ]
+                    }
+                ],
+                "spread": true
+            },
+            {
+                "name": "Limited Unique Events",
+                "src": "limitedevents",
+                "subCategories": [
+                    {
+                        "name": "Zombie Horde",
+                        "src": "zombiehorde",
+                        "groups": [
+                            {
+                                "name": "Limited Edition",
+                                "src": "limited",
+                                "items": [
+                                    {
+                                        "name": "Infected Skin",
+                                        "src": "infectedskin"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Biff the Buffed Bunny",
+                        "src": "biff",
+                        "groups": [
+                            {
+                                "name": "Limited Edition",
+                                "src": "limited",
+                                "items": [
+                                    {
+                                        "name": "Bunny Trickster Skin",
+                                        "src": "bunnytrickster"
+                                    },
+                                    {
+                                        "name": "Moon Bunny Skin",
+                                        "src": "moonbunny"
+                                    },
+                                    {
+                                        "name": "Vitamine Buster",
+                                        "src": "carrotspell"
+                                    },
+                                    {
+                                        "name": "Helm of the Swift Bunny",
+                                        "src": "bunnyhelm"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "spread": true
+            }
+        ]
     }
 ]

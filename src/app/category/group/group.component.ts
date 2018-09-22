@@ -15,6 +15,7 @@ export class GroupComponent implements OnInit {
   game = environment.game;
   @Input() group: Group;
   @Input() settings: Settings;
+  @Input() spread: boolean = false;
 
   constructor(private categoryService: CategoryService) { }
 

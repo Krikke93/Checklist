@@ -1,12 +1,12 @@
 <div *ngIf="!(allChecked() && settings.onlyEmpty) && !(allUnChecked() && settings.onlyChecked) && settings.hasGroupFilterActive(group.src)" class="group-container col-12 pt-1">
-  <div class="d-inline-block float-left" [ngClass]="(settings.organized)?'col-2':'col-1'">
+  <div class="d-inline-block float-left" [ngClass]="(!settings.organized || spread)?'col-1':'col-2'">
     <img class="float-left d-inline-block border-right" 
       src="assets/images/{{game}}/groups/{{group.src}}.png" 
       title="{{group.name}}" 
       [style.opacity]="allChecked() ? '1' : '0.3'"
       [ngClass]="(settings.nightMode)?'border-secondary':''" />
   </div>
-  <div class="group-items d-inline-block" [ngClass]="(settings.organized)?'col-10':'col-11'">
+  <div class="group-items d-inline-block" [ngClass]="(!settings.organized || spread)?'col-11':'col-10'">
     <div class="float-left d-inline-block" *ngFor="let item of group.items">
       <app-item [item]="item" [(settings)]="settings"></app-item>
     </div>
