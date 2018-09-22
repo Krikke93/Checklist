@@ -5,3 +5,7 @@
 .app-container {
     min-height: 100%;
 }
+
+.sticky-offset {
+    top: 57px;
+}

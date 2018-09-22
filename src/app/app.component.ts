@@ -63,8 +63,4 @@ export class AppComponent implements OnDestroy, OnInit {
     }
   }
 
-  test() {
-    console.log("test");
-  }
-
 }

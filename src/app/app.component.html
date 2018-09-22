@@ -1,10 +1,9 @@
 <div *ngIf="settings && categories" class="app-container" [ngClass]="(settings.nightMode)?'bg-lightdark text-light':'bg-white text-dark'">
-  <nav class="navbar navbar-expand-md border-bottom" [ngClass]="(settings.nightMode)?'navbar-dark bg-dark border-secondary':'navbar-light bg-light'">
+  <nav class="navbar navbar-expand-md border-bottom sticky-top" [ngClass]="(settings.nightMode)?'navbar-dark bg-dark border-secondary':'navbar-light bg-light'">
     <a class="navbar-brand" href="#">{{game}} Item Checklist <i class="fas fa-check text-success"></i></a>
 
     <div class="collapse navbar-collapse">
       <ul class="navbar-nav mr-auto">
-        <a href="#" (click)="test()">Test</a>
         <!-- TODO: Add nav items -->
       </ul>
 
@@ -21,7 +20,7 @@
       </ul>
     </div>
   </nav>
-  <div class="collapse border-bottom border-secondary pt-1" [ngClass]="(settings.nightMode)?'bg-dark':'bg-light'" id="more-options">
+  <div class="collapse border-bottom border-secondary pt-1 sticky-top sticky-offset" [ngClass]="(settings.nightMode)?'bg-dark':'bg-light'" id="more-options">
     <app-settings *ngIf="categories" [(settings)]="settings" [categories]="categories" (toggleOrganized)="toggleOrganized()"></app-settings>
   </div>
   <div class="container mt-3">
