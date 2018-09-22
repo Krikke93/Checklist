@@ -15,6 +15,7 @@ import { LocalStorageService } from './storage/local-storage.service';
 })
 export class AppComponent implements OnDestroy, OnInit {
   game = environment.game;
+  oldCategories: Category[];
   categories: Category[];
   settings: Settings;
 
@@ -29,6 +30,8 @@ export class AppComponent implements OnDestroy, OnInit {
       this.categoryService.getCategoriesJSON().subscribe((categories) => {
         this.categories = categories;
         this.storageService.loadAll(this.categories, this.settings);
+        this.oldCategories = this.categories;
+        this.toggleOrganized();
       });
     });
   }
@@ -49,6 +52,19 @@ export class AppComponent implements OnDestroy, OnInit {
 
   store() {
     this.storageService.storeAll(this.categories, this.settings);
+  }
+
+  toggleOrganized() {
+    if(this.settings.organized) {
+      this.categories = this.oldCategories;
+    } else {
+      this.oldCategories = this.categories;
+      this.categories = [this.categoryService.getCompactCategory(this.categories, this.settings.groupFilters)];
+    }
+  }
+
+  test() {
+    console.log("test");
   }
 
 }

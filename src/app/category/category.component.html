@@ -1,6 +1,7 @@
 <div *ngIf="visible(category)" class="category-container col-12 pb-2 mt-2 d-inline-block">
   <div class="col-12 d-inline-block">
     <img class="float-left d-inline-block mr-2" 
+      *ngIf="category.src"
       src="assets/images/{{game}}/categories/{{category.src}}.png"
       [style.opacity]="allChecked(category) ? '1' : '0.5'" />
     <h3 class="category-header float-left">{{category.name}}</h3>

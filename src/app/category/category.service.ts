@@ -130,4 +130,34 @@ export class CategoryService {
     return groups;
   }
 
+  public getCompactCategory(categories: Category[], groupFilters: Item[]): Category {
+    let groupMap = [];
+    for(let category of categories) {
+      groupMap = this.addToGroupMap(groupMap, category);
+    }
+    let compactCategory = new Category('All Items');
+    compactCategory.groups = [];
+    for(let filter of groupFilters) {
+      compactCategory.groups.push(groupMap[filter.src]);
+    }
+    return compactCategory;
+  }
+
+  private addToGroupMap(groupMap: any, category: Category): any {
+    if(category.subCategories && category.subCategories.length > 0) {
+      for(let subCategory of category.subCategories) {
+        groupMap = this.addToGroupMap(groupMap, subCategory);
+      }
+    }
+    if(category.groups && category.groups.length > 0) {
+      for(let group of category.groups) {
+        if(!groupMap[group.src]) {
+          groupMap[group.src] = new Group(group.name, group.src, []);
+        }
+        groupMap[group.src].items = [ ...groupMap[group.src].items, ...group.items];
+      }
+    }
+    return groupMap;
+  }
+
 }

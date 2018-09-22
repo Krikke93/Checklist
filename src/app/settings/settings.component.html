@@ -6,7 +6,11 @@
       <div class="col-6">
         <div class="form-check">
           <input [checked]="settings.nightMode" (change)="settings.nightMode = !settings.nightMode" type="checkbox" class="form-check-input" id="night-mode">
-          <label class="form-check-label" for="night-mode">Night Mode</label>
+          <label class="form-check-label" for="night-mode">Night Mode <i class="fas fa-moon"></i></label>
+        </div>
+        <div class="form-check">
+          <input [checked]="settings.organized" (change)="toggleOrganizedValue()" type="checkbox" class="form-check-input" id="organized">
+          <label class="form-check-label" for="organized">Organized Mode <i class="fas fa-sitemap"></i></label>
         </div>
       </div>
     </form>
@@ -15,11 +19,11 @@
       <div class="col-6 float-left">
         <div class="form-check">
           <input [checked]="settings.onlyEmpty" (change)="settings.toggleOnlyEmpty()" type="checkbox" class="form-check-input" id="incomplete-only">
-          <label class="form-check-label" for="incomplete-only">Only show incomplete</label>
+          <label class="form-check-label" for="incomplete-only">Only show incomplete <i class="fas fa-times"></i></label>
         </div>
         <div class="form-check">
           <input [checked]="settings.onlyChecked" (change)="settings.toggleOnlyChecked()" type="checkbox" class="form-check-input" id="checked-only">
-          <label class="form-check-label" for="checked-only">Only show completed</label>
+          <label class="form-check-label" for="checked-only">Only show completed <i class="fas fa-check"></i></label>
         </div>
       </div>
       <div class="col-6 float-left">

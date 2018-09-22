@@ -55,6 +55,7 @@ export class LocalStorageService {
 
   public storeSettings(settings: Settings) {
     this.storage.set(this.getSettingsStorageKey('nightMode'), settings.nightMode);
+    this.storage.set(this.getSettingsStorageKey('organized'), settings.organized);
     this.storage.set(this.getSettingsStorageKey('onlyEmpty'), settings.onlyEmpty);
     this.storage.set(this.getSettingsStorageKey('onlyChecked'), settings.onlyChecked);
     for(let filter of settings.groupFilters) {
@@ -64,6 +65,7 @@ export class LocalStorageService {
 
   public loadSettings(settings: Settings) {
     settings.nightMode = this.storage.get(this.getSettingsStorageKey('nightMode'));
+    settings.organized = this.storage.get(this.getSettingsStorageKey('organized'));
     settings.onlyEmpty = this.storage.get(this.getSettingsStorageKey('onlyEmpty'));
     settings.onlyChecked = this.storage.get(this.getSettingsStorageKey('onlyChecked'));
     for(let filter of settings.groupFilters) {

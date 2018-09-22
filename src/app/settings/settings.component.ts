@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import { Settings } from './settings.model';
 import { Category } from '../category/category.model';
 import { CategoryService } from '../category/category.service';
@@ -15,9 +15,17 @@ export class SettingsComponent implements OnInit {
   @Input() settings: Settings;
   @Input() categories: Category[];
 
+  @Output()
+  toggleOrganized: EventEmitter<boolean> = new EventEmitter<boolean>();
+
   constructor(private categoryService: CategoryService) { }
 
   ngOnInit() {
+  }
+
+  toggleOrganizedValue() {
+    this.settings.organized = !this.settings.organized;
+    this.toggleOrganized.emit(this.settings.organized);
   }
 
 }
