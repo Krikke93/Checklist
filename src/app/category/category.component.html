@@ -4,6 +4,7 @@
       *ngIf="category.src"
       src="assets/images/{{game}}/categories/{{((category.src === 'winecellar' || category.src === 'cultist') && allChecked(category))?'closed_':''}}{{category.src}}.png"
       [style.opacity]="allChecked(category) ? '1' : '0.5'" />
+    <div class="fixed-target" id="{{category.src}}"></div>
     <h3 class="category-header float-left">{{category.name}}</h3>
   </div>
   <div class="category-groups col-12 border-top" [ngClass]="[(category.groups)?'d-inline-block':'display-flex', (settings.nightMode)?'border-secondary':'']">

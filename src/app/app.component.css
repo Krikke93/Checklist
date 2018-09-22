@@ -9,3 +9,25 @@
 .sticky-offset {
     top: 57px;
 }
+
+.navbar-side {
+    width: 160px;
+    height: 100vh;
+    -webkit-transition: width 0.5s;
+    transition: width 0.5s;
+}
+
+.navbar-side:hover {
+    width: 315px;
+}
+
+.options-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#more-options {
+    flex: 1;
+}

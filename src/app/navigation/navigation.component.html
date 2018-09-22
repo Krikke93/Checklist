@@ -1,0 +1,27 @@
+<img src="assets/images/{{game}}/icon.png" class="align-top game-icon m-auto d-block" />
+<p *ngIf="!settings.organized" class="text-secondary text-center">
+  No navigation needed when organized mode is disabled.
+</p>
+<div *ngIf="settings.organized" class="category-navigation-wrapper">
+  <p class="text-center border-bottom" [ngClass]="(settings.nightMode)?'border-secondary':''">Navigation Menu</p>
+  <div *ngFor="let category of categories">
+    <div class="border-bottom mb-2" [ngClass]="(settings.nightMode)?'border-secondary':''" *ngIf="visible(category)">
+      <div class="w-100 d-inline-block">
+        <a href="#{{category.src}}">
+          <img class="category-img d-block m-auto"
+            *ngIf="category.src"
+            src="assets/images/{{game}}/categories/{{category.src}}.png"
+            title="{{category.name}}" />
+        </a>
+      </div>
+      <div *ngFor="let subCategory of category.subCategories" class="d-inline-block">
+          <a href="#{{subCategory.src}}" *ngIf="visible(subCategory)">
+            <img class="category-img float-left d-inline-block"
+              *ngIf="subCategory.src"
+              src="assets/images/{{game}}/categories/{{subCategory.src}}.png"
+              title="{{subCategory.name}}" />
+          </a>
+      </div>
+    </div>
+  </div>
+</div>

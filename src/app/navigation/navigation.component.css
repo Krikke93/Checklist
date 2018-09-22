@@ -1,0 +1,13 @@
+.category-img {
+    max-width: 40px;
+    max-width: 40px;
+    opacity: 0.6;
+}
+
+.category-img:hover {
+    opacity: 1;
+}
+
+.game-icon {
+    max-width: 120px;
+}

@@ -9,6 +9,7 @@ import { CategoryService } from 'src/app/category/category.service';
 import { HttpModule } from '@angular/http';
 import { StorageServiceModule} from 'angular-webstorage-service';
 import { SettingsComponent } from './settings/settings.component';
+import { NavigationComponent } from './navigation/navigation.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { SettingsComponent } from './settings/settings.component';
     CategoryComponent,
     GroupComponent,
     ItemComponent,
-    SettingsComponent
+    SettingsComponent,
+    NavigationComponent
   ],
   imports: [
     BrowserModule,
