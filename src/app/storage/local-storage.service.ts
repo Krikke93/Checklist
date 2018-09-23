@@ -31,7 +31,6 @@ export class LocalStorageService {
     for(let item of items) {
       this.storage.remove(this.getItemStorageKey(item));
     }
-    this.storeSettings(new Settings([]));
   }
 
   public storeAllItems(categories: Category[]) {
@@ -64,12 +63,18 @@ export class LocalStorageService {
   }
 
   public loadSettings(settings: Settings) {
-    settings.nightMode = this.storage.get(this.getSettingsStorageKey('nightMode'));
-    settings.organized = this.storage.get(this.getSettingsStorageKey('organized'));
-    settings.onlyEmpty = this.storage.get(this.getSettingsStorageKey('onlyEmpty'));
-    settings.onlyChecked = this.storage.get(this.getSettingsStorageKey('onlyChecked'));
+    let nightMode = this.storage.get(this.getSettingsStorageKey('nightMode'));
+    let organized = this.storage.get(this.getSettingsStorageKey('organized'));
+    let onlyEmpty = this.storage.get(this.getSettingsStorageKey('onlyEmpty'));
+    let onlyChecked = this.storage.get(this.getSettingsStorageKey('onlyChecked'));
+
+    if(nightMode != null) settings.nightMode = nightMode;
+    if(organized != null) settings.organized = organized;
+    if(onlyEmpty != null) settings.onlyEmpty = onlyEmpty;
+    if(onlyChecked != null) settings.onlyChecked = onlyChecked;
     for(let filter of settings.groupFilters) {
-      filter.checked = this.storage.get(this.getSettingsStorageKey('filter_' + filter.src));
+      let checked = this.storage.get(this.getSettingsStorageKey('filter_' + filter.src));
+      if(checked != null) filter.checked = checked;
     }
   }
 

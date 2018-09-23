@@ -17,13 +17,13 @@ export class CategoryService {
   constructor(private http: Http, @Inject(LOCAL_STORAGE) private storage: StorageService) { }
 
   public getCategoriesJSON(): Observable<any> {
-    return this.http.get(`../../assets/hierarchy/${environment.game}/hierarchy.json`).pipe(
+    return this.http.get(`assets/hierarchy/${environment.game}/hierarchy.json`).pipe(
       map((res: any) => res.json())
     );
   }
 
   public getGroupFiltersJSON(): Observable<any> {
-    return this.http.get(`../../assets/hierarchy/${environment.game}/group-filters.json`).pipe(
+    return this.http.get(`assets/hierarchy/${environment.game}/group-filters.json`).pipe(
       map((res: any) => res.json())
     );
   }

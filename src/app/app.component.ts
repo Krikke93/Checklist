@@ -18,6 +18,7 @@ export class AppComponent implements OnDestroy, OnInit {
   oldCategories: Category[];
   categories: Category[];
   settings: Settings;
+  erasePrompt: boolean = false;
 
   constructor(
     private categoryService: CategoryService,
@@ -46,6 +47,8 @@ export class AppComponent implements OnDestroy, OnInit {
   }
 
   reset() {
+    this.erasePrompt = false;
+    this.store();
     this.storageService.eraseAll(this.categories);
     this.ngOnInit();
   }

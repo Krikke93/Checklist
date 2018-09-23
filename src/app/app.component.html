@@ -13,13 +13,12 @@
       <ul class="navbar-nav">
         <a class="nav-link border-right pr-3" href="#" id="settings"  data-toggle="collapse" data-target="#more-options" aria-expanded="false" aria-controls="more-options"
           [ngClass]="(settings.nightMode)?'border-secondary':''"><i class="fas fa-cog"></i> Settings</a>
-        <li class="nav-item dropdown pl-2">
-          <a class="nav-link dropdown-toggle" href="#" id="reset" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="far fa-trash-alt text-danger"></i></a>
-          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="reset">
-            <a class="dropdown-item text-danger" href="#" (click)="reset()"><b>!</b> Reset everything</a>
-            <a class="dropdown-item" href="#">Cancel</a>
-          </div>
-        </li>
+        <a class="nav-link ml-2" href="#" id="reset" (click)="erasePrompt = !erasePrompt"><i class="far fa-trash-alt text-danger"></i></a>
+        <div *ngIf="erasePrompt">
+          <span class="navbar-text float-left">Erase everything?</span>
+          <a class="nav-link text-danger float-left" href="#" (click)="reset()">Yes</a>
+          <a class="nav-link float-left" href="#" (click)="erasePrompt = false">No</a>
+        </div>
       </ul>
     </div>
   </nav>
