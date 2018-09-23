@@ -28,4 +28,19 @@ export class SettingsComponent implements OnInit {
     this.toggleOrganized.emit(this.settings.organized);
   }
 
+  toggleAll() {
+    let allChecked = true;
+    for(let filter of this.settings.groupFilters) {
+      if(!filter.checked) {
+        allChecked = false;
+        filter.checked = true;
+      }
+    }
+    if(allChecked) {
+      for(let filter of this.settings.groupFilters) {
+        filter.checked = false;
+      }
+    }
+  }
+
 }

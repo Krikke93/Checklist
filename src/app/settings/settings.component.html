@@ -32,6 +32,9 @@
           <div class="float-left" *ngFor="let filter of settings.groupFilters">
             <app-item [item]="filter" [(settings)]="settings" [folderName]="'groups'"></app-item>
           </div>
+          <div class="float-left">
+            <a href="#" class="text-secondary toggle-all" (click)="toggleAll()"><i class="fas fa-chevron-circle-left"></i> Toggle All</a>
+          </div>
         </div>
       </div>
     </form>
