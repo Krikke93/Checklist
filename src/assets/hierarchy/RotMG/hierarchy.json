@@ -1115,7 +1115,7 @@
                 "subCategories": [
                     {
                         "name": "Main Area",
-                        "src": "oryxcastle",
+                        "src": "oryxcastlemain",
                         "groups": [
                             {
                                 "name": "White bags",
@@ -1298,7 +1298,7 @@
                 "subCategories": [
                     {
                         "name": "Main Area",
-                        "src": "lh",
+                        "src": "lhmain",
                         "groups": [
                             {
                                 "name": "White bags",

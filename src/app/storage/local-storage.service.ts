@@ -5,6 +5,7 @@ import { Item } from '../category/group/item/item.model';
 import { CategoryService } from '../category/category.service';
 import { environment } from '../../environments/environment';
 import { Settings } from '../settings/settings.model';
+import { min } from 'rxjs/operators';
 
 @Injectable({
   providedIn: 'root'
@@ -76,6 +77,19 @@ export class LocalStorageService {
       let checked = this.storage.get(this.getSettingsStorageKey('filter_' + filter.src));
       if(checked != null) filter.checked = checked;
     }
+  }
+
+  public getMinimized(src: string): boolean {
+    let minimized = this.storage.get(this.getSettingsStorageKey(src + '_minimized'));
+    if(minimized != null) {
+      return minimized;
+    } else {
+      return false;
+    }
+  }
+
+  public storeMinimized(src: string, minimized: boolean) {
+    this.storage.set(this.getSettingsStorageKey(src + '_minimized'), minimized);
   }
 
   private getSettingsStorageKey(property: string): string {

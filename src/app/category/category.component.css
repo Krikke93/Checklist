@@ -23,3 +23,23 @@ img {
     top: -80px; 
     visibility: hidden;
 }
+
+.minimalize {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.fa-minus {
+    display: inline-block;
+}
+.collapsed .fa-minus {
+    display: none;
+}
+
+.fa-plus {
+    display: none;
+}
+.collapsed .fa-plus {
+    display: inline-block;
+}
