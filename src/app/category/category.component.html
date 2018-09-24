@@ -18,7 +18,7 @@
     <div class="collapse" id="{{category.src}}-groups" [ngClass]="(!initialMinimized)?'show':''">
       <div class="category-groups col-12" [ngClass]="(category.groups)?'d-inline-block':'display-flex'">
         <div *ngFor="let subCategory of category.subCategories" 
-          [ngClass]="[visible(subCategory)?'float-left d-inline-block':'', (visible(subCategory) && !subCategory.spread)?'col-6':'', (visible(subCategory) && subCategory.spread)?'col-12':'']">
+          [ngClass]="[visible(subCategory)?'float-left d-inline-block':'', (visible(subCategory) && !subCategory.spread)?'col-xs-12 col-lg-6':'', (visible(subCategory) && subCategory.spread)?'col-12':'']">
           <app-category [category]="subCategory" [(settings)]="settings"></app-category>
         </div>
         <div *ngFor="let group of category.groups">

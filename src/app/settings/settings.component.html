@@ -1,9 +1,8 @@
 <div class="container mt-3 mb-3">
   <div class="row">
-    <h3 class="border-bottom col-12" [ngClass]="(settings.nightMode)?'border-secondary':''"><i class="fas fa-wrench pr-1"></i> Extra Options</h3>
-    <form class="col-6 float-left">
+    <form class="col-12 col-lg-6 float-left">
       <h4 class="border-bottom" [ngClass]="(settings.nightMode)?'border-secondary':''"><i class="fas fa-desktop pr-1"></i> Display</h4>
-      <div class="col-6">
+      <div class="col-12">
         <div class="form-check">
           <input [checked]="settings.nightMode" (change)="settings.nightMode = !settings.nightMode" type="checkbox" class="form-check-input" id="night-mode">
           <label class="form-check-label" for="night-mode">Night Mode <i class="fas fa-moon"></i></label>
@@ -14,9 +13,9 @@
         </div>
       </div>
     </form>
-    <form class="col-6 float-left">
+    <form class="col-12 col-lg-6 float-left">
       <h4 class="border-bottom" [ngClass]="(settings.nightMode)?'border-secondary':''"><i class="fas fa-suitcase pr-1"></i> Item Management</h4>
-      <div class="col-6 float-left">
+      <div class="col-12 col-sm-6 col-lg-12 col-xl-6 float-left">
         <div class="form-check">
           <input [checked]="settings.onlyEmpty" (change)="settings.toggleOnlyEmpty()" type="checkbox" class="form-check-input" id="incomplete-only">
           <label class="form-check-label" for="incomplete-only">Only show incomplete <i class="fas fa-times"></i></label>
@@ -26,7 +25,7 @@
           <label class="form-check-label" for="checked-only">Only show completed <i class="fas fa-check"></i></label>
         </div>
       </div>
-      <div class="col-6 float-left">
+      <div class="col-12 col-sm-6 col-lg-12 col-xl-6 float-left mt-1 mt-sm-0 mt-md-1">
         <span class="font-weight-bold">Select the groups to display</span>
         <div class="col-12">
           <div class="float-left" *ngFor="let filter of settings.groupFilters">

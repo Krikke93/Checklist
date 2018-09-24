@@ -1,27 +1,23 @@
 <div *ngIf="settings && categories" class="app-container" [ngClass]="(settings.nightMode)?'bg-lightdark text-light':'bg-white text-dark'">
-  <nav class="navbar navbar-side border-right float-left sticky-top border-secondary" [ngClass]="(settings.nightMode)?'navbar-dark bg-dark':'navbar-light bg-light'">
+  <nav class="navbar navbar-side border-right float-left sticky-top border-secondary d-none d-md-flex" [ngClass]="(settings.nightMode)?'navbar-dark bg-dark':'navbar-light bg-light'">
     <app-navigation [categories]="categories" [(settings)]="settings" class="h-100"></app-navigation>
   </nav>
-  <nav class="navbar navbar-expand-md border-bottom border-secondary sticky-top" [ngClass]="(settings.nightMode)?'navbar-dark bg-dark':'navbar-light bg-light'">
+  <nav class="navbar navbar-expand border-bottom border-secondary sticky-top justify-content-between" [ngClass]="(settings.nightMode)?'navbar-dark bg-dark':'navbar-light bg-light'">
     <a class="navbar-brand" href="#">{{game}} Item Checklist <i class="fas fa-check text-success"></i></a>
 
-    <div class="collapse navbar-collapse">
-      <ul class="navbar-nav mr-auto">
-        <div (click)="test()">Test</div>
-        <!-- TODO: Add nav items -->
-      </ul>
-
-      <ul class="navbar-nav">
-        <a class="nav-link border-right pr-3" href="#" id="settings"  data-toggle="collapse" data-target="#more-options" aria-expanded="false" aria-controls="more-options"
-          [ngClass]="(settings.nightMode)?'border-secondary':''"><i class="fas fa-cog"></i> Settings</a>
-        <a class="nav-link ml-2" href="#" id="reset" (click)="erasePrompt = !erasePrompt"><i class="far fa-trash-alt text-danger"></i></a>
-        <div *ngIf="erasePrompt">
-          <span class="navbar-text float-left">Erase everything?</span>
-          <a class="nav-link text-danger float-left" href="#" (click)="reset()">Yes</a>
-          <a class="nav-link float-left" href="#" (click)="erasePrompt = false">No</a>
-        </div>
-      </ul>
-    </div>
+    <ul class="navbar-nav">
+      <a class="nav-link border-right pr-3" href="#" id="settings"  data-toggle="collapse" data-target="#more-options" aria-expanded="false" aria-controls="more-options"
+        [ngClass]="(settings.nightMode)?'border-secondary':''">
+          <span class="d-none d-sm-inline-block"><i class="fas fa-cog"></i> Settings</span>
+          <span class="d-inline-block d-sm-none"><i class="fas fa-bars"></i></span>
+      </a>
+      <a class="nav-link ml-2" href="#" id="reset" (click)="erasePrompt = !erasePrompt"><i class="far fa-trash-alt text-danger"></i></a>
+      <div *ngIf="erasePrompt">
+        <span class="navbar-text float-left">Erase everything?</span>
+        <a class="nav-link text-danger float-left" href="#" (click)="reset()">Yes</a>
+        <a class="nav-link float-left" href="#" (click)="erasePrompt = false">No</a>
+      </div>
+    </ul>
   </nav>
   <div class="options-wrapper sticky-top sticky-offset">
     <div [ngClass]="(settings.nightMode)?'bg-dark':'bg-light'" id="more-options" class="border-bottom border-secondary collapse">
