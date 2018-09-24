@@ -19,6 +19,7 @@ export class AppComponent implements OnDestroy, OnInit {
   categories: Category[];
   settings: Settings;
   erasePrompt: boolean = false;
+  page: number = 0;
 
   constructor(
     private categoryService: CategoryService,
@@ -66,8 +67,8 @@ export class AppComponent implements OnDestroy, OnInit {
     }
   }
 
-  test() {
-    console.log(this.categories);
+  setPage(page: number) {
+    this.page = page;
   }
 
 }

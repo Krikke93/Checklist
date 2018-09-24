@@ -1,8 +1,8 @@
 <img src="assets/images/{{game}}/icon.png" class="align-top game-icon m-auto d-block" />
-<p *ngIf="!settings.organized" class="text-secondary text-center">
-  No navigation needed when organized mode is disabled.
+<p *ngIf="!settings.organized || disabled" class="text-secondary text-center">
+  <span>Navigation is not available right now.</span>
 </p>
-<div *ngIf="settings.organized" class="category-navigation-wrapper">
+<div *ngIf="settings.organized && !disabled" class="category-navigation-wrapper">
   <p class="text-center border-bottom" [ngClass]="(settings.nightMode)?'border-secondary':''">Navigation Menu</p>
   <div *ngFor="let category of categories">
     <div class="border-bottom mb-2" [ngClass]="(settings.nightMode)?'border-secondary':''" *ngIf="visible(category)">

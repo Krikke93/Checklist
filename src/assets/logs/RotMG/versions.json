@@ -1,0 +1,39 @@
+[
+    {
+        "name": "New generation",
+        "date": "2018-09-24",
+        "version": "1.0.1",
+        "added": [
+            "Missing Vampire Lord Skin in Manor of the Immortals",
+            "Support for mobile devices",
+            "About section",
+            "Changelog"
+        ],
+        "changed": [],
+        "removed": [
+            "Test line in header"
+        ]
+    },
+    {
+        "name": "Production!",
+        "date": "2018-09-23",
+        "version": "1.0.0",
+        "added": [
+            "Checklist functionality",
+            "Settings menu",
+            "Reset button",
+            "Filtering functionality for bag-types and completed/incompleted",
+            "Dark mode (default ON)",
+            "Option to turn organized mode off (default ON)",
+            "Collapse/expand option for categories",
+            "All current RotMG items and categories",
+            "Navigation menu to navigate through all categories",
+            "2 easter eggs ;)",
+            "Published WebApplication online!"
+        ],
+        "changed": [],
+        "removed": [
+            "Herobrine"
+        ]
+    }
+]

@@ -10,6 +10,8 @@ import { HttpModule } from '@angular/http';
 import { StorageServiceModule} from 'angular-webstorage-service';
 import { SettingsComponent } from './settings/settings.component';
 import { NavigationComponent } from './navigation/navigation.component';
+import { AboutComponent } from './about/about.component';
+import { VersionlogComponent } from './about/versionlog/versionlog.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { NavigationComponent } from './navigation/navigation.component';
     GroupComponent,
     ItemComponent,
     SettingsComponent,
-    NavigationComponent
+    NavigationComponent,
+    AboutComponent,
+    VersionlogComponent
   ],
   imports: [
     BrowserModule,

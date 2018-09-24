@@ -6,6 +6,7 @@ export class Settings {
     onlyEmpty: boolean = false;
     onlyChecked: boolean = false;
     groupFilters: Item[] = [];
+    clickedNewAbout: boolean = false;
 
     constructor(groupFilters: Item[]) {
         this.groupFilters = groupFilters;

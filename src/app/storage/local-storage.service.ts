@@ -61,6 +61,7 @@ export class LocalStorageService {
     for(let filter of settings.groupFilters) {
       this.storage.set(this.getSettingsStorageKey('filter_' + filter.src), filter.checked);
     }
+    this.storage.set(this.getSettingsStorageKey('clickedNewAbout'), settings.clickedNewAbout);
   }
 
   public loadSettings(settings: Settings) {
@@ -77,6 +78,9 @@ export class LocalStorageService {
       let checked = this.storage.get(this.getSettingsStorageKey('filter_' + filter.src));
       if(checked != null) filter.checked = checked;
     }
+
+    let clickedNewAbout = this.storage.get(this.getSettingsStorageKey('clickedNewAbout'));
+    if(clickedNewAbout != null) settings.clickedNewAbout = clickedNewAbout;
   }
 
   public getMinimized(src: string): boolean {

@@ -1,0 +1,21 @@
+<h5 class="mt-3">## [v{{versionLog.version}}] - {{versionLog.date}} - <span class="text-secondary">{{versionLog.name}}</span></h5>
+<div class="ml-2">
+  <div *ngIf="versionLog.added.length > 0" class="mb-1">
+    ### <b>Added</b> <br/>
+    <div *ngFor="let log of versionLog.added">
+      <span>- {{log}}</span>
+    </div>
+  </div>
+  <div *ngIf="versionLog.changed.length > 0" class="mb-1">
+    ### <b>Changed</b> <br/>
+    <div *ngFor="let log of versionLog.changed">
+      <span>- {{log}}</span>
+    </div>
+  </div>
+  <div *ngIf="versionLog.removed.length > 0" class="mb-1">
+    ### <b>Removed</b> <br/>
+    <div *ngFor="let log of versionLog.removed">
+      <span>- {{log}}</span>
+    </div>
+  </div>
+</div>

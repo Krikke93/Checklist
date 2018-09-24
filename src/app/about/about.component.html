@@ -1,0 +1,24 @@
+<a class="text-secondary return-link" href="#" (click)="returnToHome()"><i class="fas fa-chevron-circle-left"></i> Return to Checklist</a>
+<h3 class="border-bottom border-secondary">About {{game}}'s Item Checklist</h3>
+<p>
+  This WebApplication serves as a tool for keeping track of the items you've obtained in <a href="{{gameUrl}}" target="_blank">{{game}}</a>. 
+  This project is made with <a href="https://angular.io/" target="_blank">Angular 4</a> using <a href="http://getbootstrap.com/" target="_blank">Bootstrap 4</a> 
+  and <a href="https://fontawesome.com/" target="_blank">Font Awesome</a>. If you're interested in the source code, you can always visit my 
+  <a href="https://github.com/Krikke93/checklist" target="_blank">GitHub project</a>.
+</p>
+
+<h4 class="border-bottom border-secondary">The developer</h4>
+<p>
+  I, Kristof, am a 25 year old software developer (mainly webdevelopment) from Belgium. My ingame name is 
+  <a href="https://www.realmeye.com/player/LordKrikke" target="_blank">LordKrikke</a> and although I am pretty inactive at the moment, I have spent several
+  thousands of hours grinding this game, trying to obtain every single item (hence, the idea for this tool).<br/>
+  If you wish to contact me with constructive criticism, suggestions or just to say hi, you can always find me on Discord via my username: 
+  <span class="text-secondary">Krikke#1203</span>.
+</p>
+
+<h4 class="border-bottom border-secondary">Changelog</h4>
+<span class="text-secondary">Current version: v{{version}}</span>
+
+<div *ngFor="let log of logs" class="mb-3">
+  <app-versionlog [versionLog]="log"></app-versionlog>
+</div>

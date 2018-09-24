@@ -14,6 +14,7 @@ export class NavigationComponent implements OnInit {
   game = environment.game;
   @Input() categories: Category[];
   @Input() settings: Settings;
+  @Input() disabled: boolean = false;
 
   constructor(private categoryService: CategoryService) { }
 

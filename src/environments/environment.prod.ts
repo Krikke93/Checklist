@@ -1,4 +1,5 @@
 export const environment = {
   production: true,
-  game: 'RotMG'
+  game: 'RotMG',
+  gameUrl: 'https://www.realmofthemadgod.com/'
 };
