@@ -372,6 +372,16 @@
                         ]
                     },
                     {
+                        "name": "ST bags",
+                        "src": "stbag",
+                        "items": [
+                            {
+                                "name": "Vampire Lord Skin",
+                                "src": "vampirelord"
+                            }
+                        ]
+                    },
+                    {
                         "name": "Cyan bags",
                         "src": "cyanbag",
                         "items": [
