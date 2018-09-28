@@ -1,0 +1,98 @@
+[
+    {
+        "name": "None",
+        "src": "none",
+        "checked": true,
+        "isFilter": true
+    },
+    {
+        "name": "Rogue",
+        "src": "rogue",
+        "checked": true,
+        "isFilter": true
+    },
+    {
+        "name": "Archer",
+        "src": "archer",
+        "checked": true,
+        "isFilter": true
+    },
+    {
+        "name": "Wizard",
+        "src": "wizard",
+        "checked": true,
+        "isFilter": true
+    },
+    {
+        "name": "Priest",
+        "src": "priest",
+        "checked": true,
+        "isFilter": true
+    },
+    {
+        "name": "Warrior",
+        "src": "warrior",
+        "checked": true,
+        "isFilter": true
+    },
+    {
+        "name": "Knight",
+        "src": "knight",
+        "checked": true,
+        "isFilter": true
+    },
+    {
+        "name": "Paladin",
+        "src": "paladin",
+        "checked": true,
+        "isFilter": true
+    },
+    {
+        "name": "Assassin",
+        "src": "assassin",
+        "checked": true,
+        "isFilter": true
+    },
+    {
+        "name": "Necromancer",
+        "src": "necromancer",
+        "checked": true,
+        "isFilter": true
+    },
+    {
+        "name": "Huntress",
+        "src": "huntress",
+        "checked": true,
+        "isFilter": true
+    },
+    {
+        "name": "Mystic",
+        "src": "mystic",
+        "checked": true,
+        "isFilter": true
+    },
+    {
+        "name": "Trickster",
+        "src": "trickster",
+        "checked": true,
+        "isFilter": true
+    },
+    {
+        "name": "Sorcerer",
+        "src": "sorcerer",
+        "checked": true,
+        "isFilter": true
+    },
+    {
+        "name": "Ninja",
+        "src": "ninja",
+        "checked": true,
+        "isFilter": true
+    },
+    {
+        "name": "Samurai",
+        "src": "samurai",
+        "checked": true,
+        "isFilter": true
+    }
+]

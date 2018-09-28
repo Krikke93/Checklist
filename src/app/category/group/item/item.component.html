@@ -1,4 +1,4 @@
-<img  class="d-inline-block" 
+<img  class="d-inline-block" [ngClass]="{'disabled': disable}"
       src="assets/images/{{game}}/{{folderName}}/{{item.src}}.png"
       *ngIf="isVisible()" 
       [style.opacity]="item.checked ? '1' : '0.3'"

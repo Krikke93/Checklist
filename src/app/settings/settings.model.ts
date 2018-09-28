@@ -7,13 +7,16 @@ export class Settings {
     onlyChecked: boolean = false;
     groupFilters: Item[] = [];
     specialFilters: Item[] = [];
+    uniqueFilters: Item[] = [];
     clickedNewAbout: boolean = false;
     profiles: string[] = ['Main Profile'];
     currentProfile: number = 0;
+    activeUniqueFilter: string = 'none';
 
-    constructor(groupFilters: Item[], specialFilters: Item[]) {
+    constructor(groupFilters: Item[], specialFilters: Item[], uniqueFilters: Item[]) {
         this.groupFilters = groupFilters;
         this.specialFilters = specialFilters;
+        this.uniqueFilters = uniqueFilters;
     }
 
     toggleOnlyEmpty() {
@@ -49,6 +52,12 @@ export class Settings {
 
     getCurrentProfile(): string {
         return this.getProfile(this.currentProfile);
+    }
+
+    getActiveUniqueFilter(): Item {
+        const result = this.uniqueFilters.filter((filter) => filter.src === this.activeUniqueFilter);
+        if(result.length > 0) return result[0];
+        return null;
     }
 
 }

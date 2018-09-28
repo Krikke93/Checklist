@@ -22,8 +22,8 @@ export class LocalStorageService {
     this.storeAllItems(categories, settings.currentProfile);
   }
 
-  public loadAll(categories: Category[], settings: Settings) {
-    this.loadSettings(settings);
+  public loadAll(categories: Category[], settings: Settings, isProfileChange: boolean = false) {
+    this.loadSettings(settings, isProfileChange);
     this.loadAllItems(categories, settings.currentProfile);
   }
 
@@ -58,42 +58,54 @@ export class LocalStorageService {
   }
 
   public storeSettings(settings: Settings) {
-    this.storage.set(this.getSettingsStorageKey('nightMode'), settings.nightMode);
-    this.storage.set(this.getSettingsStorageKey('organized'), settings.organized);
-    this.storage.set(this.getSettingsStorageKey('onlyEmpty'), settings.onlyEmpty);
-    this.storage.set(this.getSettingsStorageKey('onlyChecked'), settings.onlyChecked);
-    for(let filter of settings.groupFilters) {
-      this.storage.set(this.getSettingsStorageKey('filter_' + filter.src), filter.checked);
-    }
-    this.storage.set(this.getSettingsStorageKey('clickedNewAbout'), settings.clickedNewAbout);
-    this.storage.set(this.getSettingsStorageKey('profiles'), settings.profiles);
     this.storage.set(this.getSettingsStorageKey('currentProfile'), settings.currentProfile);
+    this.storage.set(this.getSettingsStorageKey('profiles'), settings.profiles);
+
+    this.storage.set(this.getSettingsStorageKey('nightMode', settings.currentProfile), settings.nightMode);
+    this.storage.set(this.getSettingsStorageKey('organized', settings.currentProfile), settings.organized);
+    this.storage.set(this.getSettingsStorageKey('onlyEmpty', settings.currentProfile), settings.onlyEmpty);
+    this.storage.set(this.getSettingsStorageKey('onlyChecked', settings.currentProfile), settings.onlyChecked);
+    this.storage.set(this.getSettingsStorageKey('clickedNewAbout', settings.currentProfile), settings.clickedNewAbout);
+    this.storage.set(this.getSettingsStorageKey('activeUniqueFilter', settings.currentProfile), settings.activeUniqueFilter);
+    for(let filter of settings.groupFilters) {
+      this.storage.set(this.getSettingsStorageKey('filter_' + filter.src, settings.currentProfile), filter.checked);
+    }
+    for(let filter of settings.specialFilters) {
+      this.storage.set(this.getSettingsStorageKey('specialfilter_' + filter.src, settings.currentProfile), filter.checked);
+    }
   }
 
-  public loadSettings(settings: Settings) {
-    let nightMode = this.storage.get(this.getSettingsStorageKey('nightMode'));
-    let organized = this.storage.get(this.getSettingsStorageKey('organized'));
-    let onlyEmpty = this.storage.get(this.getSettingsStorageKey('onlyEmpty'));
-    let onlyChecked = this.storage.get(this.getSettingsStorageKey('onlyChecked'));
-    let clickedNewAbout = this.storage.get(this.getSettingsStorageKey('clickedNewAbout'));
-    let profiles = this.storage.get(this.getSettingsStorageKey('profiles'));
+  public loadSettings(settings: Settings, isProfileChange: boolean = false) {
     let currentProfile = this.storage.get(this.getSettingsStorageKey('currentProfile'));
+    let profiles = this.storage.get(this.getSettingsStorageKey('profiles'));
+    if(currentProfile != null && !isProfileChange) settings.currentProfile = currentProfile;
+    if(profiles != null) settings.profiles = profiles;
+
+    let nightMode = this.storage.get(this.getSettingsStorageKey('nightMode', settings.currentProfile));
+    let organized = this.storage.get(this.getSettingsStorageKey('organized', settings.currentProfile));
+    let onlyEmpty = this.storage.get(this.getSettingsStorageKey('onlyEmpty', settings.currentProfile));
+    let onlyChecked = this.storage.get(this.getSettingsStorageKey('onlyChecked', settings.currentProfile));
+    let clickedNewAbout = this.storage.get(this.getSettingsStorageKey('clickedNewAbout', settings.currentProfile));
+    let activeUniqueFilter = this.storage.get(this.getSettingsStorageKey('activeUniqueFilter', settings.currentProfile));
 
     if(nightMode != null) settings.nightMode = nightMode;
     if(organized != null) settings.organized = organized;
     if(onlyEmpty != null) settings.onlyEmpty = onlyEmpty;
     if(onlyChecked != null) settings.onlyChecked = onlyChecked;
     if(clickedNewAbout != null) settings.clickedNewAbout = clickedNewAbout;
-    if(profiles != null) settings.profiles = profiles;
-    if(currentProfile != null) settings.currentProfile = currentProfile;
+    if(activeUniqueFilter != null) settings.activeUniqueFilter = activeUniqueFilter;
     for(let filter of settings.groupFilters) {
-      let checked = this.storage.get(this.getSettingsStorageKey('filter_' + filter.src));
+      let checked = this.storage.get(this.getSettingsStorageKey('filter_' + filter.src, settings.currentProfile));
+      if(checked != null) filter.checked = checked;
+    }
+    for(let filter of settings.specialFilters) {
+      let checked = this.storage.get(this.getSettingsStorageKey('specialfilter_' + filter.src, settings.currentProfile));
       if(checked != null) filter.checked = checked;
     }
   }
 
   public getMinimized(src: string): boolean {
-    let minimized = this.storage.get(this.getSettingsStorageKey(src + '_minimized'));
+    let minimized = this.storage.get(this.getSettingsStorageKey(src + '_minimized', 0));
     if(minimized != null) {
       return minimized;
     } else {
@@ -102,10 +114,14 @@ export class LocalStorageService {
   }
 
   public storeMinimized(src: string, minimized: boolean) {
-    this.storage.set(this.getSettingsStorageKey(src + '_minimized'), minimized);
+    this.storage.set(this.getSettingsStorageKey(src + '_minimized', 0), minimized);
   }
 
-  private getSettingsStorageKey(property: string): string {
-    return `${environment.game}_settings_${property}`;
+  private getSettingsStorageKey(property: string, profile: number = 0): string {
+    if(profile == 0) {
+      return `${environment.game}_settings_${property}`;
+    } else {
+      return `${environment.game}_settings_${property}_${profile}`;
+    }
   }
 }

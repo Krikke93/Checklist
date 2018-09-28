@@ -34,13 +34,23 @@
           </div>
         </div>
       </div>
-      <div class="col-12 float-left">
+      <div class="col-6 float-left">
         <span class="font-weight-bold">Select Special Filters</span>
         <a href="#" class="text-secondary toggle-all" (click)="toggleAll(settings.specialFilters)"><i title="Toggle All" class="fas fa-chevron-circle-left ml-2"></i></a>
         <div class="w-100 d-inline-block">
           <div class="float-left" *ngFor="let filter of settings.specialFilters">
             <app-item [item]="filter" [(settings)]="settings" [folderName]="'special-filters'"></app-item>
           </div>
+        </div>
+      </div>
+      <div class="col-6 float-left dropdown">
+        <div class="w-100"><span class="font-weight-bold">Class Specific</span></div>
+        <app-item [item]="settings.getActiveUniqueFilter()" [(settings)]="settings" [folderName]="'unique-filters'" [disable]="true"></app-item>
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          {{settings.getActiveUniqueFilter().name}}
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a *ngFor="let uniqueFilter of settings.uniqueFilters" class="dropdown-item" href="#" (click)="settings.activeUniqueFilter = uniqueFilter.src">{{uniqueFilter.name}}</a>
         </div>
       </div>
     </form>

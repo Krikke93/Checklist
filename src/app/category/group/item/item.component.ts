@@ -15,6 +15,7 @@ export class ItemComponent implements OnInit {
   game = environment.game;
   @Input() item: Item;
   @Input() settings: Settings;
+  @Input() disable: boolean = false;
   @Input() folderName: string = 'items';
 
   constructor(private categoryService: CategoryService) { }
@@ -23,7 +24,7 @@ export class ItemComponent implements OnInit {
   }
 
   select() {
-    this.item.checked = !this.item.checked;
+    if(!this.disable) this.item.checked = !this.item.checked;
   }
 
   isVisible(): boolean {

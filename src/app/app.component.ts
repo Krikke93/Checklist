@@ -30,11 +30,12 @@ export class AppComponent implements OnDestroy, OnInit {
   ngOnInit(): void {
     const filters = combineLatest(
       this.categoryService.getGroupFiltersJSON(),
-      this.categoryService.getSpecialFiltersJSON()
+      this.categoryService.getSpecialFiltersJSON(),
+      this.categoryService.getUniqueFiltersJSON()
     );
 
-    filters.subscribe(([groupFilters, specialFilters]) => {
-      this.settings = new Settings(groupFilters, specialFilters);
+    filters.subscribe(([groupFilters, specialFilters, uniqueFilters]) => {
+      this.settings = new Settings(groupFilters, specialFilters, uniqueFilters);
       this.categoryService.getCategoriesJSON().subscribe((categories) => {
         this.categories = categories;
         this.storageService.loadAll(this.categories, this.settings);
@@ -65,11 +66,11 @@ export class AppComponent implements OnDestroy, OnInit {
   }
 
   profileChanged(profile) {
-    this.storageService.loadAllItems(this.categories, profile);
+    this.storageService.loadAll(this.categories, this.settings, true);
   }
 
   profileAboutToChange(profile) {
-    this.storageService.storeAllItems(this.categories, profile);
+    this.storageService.storeAll(this.categories, this.settings);
   }
 
   toggleOrganized() {

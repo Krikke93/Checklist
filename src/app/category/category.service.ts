@@ -34,6 +34,12 @@ export class CategoryService {
     );
   }
 
+  public getUniqueFiltersJSON(): Observable<any> {
+    return this.http.get(`assets/hierarchy/${environment.game}/unique-filters.json`).pipe(
+      map((res: any) => res.json())
+    );
+  }
+
   public groupAllChecked(group: Group): boolean {
       for(let item of group.items) {
           if(!item.checked) return false;
