@@ -5,7 +5,9 @@
   <nav class="navbar navbar-expand border-bottom border-secondary sticky-top justify-content-between" [ngClass]="(settings.nightMode)?'navbar-dark bg-dark':'navbar-light bg-light'">
     <div class="navbar-nav">
       <a class="navbar-brand float-left" href="#" (click)="setPage(0)"><span class="d-none d-sm-inline-block">{{game}} Item</span> Checklist <i class="fas fa-check text-success"></i></a>
-      <a class="nav-link float-left" href="#" (click)="setPage(1); settings.clickedNewAbout = true"><i class="fas fa-info-circle"></i> About <span *ngIf="!settings.clickedNewAbout" class="text-danger">[new!]</span></a>
+      <a class="nav-link float-left" href="#" (click)="setPage(1); settings.clickedNewAbout = true">
+        <i class="fas fa-info-circle"></i> <span class="d-none d-md-inline-block ml-1">About <span *ngIf="!settings.clickedNewAbout" class="text-danger">[new!]</span></span>
+      </a>
     </div>
 
     <ul class="navbar-nav">
@@ -16,7 +18,7 @@
       </a>
       <a class="nav-link float-left border-right pl-2 pr-2" href="#" (click)="setPage(2); settings.clickedNewAbout = true"
         [ngClass]="(settings.nightMode)?'border-secondary':''">
-        <i class="fas fa-user"></i> {{settings.getCurrentProfile()}}</a>
+        <i class="fas fa-user"></i> <span class="d-none d-sm-inline-block ml-1">{{settings.getCurrentProfile()}}</span></a>
       <a class="nav-link ml-2" href="#" id="reset" (click)="erasePrompt = !erasePrompt"><i class="far fa-trash-alt text-danger"></i></a>
       <div *ngIf="erasePrompt">
         <span class="navbar-text float-left">Erase all profile items?</span>
