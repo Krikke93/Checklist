@@ -18,37 +18,41 @@ export class LocalStorageService {
   ) { }
 
   public storeAll(categories: Category[], settings: Settings) {
-    this.storeAllItems(categories);
     this.storeSettings(settings);
+    this.storeAllItems(categories, settings.currentProfile);
   }
 
   public loadAll(categories: Category[], settings: Settings) {
-    this.loadAllItems(categories);
     this.loadSettings(settings);
+    this.loadAllItems(categories, settings.currentProfile);
   }
 
-  public eraseAll(categories: Category[]) {
+  public eraseAll(categories: Category[], profile: number) {
     const items = this.categoryService.getAllItems(categories);
     for(let item of items) {
-      this.storage.remove(this.getItemStorageKey(item));
+      this.storage.remove(this.getItemStorageKey(profile, item));
     }
   }
 
-  public storeAllItems(categories: Category[]) {
+  public storeAllItems(categories: Category[], profile: number) {
     const items = this.categoryService.getAllItems(categories);
     for(let item of items) {
-      this.storage.set(this.getItemStorageKey(item), item.checked);
+      this.storage.set(this.getItemStorageKey(profile, item), item.checked);
     }
   }
 
-  private getItemStorageKey(item: Item): string {
-    return `${environment.game}_checked_${item.src}`;
+  private getItemStorageKey(profile: number, item: Item): string {
+    if(profile == 0) {
+      return `${environment.game}_checked_${item.src}`;
+    } else {
+      return `${environment.game}_checked_${profile}_${item.src}`;
+    }
   }
 
-  public loadAllItems(categories: Category[]) {
+  public loadAllItems(categories: Category[], profile: number) {
     const items = this.categoryService.getAllItems(categories);
     for(let item of items) {
-      const storedValue = this.storage.get(this.getItemStorageKey(item));
+      const storedValue = this.storage.get(this.getItemStorageKey(profile, item));
       item.checked = storedValue;
     }
   }
@@ -62,6 +66,8 @@ export class LocalStorageService {
       this.storage.set(this.getSettingsStorageKey('filter_' + filter.src), filter.checked);
     }
     this.storage.set(this.getSettingsStorageKey('clickedNewAbout'), settings.clickedNewAbout);
+    this.storage.set(this.getSettingsStorageKey('profiles'), settings.profiles);
+    this.storage.set(this.getSettingsStorageKey('currentProfile'), settings.currentProfile);
   }
 
   public loadSettings(settings: Settings) {
@@ -69,18 +75,21 @@ export class LocalStorageService {
     let organized = this.storage.get(this.getSettingsStorageKey('organized'));
     let onlyEmpty = this.storage.get(this.getSettingsStorageKey('onlyEmpty'));
     let onlyChecked = this.storage.get(this.getSettingsStorageKey('onlyChecked'));
+    let clickedNewAbout = this.storage.get(this.getSettingsStorageKey('clickedNewAbout'));
+    let profiles = this.storage.get(this.getSettingsStorageKey('profiles'));
+    let currentProfile = this.storage.get(this.getSettingsStorageKey('currentProfile'));
 
     if(nightMode != null) settings.nightMode = nightMode;
     if(organized != null) settings.organized = organized;
     if(onlyEmpty != null) settings.onlyEmpty = onlyEmpty;
     if(onlyChecked != null) settings.onlyChecked = onlyChecked;
+    if(clickedNewAbout != null) settings.clickedNewAbout = clickedNewAbout;
+    if(profiles != null) settings.profiles = profiles;
+    if(currentProfile != null) settings.currentProfile = currentProfile;
     for(let filter of settings.groupFilters) {
       let checked = this.storage.get(this.getSettingsStorageKey('filter_' + filter.src));
       if(checked != null) filter.checked = checked;
     }
-
-    let clickedNewAbout = this.storage.get(this.getSettingsStorageKey('clickedNewAbout'));
-    if(clickedNewAbout != null) settings.clickedNewAbout = clickedNewAbout;
   }
 
   public getMinimized(src: string): boolean {

@@ -1,0 +1,29 @@
+<a class="text-secondary return-link" href="#" (click)="returnToHome()"><i class="fas fa-chevron-circle-left"></i> Return to Checklist</a>
+<h3 class="border-bottom border-secondary mb-3">Manage Profiles</h3>
+<div class="row">
+  <div *ngFor="let i of [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14]" class="w-100 border-bottom text-center" (click)="setCurrentProfile(i)"
+    [ngClass]="{'text-secondary': !settings.getProfile(i),
+                'border-secondary': settings.nightMode,
+                'existing-profile': settings.getProfile(i) && settings.currentProfile != i}">
+    <div class="col-1 float-left h5 mt-1 mb-1"><i class="fas fa-user-circle"></i></div>
+    <div class="col-1 float-left h5 mt-1 mb-1">
+      <span *ngIf="settings.currentProfile == i">&lt;Active&gt;</span>
+    </div>
+    <div class="col-8 float-left h5 mt-1 mb-1">
+      <span *ngIf="settings.getProfile(i) && editing != i">{{settings.getProfile(i)}}</span>
+      <span class="text-secondary" *ngIf="!settings.getProfile(i) && editing != i"><em>Empty</em></span>
+      <div class="row">
+        <div class="col-4"></div>
+        <div class="col-4">
+          <input #editInput 
+            *ngIf="editing == i" class="form-control-sm" type="text" placeholder="Enter a name" 
+            [(ngModel)]="settings.profiles[i]" (keyup.enter)="toggleEditing(i)" maxlength="16"/>
+        </div>
+      </div>
+    </div>
+    <div class="col-2 float-left h5 mt-1 mb-1 edit-icons">
+      <span (click)="toggleEditing(i); $event.stopPropagation()"><i class="fas fa-user-edit mr-2" [ngClass]="(settings.nightMode)?'text-light':'text-secondary'"></i></span>
+      <span (click)="removeProfile(i); $event.stopPropagation()"><i *ngIf="i != 0" class="far fa-trash-alt text-danger"></i></span>
+    </div>
+  </div>
+</div>

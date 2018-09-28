@@ -12,6 +12,8 @@ import { SettingsComponent } from './settings/settings.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { AboutComponent } from './about/about.component';
 import { VersionlogComponent } from './about/versionlog/versionlog.component';
+import { ProfileComponent } from './profile/profile.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -22,12 +24,14 @@ import { VersionlogComponent } from './about/versionlog/versionlog.component';
     SettingsComponent,
     NavigationComponent,
     AboutComponent,
-    VersionlogComponent
+    VersionlogComponent,
+    ProfileComponent
   ],
   imports: [
     BrowserModule,
     HttpModule,
-    StorageServiceModule
+    StorageServiceModule,
+    FormsModule
   ],
   providers: [
     CategoryService

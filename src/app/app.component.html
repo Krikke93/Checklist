@@ -5,18 +5,21 @@
   <nav class="navbar navbar-expand border-bottom border-secondary sticky-top justify-content-between" [ngClass]="(settings.nightMode)?'navbar-dark bg-dark':'navbar-light bg-light'">
     <div class="navbar-nav">
       <a class="navbar-brand float-left" href="#" (click)="setPage(0)"><span class="d-none d-sm-inline-block">{{game}} Item</span> Checklist <i class="fas fa-check text-success"></i></a>
-      <a class="nav-link float-left" href="#" (click)="setPage(1); settings.clickedNewAbout = true">About <span *ngIf="!settings.clickedNewAbout" class="text-danger">[new!]</span></a>
+      <a class="nav-link float-left" href="#" (click)="setPage(1); settings.clickedNewAbout = true"><i class="fas fa-info-circle"></i> About <span *ngIf="!settings.clickedNewAbout" class="text-danger">[new!]</span></a>
     </div>
 
     <ul class="navbar-nav">
-      <a class="nav-link border-right pr-3" href="#" id="settings"  data-toggle="collapse" data-target="#more-options" aria-expanded="false" aria-controls="more-options"
+      <a class="nav-link border-right pr-2" href="#" id="settings"  data-toggle="collapse" data-target="#more-options" aria-expanded="false" aria-controls="more-options"
         [ngClass]="(settings.nightMode)?'border-secondary':''">
           <span class="d-none d-sm-inline-block"><i class="fas fa-cog"></i> Settings</span>
           <span class="d-inline-block d-sm-none"><i class="fas fa-bars"></i></span>
       </a>
+      <a class="nav-link float-left border-right pl-2 pr-2" href="#" (click)="setPage(2); settings.clickedNewAbout = true"
+        [ngClass]="(settings.nightMode)?'border-secondary':''">
+        <i class="fas fa-user"></i> {{settings.getCurrentProfile()}}</a>
       <a class="nav-link ml-2" href="#" id="reset" (click)="erasePrompt = !erasePrompt"><i class="far fa-trash-alt text-danger"></i></a>
       <div *ngIf="erasePrompt">
-        <span class="navbar-text float-left">Erase everything?</span>
+        <span class="navbar-text float-left">Erase all profile items?</span>
         <a class="nav-link text-danger float-left" href="#" (click)="reset()">Yes</a>
         <a class="nav-link float-left" href="#" (click)="erasePrompt = false">No</a>
       </div>
@@ -37,6 +40,11 @@
       <div *ngIf="page === 1" class="page-1">
         <div class="col-12">
           <app-about (returnHome)="setPage(0)"></app-about>
+        </div>
+      </div>
+      <div *ngIf="page === 2" class="page-2 w-100">
+        <div class="col-12">
+          <app-profile [(settings)]="settings" (returnHome)="setPage(0)" (profileChanged)="profileChanged($event)" (profileAboutToChange)="profileAboutToChange($event)"></app-profile>
         </div>
       </div>
     </div>

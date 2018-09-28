@@ -7,6 +7,8 @@ export class Settings {
     onlyChecked: boolean = false;
     groupFilters: Item[] = [];
     clickedNewAbout: boolean = false;
+    profiles: string[] = ['Main Profile'];
+    currentProfile: number = 0;
 
     constructor(groupFilters: Item[]) {
         this.groupFilters = groupFilters;
@@ -31,6 +33,20 @@ export class Settings {
             if(filter.src === src) return filter.checked;
         }
         return false;
+    }
+
+    setProfile(index: number, name: string) {
+        if(index >= 0 && index < 10) {
+            this.profiles[index] = name;
+        }
+    }
+
+    getProfile(index: number): string {
+        return this.profiles[index];
+    }
+
+    getCurrentProfile(): string {
+        return this.getProfile(this.currentProfile);
     }
 
 }

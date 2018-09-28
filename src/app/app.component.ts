@@ -50,12 +50,20 @@ export class AppComponent implements OnDestroy, OnInit {
   reset() {
     this.erasePrompt = false;
     this.store();
-    this.storageService.eraseAll(this.categories);
+    this.storageService.eraseAll(this.categories, this.settings.currentProfile);
     this.ngOnInit();
   }
 
   store() {
     this.storageService.storeAll(this.categories, this.settings);
+  }
+
+  profileChanged(profile) {
+    this.storageService.loadAllItems(this.categories, profile);
+  }
+
+  profileAboutToChange(profile) {
+    this.storageService.storeAllItems(this.categories, profile);
   }
 
   toggleOrganized() {
@@ -68,7 +76,11 @@ export class AppComponent implements OnDestroy, OnInit {
   }
 
   setPage(page: number) {
-    this.page = page;
+    if(page == this.page) {
+      this.page = 0;
+    } else {
+      this.page = page;
+    }
   }
 
 }

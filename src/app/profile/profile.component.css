@@ -1,0 +1,8 @@
+.return-link:hover {
+    text-decoration: none;
+}
+
+.existing-profile:hover, .edit-icons>span>*:hover {
+    cursor: pointer;
+    color: lightskyblue !important;
+}
