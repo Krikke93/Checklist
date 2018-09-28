@@ -1,4 +1,4 @@
-<div *ngIf="!(allChecked() && settings.onlyEmpty) && !(allUnChecked() && settings.onlyChecked) && settings.hasGroupFilterActive(group.src)" class="group-container col-12 pt-1">
+<div *ngIf="isVisible()" class="group-container col-12 pt-1">
   <div class="d-inline-block float-left" [ngClass]="(!settings.organized || spread)?'col-1':'col-4 col-sm-2'">
     <img class="float-left d-inline-block border-right" 
       src="assets/images/{{game}}/groups/{{group.src}}.png" 

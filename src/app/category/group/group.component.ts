@@ -30,4 +30,8 @@ export class GroupComponent implements OnInit {
     return this.categoryService.groupAllUnChecked(this.group);
   }
 
+  isVisible(): boolean {
+    return this.categoryService.isGroupVisible(this.group, this.settings);
+  }
+
 }

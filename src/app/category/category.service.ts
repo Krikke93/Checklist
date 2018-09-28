@@ -28,6 +28,12 @@ export class CategoryService {
     );
   }
 
+  public getSpecialFiltersJSON(): Observable<any> {
+    return this.http.get(`assets/hierarchy/${environment.game}/special-filters.json`).pipe(
+      map((res: any) => res.json())
+    );
+  }
+
   public groupAllChecked(group: Group): boolean {
       for(let item of group.items) {
           if(!item.checked) return false;
@@ -40,6 +46,13 @@ export class CategoryService {
         if(item.checked) return false;
     }
     return true;
+  }
+
+  public isGroupVisible(group: Group, settings: Settings): boolean {
+    for(let item of group.items) {
+      if(this.isItemVisible(item, settings) && settings.hasGroupFilterActive(group.src)) return true;
+    }
+    return false;
   }
 
   public categoryAllChecked(category: Category): boolean {
@@ -78,9 +91,7 @@ export class CategoryService {
     }
     if(category.groups && category.groups.length > 0) {
       for(let group of category.groups) {
-        if(!settings.onlyChecked && !settings.onlyEmpty && settings.hasGroupFilterActive(group.src)) return false;
-        if(!this.groupAllUnChecked(group) && settings.onlyChecked && settings.hasGroupFilterActive(group.src)) return false;
-        if(!this.groupAllChecked(group) && settings.onlyEmpty && settings.hasGroupFilterActive(group.src)) return false;
+        if(this.isGroupVisible(group, settings)) return false;
       }
     }
     return true;
@@ -158,6 +169,24 @@ export class CategoryService {
       }
     }
     return groupMap;
+  }
+
+  public isItemVisible(item: Item, settings: Settings): boolean {
+    if(item.isFilter) {
+      return true;
+    }
+    if(item.checked && settings.onlyEmpty) {
+        return false;
+    }
+    if(!item.checked && settings.onlyChecked) {
+        return false;
+    }
+    for(let filter of settings.specialFilters) {
+      if(item.specialFilters != undefined && item.specialFilters.length > 0 && !filter.checked && item.specialFilters.indexOf(filter.src) > -1) {
+        return false;
+      }
+    }
+    return true;
   }
 
 }

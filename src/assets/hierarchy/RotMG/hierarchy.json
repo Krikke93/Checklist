@@ -13,11 +13,17 @@
                         "items": [
                             {
                                 "name": "Poison Fang Dagger",
-                                "src": "poisonfangdagger"
+                                "src": "poisonfangdagger",
+                                "specialFilters": [
+                                    "weapons"
+                                ]
                             },
                             {
                                 "name": "Spider Eye Ring",
-                                "src": "spidereyering"
+                                "src": "spidereyering",
+                                "specialFilters": [
+                                    "rings"
+                                ]
                             }
                         ]
                     }
@@ -33,19 +39,31 @@
                         "items": [
                             {
                                 "name": "Staff of the Crystal Serpent",
-                                "src": "crystalserpent"
+                                "src": "crystalserpent",
+                                "specialFilters": [
+                                    "weapons"
+                                ]
                             },
                             {
                                 "name": "Cracked Crystal Skull",
-                                "src": "crystalskull"
+                                "src": "crystalskull",
+                                "specialFilters": [
+                                    "abilities"
+                                ]
                             },
                             {
                                 "name": "Robe of the Tlatoani",
-                                "src": "tlatoani"
+                                "src": "tlatoani",
+                                "specialFilters": [
+                                    "armor"
+                                ]
                             },
                             {
                                 "name": "Cracked Bone Ring",
-                                "src": "crystalbonering"
+                                "src": "crystalbonering",
+                                "specialFilters": [
+                                    "rings"
+                                ]
                             }
                         ]
                     }
@@ -61,11 +79,17 @@
                         "items": [
                             {
                                 "name": "Orb of Sweet Demise",
-                                "src": "demise"
+                                "src": "demise",
+                                "specialFilters": [
+                                    "abilities"
+                                ]
                             },
                             {
                                 "name": "Honey Scepter",
-                                "src": "honeyscepter"
+                                "src": "honeyscepter",
+                                "specialFilters": [
+                                    "abilities"
+                                ]
                             }
                         ]
                     }
@@ -81,11 +105,17 @@
                         "items": [
                             {
                                 "name": "Spirit Staff",
-                                "src": "spirit-staff"
+                                "src": "spirit-staff",
+                                "specialFilters": [
+                                    "weapons"
+                                ]
                             },
                             {
                                 "name": "Enchantment Orb",
-                                "src": "enchantment-orb"
+                                "src": "enchantment-orb",
+                                "specialFilters": [
+                                    "abilities"
+                                ]
                             }
                         ]
                     },
@@ -95,11 +125,17 @@
                         "items": [
                             {
                                 "name": "Woodland Robe",
-                                "src": "woodland-robe"
+                                "src": "woodland-robe",
+                                "specialFilters": [
+                                    "armor"
+                                ]
                             },
                             {
                                 "name": "Fiary Ring",
-                                "src": "fiary-ring"
+                                "src": "fiary-ring",
+                                "specialFilters": [
+                                    "rings"
+                                ]
                             }
                         ]
                     }
@@ -115,7 +151,10 @@
                         "items": [
                             {
                                 "name": "Wand of the Bulwark",
-                                "src": "bulwark"
+                                "src": "bulwark",
+                                "specialFilters": [
+                                    "weapons"
+                                ]
                             }
                         ]
                     },
@@ -125,11 +164,17 @@
                         "items": [
                             {
                                 "name": "Mini Stheno Skin",
-                                "src": "stheno"
+                                "src": "stheno",
+                                "specialFilters": [
+                                    "chars"
+                                ]
                             },
                             {
                                 "name": "Mini Flying Stheno Pet Skin",
-                                "src": "stheno-pet"
+                                "src": "stheno-pet",
+                                "specialFilters": [
+                                    "pets"
+                                ]
                             }
                         ]
                     },
@@ -139,15 +184,24 @@
                         "items": [
                             {
                                 "name": "Snakeskin Armor",
-                                "src": "snakeskin-armor"
+                                "src": "snakeskin-armor",
+                                "specialFilters": [
+                                    "armor"
+                                ]
                             },
                             {
                                 "name": "Snakeskin Shield",
-                                "src": "snakeskin-shield"
+                                "src": "snakeskin-shield",
+                                "specialFilters": [
+                                    "abilities"
+                                ]
                             },
                             {
                                 "name": "Snake Eye Ring",
-                                "src": "snakeeye-ring"
+                                "src": "snakeeye-ring",
+                                "specialFilters": [
+                                    "rings"
+                                ]
                             }
                         ]
                     },
@@ -157,7 +211,10 @@
                         "items": [
                             {
                                 "name": "Eternal Snowflake Wand",
-                                "src": "ice-bulwark"
+                                "src": "ice-bulwark",
+                                "specialFilters": [
+                                    "weapons"
+                                ]
                             }
                         ]
                     }
@@ -173,11 +230,17 @@
                         "items": [
                             {
                                 "name": "Staff of Extreme Prejudice",
-                                "src": "ep"
+                                "src": "ep",
+                                "specialFilters": [
+                                    "weapons"
+                                ]
                             },
                             {
                                 "name": "Cloak of the Planewalker",
-                                "src": "plane"
+                                "src": "plane",
+                                "specialFilters": [
+                                    "abilities"
+                                ]
                             }
                         ]
                     },
@@ -187,7 +250,10 @@
                         "items": [
                             {
                                 "name": "Staff of Iceblast",
-                                "src": "iceblast"
+                                "src": "iceblast",
+                                "specialFilters": [
+                                    "weapons"
+                                ]
                             }
                         ]
                     }
@@ -203,7 +269,10 @@
                         "items": [
                             {
                                 "name": "Candy-Coated Armor",
-                                "src": "cc"
+                                "src": "cc",
+                                "specialFilters": [
+                                    "armor"
+                                ]
                             }
                         ]
                     },
@@ -213,19 +282,35 @@
                         "items": [
                             {
                                 "name": "Pixie-Enchanted Sword",
-                                "src": "pixie"
+                                "src": "pixie",
+                                "specialFilters": [
+                                    "stitems",
+                                    "weapons"
+                                ]
                             },
                             {
                                 "name": "Seal of the Enchanted Forest",
-                                "src": "stseal"
+                                "src": "stseal",
+                                "specialFilters": [
+                                    "stitems",
+                                    "abilities"
+                                ]
                             },
                             {
                                 "name": "Fairy Plate",
-                                "src": "fairyplate"
+                                "src": "fairyplate",
+                                "specialFilters": [
+                                    "stitems",
+                                    "armor"
+                                ]
                             },
                             {
                                 "name": "Ring of Pure Wishes",
-                                "src": "purewishes"
+                                "src": "purewishes",
+                                "specialFilters": [
+                                    "stitems",
+                                    "rings"
+                                ]
                             }
                         ]
                     }
@@ -241,11 +326,17 @@
                         "items": [
                             {
                                 "name": "Plague Poison",
-                                "src": "plague"
+                                "src": "plague",
+                                "specialFilters": [
+                                    "abilities"
+                                ]
                             },
                             {
                                 "name": "Ressurected Warrior's Armor",
-                                "src": "resu"
+                                "src": "resu",
+                                "specialFilters": [
+                                    "armor"
+                                ]
                             }
                         ]
                     },
@@ -255,19 +346,35 @@
                         "items": [
                             {
                                 "name": "Etherite Dagger",
-                                "src": "etherite"
+                                "src": "etherite",
+                                "specialFilters": [
+                                    "stitems",
+                                    "weapons"
+                                ]
                             },
                             {
                                 "name": "Ghastly Drape",
-                                "src": "drape"
+                                "src": "drape",
+                                "specialFilters": [
+                                    "stitems",
+                                    "abilities"
+                                ]
                             },
                             {
                                 "name": "Mantle of Skuld",
-                                "src": "mantleofskuld"
+                                "src": "mantleofskuld",
+                                "specialFilters": [
+                                    "stitems",
+                                    "armor"
+                                ]
                             },
                             {
                                 "name": "Spectral Ring of Horrors",
-                                "src": "horrors"
+                                "src": "horrors",
+                                "specialFilters": [
+                                    "stitems",
+                                    "rings"
+                                ]
                             }
                         ]
                     }
@@ -283,7 +390,10 @@
                         "items": [
                             {
                                 "name": "Doom Bow",
-                                "src": "doom-bow"
+                                "src": "doom-bow",
+                                "specialFilters": [
+                                    "weapons"
+                                ]
                             }
                         ]
                     },
@@ -293,11 +403,19 @@
                         "items": [
                             {
                                 "name": "Edictum Praetoris",
-                                "src": "edictum"
+                                "src": "edictum",
+                                "specialFilters": [
+                                    "stitems",
+                                    "weapons"
+                                ]
                             },
                             {
                                 "name": "Toga Picta",
-                                "src": "toga-picta"
+                                "src": "toga-picta",
+                                "specialFilters": [
+                                    "stitems",
+                                    "armor"
+                                ]
                             }
                         ]
                     },
@@ -307,7 +425,10 @@
                         "items": [
                             {
                                 "name": "Bow of the Morning Star",
-                                "src": "morning-star"
+                                "src": "morning-star",
+                                "specialFilters": [
+                                    "weapons"
+                                ]
                             }
                         ]
                     }
@@ -323,7 +444,10 @@
                         "items": [
                             {
                                 "name": "Demon Blade",
-                                "src": "demonblade"
+                                "src": "demonblade",
+                                "specialFilters": [
+                                    "weapons"
+                                ]
                             }
                         ]
                     },
@@ -333,15 +457,24 @@
                         "items": [
                             {
                                 "name": "Golden Femur",
-                                "src": "femur"
+                                "src": "femur",
+                                "specialFilters": [
+                                    "treasures"
+                                ]
                             },
                             {
                                 "name": "Golden Ribcage",
-                                "src": "ribcage"
+                                "src": "ribcage",
+                                "specialFilters": [
+                                    "treasures"
+                                ]
                             },
                             {
                                 "name": "Golden Skull",
-                                "src": "skull"
+                                "src": "skull",
+                                "specialFilters": [
+                                    "treasures"
+                                ]
                             }
                         ]
                     },
@@ -351,7 +484,10 @@
                         "items": [
                             {
                                 "name": "Sword of Illumination",
-                                "src": "illumination"
+                                "src": "illumination",
+                                "specialFilters": [
+                                    "weapons"
+                                ]
                             }
                         ]
                     }
@@ -367,7 +503,10 @@
                         "items": [
                             {
                                 "name": "Tome of Purification",
-                                "src": "puri"
+                                "src": "puri",
+                                "specialFilters": [
+                                    "abilities"
+                                ]
                             }
                         ]
                     },
@@ -377,7 +516,10 @@
                         "items": [
                             {
                                 "name": "Vampire Lord Skin",
-                                "src": "vampirelord"
+                                "src": "vampirelord",
+                                "specialFilters": [
+                                    "chars"
+                                ]
                             }
                         ]
                     },
@@ -387,19 +529,31 @@
                         "items": [
                             {
                                 "name": "Bone Dagger",
-                                "src": "bonedagger"
+                                "src": "bonedagger",
+                                "specialFilters": [
+                                    "weapons"
+                                ]
                             },
                             {
                                 "name": "St. Abraham's Wand",
-                                "src": "stabrahams"
+                                "src": "stabrahams",
+                                "specialFilters": [
+                                    "weapons"
+                                ]
                             },
                             {
                                 "name": "Chasuble of Holy Light",
-                                "src": "chasuble"
+                                "src": "chasuble",
+                                "specialFilters": [
+                                    "armor"
+                                ]
                             },
                             {
                                 "name": "Ring of Divine Faith",
-                                "src": "divinefaith"
+                                "src": "divinefaith",
+                                "specialFilters": [
+                                    "rings"
+                                ]
                             }
                         ]
                     },
@@ -409,11 +563,17 @@
                         "items": [
                             {
                                 "name": "Golden Candelabra",
-                                "src": "candelabra"
+                                "src": "candelabra",
+                                "specialFilters": [
+                                    "treasures"
+                                ]
                             },
                             {
                                 "name": "Holy Cross",
-                                "src": "holycross"
+                                "src": "holycross",
+                                "specialFilters": [
+                                    "treasures"
+                                ]
                             }
                         ]
                     }
@@ -429,11 +589,17 @@
                         "items": [
                             {
                                 "name": "Harlequin Armor",
-                                "src": "harlequin"
+                                "src": "harlequin",
+                                "specialFilters": [
+                                    "armor"
+                                ]
                             },
                             {
                                 "name": "Prism of Dancing Swords",
-                                "src": "dancingswords"
+                                "src": "dancingswords",
+                                "specialFilters": [
+                                    "abilities"
+                                ]
                             }
                         ]
                     },
@@ -443,11 +609,17 @@
                         "items": [
                             {
                                 "name": "Puppet Master Skin",
-                                "src": "puppetmaster"
+                                "src": "puppetmaster",
+                                "specialFilters": [
+                                    "chars"
+                                ]
                             },
                             {
                                 "name": "Jester Skin",
-                                "src": "jester"
+                                "src": "jester",
+                                "specialFilters": [
+                                    "chars"
+                                ]
                             }
                         ]
                     }
@@ -463,11 +635,17 @@
                         "items": [
                             {
                                 "name": "Murky Toxin",
-                                "src": "murky"
+                                "src": "murky",
+                                "specialFilters": [
+                                    "abilities"
+                                ]
                             },
                             {
                                 "name": "Void Blade",
-                                "src": "voidblade"
+                                "src": "voidblade",
+                                "specialFilters": [
+                                    "weapons"
+                                ]
                             }
                         ]
                     },
@@ -477,7 +655,10 @@
                         "items": [
                             {
                                 "name": "Slurp Knight",
-                                "src": "slurpknight"
+                                "src": "slurpknight",
+                                "specialFilters": [
+                                    "chars"
+                                ]
                             }
                         ]
                     }
@@ -493,15 +674,24 @@
                         "items": [
                             {
                                 "name": "Conducting Wand",
-                                "src": "conduct"
+                                "src": "conduct",
+                                "specialFilters": [
+                                    "weapons"
+                                ]
                             },
                             {
                                 "name": "Scepter of Fulmination",
-                                "src": "fulmi"
+                                "src": "fulmi",
+                                "specialFilters": [
+                                    "abilities"
+                                ]
                             },
                             {
                                 "name": "Robe of the Mad Scientist",
-                                "src": "labrobe"
+                                "src": "labrobe",
+                                "specialFilters": [
+                                    "armor"
+                                ]
                             }
                         ]
                     },
@@ -511,11 +701,19 @@
                         "items": [
                             {
                                 "name": "Grotesque Scepter",
-                                "src": "grotesque"
+                                "src": "grotesque",
+                                "specialFilters": [
+                                    "stitems",
+                                    "abilities"
+                                ]
                             },
                             {
                                 "name": "Horrific Claws",
-                                "src": "horrificclaws"
+                                "src": "horrificclaws",
+                                "specialFilters": [
+                                    "stitems",
+                                    "rings"
+                                ]
                             }
                         ]
                     },
@@ -525,7 +723,10 @@
                         "items": [
                             {
                                 "name": "Experimental Ring",
-                                "src": "expo"
+                                "src": "expo",
+                                "specialFilters": [
+                                    "rings"
+                                ]
                             }
                         ]
                     },
@@ -535,11 +736,17 @@
                         "items": [
                             {
                                 "name": "Golden Bolt",
-                                "src": "bolt"
+                                "src": "bolt",
+                                "specialFilters": [
+                                    "treasures"
+                                ]
                             },
                             {
                                 "name": "Golden Nut",
-                                "src": "nut"
+                                "src": "nut",
+                                "specialFilters": [
+                                    "treasures"
+                                ]
                             }
                         ]
                     }
@@ -555,15 +762,24 @@
                         "items": [
                             {
                                 "name": "Recurring Terror Spell",
-                                "src": "recurringterror"
+                                "src": "recurringterror",
+                                "specialFilters": [
+                                    "abilities"
+                                ]
                             },
                             {
                                 "name": "Scepter of Devastation",
-                                "src": "devastation"
+                                "src": "devastation",
+                                "specialFilters": [
+                                    "abilities"
+                                ]
                             },
                             {
                                 "name": "Tome of Pain",
-                                "src": "pain"
+                                "src": "pain",
+                                "specialFilters": [
+                                    "abilities"
+                                ]
                             }
                         ]
                     },
@@ -573,19 +789,35 @@
                         "items": [
                             {
                                 "name": "Abomination's Wrath",
-                                "src": "abominationswrath"
+                                "src": "abominationswrath",
+                                "specialFilters": [
+                                    "stitems",
+                                    "weapons"
+                                ]
                             },
                             {
                                 "name": "Garment of the Beast",
-                                "src": "garmentofthebeast"
+                                "src": "garmentofthebeast",
+                                "specialFilters": [
+                                    "stitems",
+                                    "armor"
+                                ]
                             },
                             {
                                 "name": "Parasitic Concoction",
-                                "src": "concoction"
+                                "src": "concoction",
+                                "specialFilters": [
+                                    "stitems",
+                                    "abilities"
+                                ]
                             },
                             {
                                 "name": "Hivemind Circlet",
-                                "src": "hivemind"
+                                "src": "hivemind",
+                                "specialFilters": [
+                                    "stitems",
+                                    "rings"
+                                ]
                             }
                         ]
                     }
@@ -601,11 +833,17 @@
                         "items": [
                             {
                                 "name": "Spirit Dagger",
-                                "src": "spiritdagger"
+                                "src": "spiritdagger",
+                                "specialFilters": [
+                                    "weapons"
+                                ]
                             },
                             {
                                 "name": "Ghostly Prism",
-                                "src": "ghostlyprism"
+                                "src": "ghostlyprism",
+                                "specialFilters": [
+                                    "abilities"
+                                ]
                             }
                         ]
                     },
@@ -615,11 +853,17 @@
                         "items": [
                             {
                                 "name": "Spectral Cloth Armor",
-                                "src": "spectral"
+                                "src": "spectral",
+                                "specialFilters": [
+                                    "armor"
+                                ]
                             },
                             {
                                 "name": "Captain's Ring",
-                                "src": "captainsring"
+                                "src": "captainsring",
+                                "specialFilters": [
+                                    "rings"
+                                ]
                             }
                         ]
                     },
@@ -629,15 +873,24 @@
                         "items": [
                             {
                                 "name": "Golden Chalice",
-                                "src": "chalice"
+                                "src": "chalice",
+                                "specialFilters": [
+                                    "treasures"
+                                ]
                             },
                             {
                                 "name": "Ruby Gemstone",
-                                "src": "rubygemstone"
+                                "src": "rubygemstone",
+                                "specialFilters": [
+                                    "treasures"
+                                ]
                             },
                             {
                                 "name": "Pearl Necklace",
-                                "src": "pneck"
+                                "src": "pneck",
+                                "specialFilters": [
+                                    "treasures"
+                                ]
                             }
                         ]
                     }
@@ -653,11 +906,17 @@
                         "items": [
                             {
                                 "name": "Orb of Aether",
-                                "src": "aether"
+                                "src": "aether",
+                                "specialFilters": [
+                                    "abilities"
+                                ]
                             },
                             {
                                 "name": "Wand of the Fallen",
-                                "src": "fallen"
+                                "src": "fallen",
+                                "specialFilters": [
+                                    "weapons"
+                                ]
                             }
                         ]
                     },
@@ -667,19 +926,35 @@
                         "items": [
                             {
                                 "name": "Kazekiri",
-                                "src": "kazekiri"
+                                "src": "kazekiri",
+                                "specialFilters": [
+                                    "stitems",
+                                    "weapons"
+                                ]
                             },
                             {
                                 "name": "Ryu's Blade",
-                                "src": "ryusblade"
+                                "src": "ryusblade",
+                                "specialFilters": [
+                                    "stitems",
+                                    "abilities"
+                                ]
                             },
                             {
                                 "name": "Kamishimo",
-                                "src": "kamishimo"
+                                "src": "kamishimo",
+                                "specialFilters": [
+                                    "stitems",
+                                    "armor"
+                                ]
                             },
                             {
                                 "name": "Akuma's Tear",
-                                "src": "akumastear"
+                                "src": "akumastear",
+                                "specialFilters": [
+                                    "stitems",
+                                    "rings"
+                                ]
                             }
                         ]
                     }
@@ -695,23 +970,38 @@
                         "items": [
                             {
                                 "name": "Sullen Blade",
-                                "src": "sullenblade"
+                                "src": "sullenblade",
+                                "specialFilters": [
+                                    "weapons"
+                                ]
                             },
                             {
                                 "name": "Leaf Dragon Hide Armor",
-                                "src": "leafhide"
+                                "src": "leafhide",
+                                "specialFilters": [
+                                    "armor"
+                                ]
                             },
                             {
                                 "name": "Water Dragon Silk Robe",
-                                "src": "waterrobe"
+                                "src": "waterrobe",
+                                "specialFilters": [
+                                    "armor"
+                                ]
                             },
                             {
                                 "name": "Fire Dragon Battle Armor",
-                                "src": "firearmor"
+                                "src": "firearmor",
+                                "specialFilters": [
+                                    "armor"
+                                ]
                             },
                             {
                                 "name": "Midnight Star",
-                                "src": "midnightstar"
+                                "src": "midnightstar",
+                                "specialFilters": [
+                                    "abilities"
+                                ]
                             }
                         ]
                     },
@@ -721,19 +1011,35 @@
                         "items": [
                             {
                                 "name": "Indomptable",
-                                "src": "indomptable"
+                                "src": "indomptable",
+                                "specialFilters": [
+                                    "stitems",
+                                    "weapons"
+                                ]
                             },
                             {
                                 "name": "Helm of Draconic Dominance",
-                                "src": "draconicdominance"
+                                "src": "draconicdominance",
+                                "specialFilters": [
+                                    "stitems",
+                                    "abilities"
+                                ]
                             },
                             {
                                 "name": "Zaarvox's Heart",
-                                "src": "zaarvoxheart"
+                                "src": "zaarvoxheart",
+                                "specialFilters": [
+                                    "stitems",
+                                    "armor"
+                                ]
                             },
                             {
                                 "name": "Amulet of Drakefyre",
-                                "src": "drakefyre"
+                                "src": "drakefyre",
+                                "specialFilters": [
+                                    "stitems",
+                                    "rings"
+                                ]
                             }
                         ]
                     }
@@ -749,7 +1055,10 @@
                         "items": [
                             {
                                 "name": "Cutlass",
-                                "src": "cutlass"
+                                "src": "cutlass",
+                                "specialFilters": [
+                                    "weapons"
+                                ]
                             }
                         ]
                     }
@@ -765,11 +1074,17 @@
                         "items": [
                             {
                                 "name": "Leaf Bow",
-                                "src": "leafbow"
+                                "src": "leafbow",
+                                "specialFilters": [
+                                    "weapons"
+                                ]
                             },
                             {
                                 "name": "Wakizashi of Eastern Winds",
-                                "src": "easternwinds"
+                                "src": "easternwinds",
+                                "specialFilters": [
+                                    "rings"
+                                ]
                             }
                         ]
                     },
@@ -779,7 +1094,10 @@
                         "items": [
                             {
                                 "name": "Woodland Huntress Skin",
-                                "src": "woodlandhuntress"
+                                "src": "woodlandhuntress",
+                                "specialFilters": [
+                                    "chars"
+                                ]
                             }
                         ]
                     }
@@ -795,7 +1113,10 @@
                         "items": [
                             {
                                 "name": "Doku No Ken",
-                                "src": "doku"
+                                "src": "doku",
+                                "specialFilters": [
+                                    "weapons"
+                                ]
                             }
                         ]
                     },
@@ -805,11 +1126,19 @@
                         "items": [
                             {
                                 "name": "Symbiotic Ripper",
-                                "src": "symbioticripper"
+                                "src": "symbioticripper",
+                                "specialFilters": [
+                                    "stitems",
+                                    "weapons"
+                                ]
                             },
                             {
                                 "name": "Rags of the Host",
-                                "src": "rags"
+                                "src": "rags",
+                                "specialFilters": [
+                                    "stitems",
+                                    "armor"
+                                ]
                             }
                         ]
                     }
@@ -825,11 +1154,17 @@
                         "items": [
                             {
                                 "name": "Staff of Esben",
-                                "src": "esbenstaff"
+                                "src": "esbenstaff",
+                                "specialFilters": [
+                                    "weapons"
+                                ]
                             },
                             {
                                 "name": "Skullish Remains of Esben",
-                                "src": "esbenskull"
+                                "src": "esbenskull",
+                                "specialFilters": [
+                                    "abilities"
+                                ]
                             }
                         ]
                     }
@@ -845,11 +1180,17 @@
                         "items": [
                             {
                                 "name": "Coral Bow",
-                                "src": "cbow"
+                                "src": "cbow",
+                                "specialFilters": [
+                                    "weapons"
+                                ]
                             },
                             {
                                 "name": "Coral Venom Trap",
-                                "src": "ctrap"
+                                "src": "ctrap",
+                                "specialFilters": [
+                                    "abilities"
+                                ]
                             }
                         ]
                     },
@@ -859,11 +1200,17 @@
                         "items": [
                             {
                                 "name": "Coral Silk Armor",
-                                "src": "csilk"
+                                "src": "csilk",
+                                "specialFilters": [
+                                    "armor"
+                                ]
                             },
                             {
                                 "name": "Coral Ring",
-                                "src": "coralring"
+                                "src": "coralring",
+                                "specialFilters": [
+                                    "rings"
+                                ]
                             }
                         ]
                     },
@@ -873,15 +1220,24 @@
                         "items": [
                             {
                                 "name": "Golden Cockle",
-                                "src": "cockle"
+                                "src": "cockle",
+                                "specialFilters": [
+                                    "treasures"
+                                ]
                             },
                             {
                                 "name": "Golden Conch",
-                                "src": "conch"
+                                "src": "conch",
+                                "specialFilters": [
+                                    "treasures"
+                                ]
                             },
                             {
                                 "name": "Golden Horn Conch",
-                                "src": "horn"
+                                "src": "horn",
+                                "specialFilters": [
+                                    "treasures"
+                                ]
                             }
                         ]
                     },
@@ -891,7 +1247,10 @@
                         "items": [
                             {
                                 "name": "Arctic Bow",
-                                "src": "arcticbow"
+                                "src": "arcticbow",
+                                "specialFilters": [
+                                    "weapons"
+                                ]
                             }
                         ]
                     }
@@ -907,19 +1266,31 @@
                         "items": [
                             {
                                 "name": "Tome of Holy Protection",
-                                "src": "prot"
+                                "src": "prot",
+                                "specialFilters": [
+                                    "abilities"
+                                ]
                             },
                             {
                                 "name": "Ring of the Pyramid",
-                                "src": "pyra"
+                                "src": "pyra",
+                                "specialFilters": [
+                                    "rings"
+                                ]
                             },
                             {
                                 "name": "Ring of the Sphinx",
-                                "src": "sphinx"
+                                "src": "sphinx",
+                                "specialFilters": [
+                                    "rings"
+                                ]
                             },
                             {
                                 "name": "Ring of the Nile",
-                                "src": "nile"
+                                "src": "nile",
+                                "specialFilters": [
+                                    "rings"
+                                ]
                             }
                         ]
                     },
@@ -929,43 +1300,77 @@
                         "items": [
                             {
                                 "name": "Wand of Geb",
-                                "src": "wandofgeb"
+                                "src": "wandofgeb",
+                                "specialFilters": [
+                                    "stitems",
+                                    "weapons"
+                                ]
                             },
                             {
                                 "name": "Book of Geb",
-                                "src": "bookofgeb"
+                                "src": "bookofgeb",
+                                "specialFilters": [
+                                    "stitems",
+                                    "abilities"
+                                ]
                             },
                             {
                                 "name": "Shendyt of Geb",
-                                "src": "shendyt"
+                                "src": "shendyt",
+                                "specialFilters": [
+                                    "stitems",
+                                    "armor"
+                                ]
                             },
                             {
                                 "name": "Geb's Ring of Wisdom",
-                                "src": "gebring"
+                                "src": "gebring",
+                                "specialFilters": [
+                                    "stitems",
+                                    "rings"
+                                ]
                             },
                             {
                                 "name": "Mini Nut Archer Skin",
-                                "src": "mininut"
+                                "src": "mininut",
+                                "specialFilters": [
+                                    "chars"
+                                ]
                             },
                             {
                                 "name": "Mini Geb Skin",
-                                "src": "minigeb"
+                                "src": "minigeb",
+                                "specialFilters": [
+                                    "chars"
+                                ]
                             },
                             {
                                 "name": "Tomb Snake Pet Stone",
-                                "src": "tombsnake"
+                                "src": "tombsnake",
+                                "specialFilters": [
+                                    "pets"
+                                ]
                             },
                             {
                                 "name": "Bes's Artifact",
-                                "src": "besartifact"
+                                "src": "besartifact",
+                                "specialFilters": [
+                                    "pets"
+                                ]
                             },
                             {
                                 "name": "Nut's Artifact",
-                                "src": "nutartifact"
+                                "src": "nutartifact",
+                                "specialFilters": [
+                                    "pets"
+                                ]
                             },
                             {
                                 "name": "Geb's Artifact",
-                                "src": "gebartifact"
+                                "src": "gebartifact",
+                                "specialFilters": [
+                                    "pets"
+                                ]
                             }
                         ]
                     },
@@ -975,15 +1380,24 @@
                         "items": [
                             {
                                 "name": "Golden Ankh",
-                                "src": "ankh"
+                                "src": "ankh",
+                                "specialFilters": [
+                                    "treasures"
+                                ]
                             },
                             {
                                 "name": "Eye of Osiris",
-                                "src": "eyeofosiris"
+                                "src": "eyeofosiris",
+                                "specialFilters": [
+                                    "treasures"
+                                ]
                             },
                             {
                                 "name": "Pharaoh's Mask",
-                                "src": "pharaohsmask"
+                                "src": "pharaohsmask",
+                                "specialFilters": [
+                                    "treasures"
+                                ]
                             }
                         ]
                     },
@@ -993,7 +1407,10 @@
                         "items": [
                             {
                                 "name": "Tome of Frigid Protection",
-                                "src": "icetome"
+                                "src": "icetome",
+                                "specialFilters": [
+                                    "abilities"
+                                ]
                             }
                         ]
                     }
@@ -1009,11 +1426,17 @@
                         "items": [
                             {
                                 "name": "Queen's Stinger Dagger",
-                                "src": "stinger"
+                                "src": "stinger",
+                                "specialFilters": [
+                                    "weapons"
+                                ]
                             },
                             {
                                 "name": "Hivemaster Helm",
-                                "src": "hivemasterhelm"
+                                "src": "hivemasterhelm",
+                                "specialFilters": [
+                                    "abilities"
+                                ]
                             }
                         ]
                     },
@@ -1023,23 +1446,42 @@
                         "items": [
                             {
                                 "name": "Nectar Crossfire",
-                                "src": "nectarcrossfire"
+                                "src": "nectarcrossfire",
+                                "specialFilters": [
+                                    "stitems",
+                                    "weapons"
+                                ]
                             },
                             {
                                 "name": "Honeytomb Snare",
-                                "src": "honeytombsnare"
+                                "src": "honeytombsnare",
+                                "specialFilters": [
+                                    "stitems",
+                                    "abilities"
+                                ]
                             },
                             {
                                 "name": "Apiary Armor",
-                                "src": "apiary"
+                                "src": "apiary",
+                                "specialFilters": [
+                                    "stitems",
+                                    "armor"
+                                ]
                             },
                             {
                                 "name": "Honey Circlet",
-                                "src": "honeycirclet"
+                                "src": "honeycirclet",
+                                "specialFilters": [
+                                    "stitems",
+                                    "rings"
+                                ]
                             },
                             {
                                 "name": "Killer Bee Queen Pet Stone",
-                                "src": "killerbeepet"
+                                "src": "killerbeepet",
+                                "specialFilters": [
+                                    "pets"
+                                ]
                             }
                         ]
                     },
@@ -1049,15 +1491,24 @@
                         "items": [
                             {
                                 "name": "Blue Beehemoth Armor",
-                                "src": "bluebee"
+                                "src": "bluebee",
+                                "specialFilters": [
+                                    "armor"
+                                ]
                             },
                             {
                                 "name": "Red Beehemoth Armor",
-                                "src": "redbee"
+                                "src": "redbee",
+                                "specialFilters": [
+                                    "armor"
+                                ]
                             },
                             {
                                 "name": "Yellow Beehemoth Armor",
-                                "src": "yellowbee"
+                                "src": "yellowbee",
+                                "specialFilters": [
+                                    "armor"
+                                ]
                             }
                         ]
                     }
@@ -1073,15 +1524,24 @@
                         "items": [
                             {
                                 "name": "Bracer",
-                                "src": "bracer"
+                                "src": "bracer",
+                                "specialFilters": [
+                                    "rings"
+                                ]
                             },
                             {
                                 "name": "Gemstone",
-                                "src": "gemstone"
+                                "src": "gemstone",
+                                "specialFilters": [
+                                    "rings"
+                                ]
                             },
                             {
                                 "name": "Crown",
-                                "src": "crown"
+                                "src": "crown",
+                                "specialFilters": [
+                                    "rings"
+                                ]
                             }
                         ]
                     },
@@ -1091,19 +1551,35 @@
                         "items": [
                             {
                                 "name": "Sentient Staff",
-                                "src": "sentient"
+                                "src": "sentient",
+                                "specialFilters": [
+                                    "stitems",
+                                    "weapons"
+                                ]
                             },
                             {
                                 "name": "Ancient Spell: Pierce",
-                                "src": "stspell"
+                                "src": "stspell",
+                                "specialFilters": [
+                                    "stitems",
+                                    "abilities"
+                                ]
                             },
                             {
                                 "name": "The Robe of Twilight",
-                                "src": "twilight"
+                                "src": "twilight",
+                                "specialFilters": [
+                                    "stitems",
+                                    "armor"
+                                ]
                             },
                             {
                                 "name": "The Forgotten Ring",
-                                "src": "forgottenring"
+                                "src": "forgottenring",
+                                "specialFilters": [
+                                    "stitems",
+                                    "rings"
+                                ]
                             }
                         ]
                     },
@@ -1113,7 +1589,10 @@
                         "items": [
                             {
                                 "name": "Ice crown",
-                                "src": "ice-crown"
+                                "src": "ice-crown",
+                                "specialFilters": [
+                                    "rings"
+                                ]
                             }
                         ]
                     }
@@ -1133,11 +1612,17 @@
                                 "items": [
                                     {
                                         "name": "Ancient Stone Sword",
-                                        "src": "ass"
+                                        "src": "ass",
+                                        "specialFilters": [
+                                            "weapons"
+                                        ]
                                     },
                                     {
                                         "name": "Spiteful Scutum",
-                                        "src": "scutum"
+                                        "src": "scutum",
+                                        "specialFilters": [
+                                            "abilities"
+                                        ]
                                     }
                                 ]
                             }
@@ -1153,15 +1638,24 @@
                                 "items": [
                                     {
                                         "name": "Chicken Leg of Doom",
-                                        "src": "cleg"
+                                        "src": "cleg",
+                                        "specialFilters": [
+                                            "weapons"
+                                        ]
                                     },
                                     {
                                         "name": "Anatis Staff",
-                                        "src": "anatis"
+                                        "src": "anatis",
+                                        "specialFilters": [
+                                            "weapons"
+                                        ]
                                     },
                                     {
                                         "name": "Apocalypse Feather",
-                                        "src": "apocalypsefeather"
+                                        "src": "apocalypsefeather",
+                                        "specialFilters": [
+                                            "weapons"
+                                        ]
                                     }
                                 ]
                             }
@@ -1177,19 +1671,35 @@
                                 "items": [
                                     {
                                         "name": "Sword of the Mad God",
-                                        "src": "swordofthemadgod"
+                                        "src": "swordofthemadgod",
+                                        "specialFilters": [
+                                            "stitems",
+                                            "weapons"
+                                        ]
                                     },
                                     {
                                         "name": "Shield of the Mad God",
-                                        "src": "shieldofthemadgod"
+                                        "src": "shieldofthemadgod",
+                                        "specialFilters": [
+                                            "stitems",
+                                            "abilities"
+                                        ]
                                     },
                                     {
                                         "name": "Almandine Armor of Anger",
-                                        "src": "almandinearmor"
+                                        "src": "almandinearmor",
+                                        "specialFilters": [
+                                            "stitems",
+                                            "armor"
+                                        ]
                                     },
                                     {
                                         "name": "Almandine Ring of Wrath",
-                                        "src": "almandinering"
+                                        "src": "almandinering",
+                                        "specialFilters": [
+                                            "stitems",
+                                            "rings"
+                                        ]
                                     }
                                 ]
                             }
@@ -1205,11 +1715,17 @@
                                 "items": [
                                     {
                                         "name": "Skull of Endless Torment",
-                                        "src": "torment"
+                                        "src": "torment",
+                                        "specialFilters": [
+                                            "abilities"
+                                        ]
                                     },
                                     {
                                         "name": "Wakizashi of Crossing Fires",
-                                        "src": "crossingfires"
+                                        "src": "crossingfires",
+                                        "specialFilters": [
+                                            "abilities"
+                                        ]
                                     }
                                 ]
                             }
@@ -1225,11 +1741,17 @@
                                 "items": [
                                     {
                                         "name": "Thousand Shot",
-                                        "src": "tshot"
+                                        "src": "tshot",
+                                        "specialFilters": [
+                                            "weapons"
+                                        ]
                                     },
                                     {
                                         "name": "Prism of Dire Instability",
-                                        "src": "instability"
+                                        "src": "instability",
+                                        "specialFilters": [
+                                            "abilities"
+                                        ]
                                     }
                                 ]
                             },
@@ -1239,7 +1761,10 @@
                                 "items": [
                                     {
                                         "name": "Jaco",
-                                        "src": "jaco"
+                                        "src": "jaco",
+                                        "specialFilters": [
+                                            "pets"
+                                        ]
                                     }
                                 ]
                             }
@@ -1255,11 +1780,17 @@
                                 "items": [
                                     {
                                         "name": "Bottled Medusozoan",
-                                        "src": "medusozoan"
+                                        "src": "medusozoan",
+                                        "specialFilters": [
+                                            "abilities"
+                                        ]
                                     },
                                     {
                                         "name": "Cnidaria Rod",
-                                        "src": "cnidariarod"
+                                        "src": "cnidariarod",
+                                        "specialFilters": [
+                                            "abilities"
+                                        ]
                                     }
                                 ]
                             },
@@ -1269,7 +1800,10 @@
                                 "items": [
                                     {
                                         "name": "Jellyhead Trickster Skin",
-                                        "src": "jellyhead"
+                                        "src": "jellyhead",
+                                        "specialFilters": [
+                                            "chars"
+                                        ]
                                     }
                                 ]
                             }
@@ -1285,15 +1819,24 @@
                                 "items": [
                                     {
                                         "name": "Frimarra",
-                                        "src": "frimarra"
+                                        "src": "frimarra",
+                                        "specialFilters": [
+                                            "rings"
+                                        ]
                                     },
                                     {
                                         "name": "Enchanted Ice Shard",
-                                        "src": "iceshard"
+                                        "src": "iceshard",
+                                        "specialFilters": [
+                                            "rings"
+                                        ]
                                     },
                                     {
                                         "name": "Ring of the Northern Light",
-                                        "src": "northernlight"
+                                        "src": "northernlight",
+                                        "specialFilters": [
+                                            "rings"
+                                        ]
                                     }
                                 ]
                             }
@@ -1316,19 +1859,31 @@
                                 "items": [
                                     {
                                         "name": "Sword of the Colossus",
-                                        "src": "colossussword"
+                                        "src": "colossussword",
+                                        "specialFilters": [
+                                            "weapons"
+                                        ]
                                     },
                                     {
                                         "name": "Marble Seal",
-                                        "src": "marbleseal"
+                                        "src": "marbleseal",
+                                        "specialFilters": [
+                                            "abilities"
+                                        ]
                                     },
                                     {
                                         "name": "Breastplate of New Life",
-                                        "src": "breastplate"
+                                        "src": "breastplate",
+                                        "specialFilters": [
+                                            "armor"
+                                        ]
                                     },
                                     {
                                         "name": "Magical Lodestone",
-                                        "src": "potato"
+                                        "src": "potato",
+                                        "specialFilters": [
+                                            "rings"
+                                        ]
                                     }
                                 ]
                             },
@@ -1338,19 +1893,35 @@
                                 "items": [
                                     {
                                         "name": "Carved Golem Remains",
-                                        "src": "golemremains"
+                                        "src": "golemremains",
+                                        "specialFilters": [
+                                            "stitems",
+                                            "weapons"
+                                        ]
                                     },
                                     {
                                         "name": "Brain of the Golem",
-                                        "src": "golembrain"
+                                        "src": "golembrain",
+                                        "specialFilters": [
+                                            "stitems",
+                                            "abilities"
+                                        ]
                                     },
                                     {
                                         "name": "Golem Garments",
-                                        "src": "golemgarments"
+                                        "src": "golemgarments",
+                                        "specialFilters": [
+                                            "stitems",
+                                            "armor"
+                                        ]
                                     },
                                     {
                                         "name": "Rusty Cuffs",
-                                        "src": "cuffs"
+                                        "src": "cuffs",
+                                        "specialFilters": [
+                                            "stitems",
+                                            "rings"
+                                        ]
                                     }
                                 ]
                             }
@@ -1366,19 +1937,31 @@
                                 "items": [
                                     {
                                         "name": "Staff of Unholy Sacrifice",
-                                        "src": "sacrifice"
+                                        "src": "sacrifice",
+                                        "specialFilters": [
+                                            "weapons"
+                                        ]
                                     },
                                     {
                                         "name": "Skull of Corrupted Souls",
-                                        "src": "corruptedsouls"
+                                        "src": "corruptedsouls",
+                                        "specialFilters": [
+                                            "abilities"
+                                        ]
                                     },
                                     {
                                         "name": "Ritual Robe",
-                                        "src": "ritualrobe"
+                                        "src": "ritualrobe",
+                                        "specialFilters": [
+                                            "armor"
+                                        ]
                                     },
                                     {
                                         "name": "Bloodshed Ring",
-                                        "src": "bloodshedring"
+                                        "src": "bloodshedring",
+                                        "specialFilters": [
+                                            "rings"
+                                        ]
                                     }
                                 ]
                             },
@@ -1388,7 +1971,10 @@
                                 "items": [
                                     {
                                         "name": "Vial of Pure Darkness",
-                                        "src": "vial"
+                                        "src": "vial",
+                                        "specialFilters": [
+                                            "consumables"
+                                        ]
                                     }
                                 ]
                             }
@@ -1404,23 +1990,38 @@
                                 "items": [
                                     {
                                         "name": "Omnipotence Ring",
-                                        "src": "omni"
+                                        "src": "omni",
+                                        "specialFilters": [
+                                            "rings"
+                                        ]
                                     },
                                     {
                                         "name": "Bow of the Void",
-                                        "src": "voidbow"
+                                        "src": "voidbow",
+                                        "specialFilters": [
+                                            "weapons"
+                                        ]
                                     },
                                     {
                                         "name": "Quiver of the Shadows",
-                                        "src": "voidquiver"
+                                        "src": "voidquiver",
+                                        "specialFilters": [
+                                            "abilities"
+                                        ]
                                     },
                                     {
                                         "name": "Armor of Nil",
-                                        "src": "nil"
+                                        "src": "nil",
+                                        "specialFilters": [
+                                            "armor"
+                                        ]
                                     },
                                     {
                                         "name": "Sourcestone",
-                                        "src": "sourcestone"
+                                        "src": "sourcestone",
+                                        "specialFilters": [
+                                            "rings"
+                                        ]
                                     }
                                 ]
                             },
@@ -1430,39 +2031,66 @@
                                 "items": [
                                     {
                                         "name": "Dagger of Sinister Deeds",
-                                        "src": "t13dagger"
+                                        "src": "t13dagger",
+                                        "specialFilters": [
+                                            "weapons"
+                                        ]
                                     },
                                     {
                                         "name": "Bow of Mystical Energy",
-                                        "src": "t13bow"
+                                        "src": "t13bow",
+                                        "specialFilters": [
+                                            "weapons"
+                                        ]
                                     },
                                     {
                                         "name": "Staff of the Vital Unity",
-                                        "src": "t13staff"
+                                        "src": "t13staff",
+                                        "specialFilters": [
+                                            "weapons"
+                                        ]
                                     },
                                     {
                                         "name": "Wand of Evocation",
-                                        "src": "t13wand"
+                                        "src": "t13wand",
+                                        "specialFilters": [
+                                            "weapons"
+                                        ]
                                     },
                                     {
                                         "name": "Sword of Splendor",
-                                        "src": "t13sword"
+                                        "src": "t13sword",
+                                        "specialFilters": [
+                                            "weapons"
+                                        ]
                                     },
                                     {
                                         "name": "Sadamune",
-                                        "src": "t13katana"
+                                        "src": "t13katana",
+                                        "specialFilters": [
+                                            "weapons"
+                                        ]
                                     },
                                     {
                                         "name": "Wyrmhide Armor",
-                                        "src": "t14leather"
+                                        "src": "t14leather",
+                                        "specialFilters": [
+                                            "armor"
+                                        ]
                                     },
                                     {
                                         "name": "Robe of the Starmother",
-                                        "src": "t14robe"
+                                        "src": "t14robe",
+                                        "specialFilters": [
+                                            "armor"
+                                        ]
                                     },
                                     {
                                         "name": "Dominion Armor",
-                                        "src": "t14armor"
+                                        "src": "t14armor",
+                                        "specialFilters": [
+                                            "armor"
+                                        ]
                                     }
                                 ]
                             }
@@ -1485,27 +2113,45 @@
                                 "items": [
                                     {
                                         "name": "Sunshine Shiv",
-                                        "src": "sunshineshiv"
+                                        "src": "sunshineshiv",
+                                        "specialFilters": [
+                                            "weapons"
+                                        ]
                                     },
                                     {
                                         "name": "Robobow",
-                                        "src": "robobow"
+                                        "src": "robobow",
+                                        "specialFilters": [
+                                            "weapons"
+                                        ]
                                     },
                                     {
                                         "name": "KoalaPOW",
-                                        "src": "koalapow"
+                                        "src": "koalapow",
+                                        "specialFilters": [
+                                            "weapons"
+                                        ]
                                     },
                                     {
                                         "name": "Wand of Spicy Spice",
-                                        "src": "spicy"
+                                        "src": "spicy",
+                                        "specialFilters": [
+                                            "weapons"
+                                        ]
                                     },
                                     {
                                         "name": "Doctor Swordsworth",
-                                        "src": "doctorswordsworth"
+                                        "src": "doctorswordsworth",
+                                        "specialFilters": [
+                                            "weapons"
+                                        ]
                                     },
                                     {
                                         "name": "Arbiters Wrath",
-                                        "src": "arbiterswrath"
+                                        "src": "arbiterswrath",
+                                        "specialFilters": [
+                                            "weapons"
+                                        ]
                                     }
                                 ]
                             }
@@ -1521,15 +2167,24 @@
                                 "items": [
                                     {
                                         "name": "Bashing Bride Skin",
-                                        "src": "bashingbride"
+                                        "src": "bashingbride",
+                                        "specialFilters": [
+                                            "chars"
+                                        ]
                                     },
                                     {
                                         "name": "Eligible Bachelor Skin",
-                                        "src": "eligiblebachelor"
+                                        "src": "eligiblebachelor",
+                                        "specialFilters": [
+                                            "chars"
+                                        ]
                                     },
                                     {
                                         "name": "Heart of Gold Prism",
-                                        "src": "heartofgold"
+                                        "src": "heartofgold",
+                                        "specialFilters": [
+                                            "abilities"
+                                        ]
                                     }
                                 ]
                             }
@@ -1545,19 +2200,31 @@
                                 "items": [
                                     {
                                         "name": "Miss Shamrock Wizard Skin",
-                                        "src": "shamrock"
+                                        "src": "shamrock",
+                                        "specialFilters": [
+                                            "chars"
+                                        ]
                                     },
                                     {
                                         "name": "Leprechaun's Walking Hat Pet Skin",
-                                        "src": "walkinghat"
+                                        "src": "walkinghat",
+                                        "specialFilters": [
+                                            "pets"
+                                        ]
                                     },
                                     {
                                         "name": "Clover Bow",
-                                        "src": "cloverbow"
+                                        "src": "cloverbow",
+                                        "specialFilters": [
+                                            "weapons"
+                                        ]
                                     },
                                     {
                                         "name": "Sword of the Rainbow's End",
-                                        "src": "rainbowsword"
+                                        "src": "rainbowsword",
+                                        "specialFilters": [
+                                            "weapons"
+                                        ]
                                     }
                                 ]
                             }
@@ -1573,27 +2240,45 @@
                                 "items": [
                                     {
                                         "name": "Random Spell Extraction Device",
-                                        "src": "ipad"
+                                        "src": "ipad",
+                                        "specialFilters": [
+                                            "abilities"
+                                        ]
                                     },
                                     {
                                         "name": "Krathana",
-                                        "src": "krathana"
+                                        "src": "krathana",
+                                        "specialFilters": [
+                                            "weapons"
+                                        ]
                                     },
                                     {
                                         "name": "Silex's Hammer",
-                                        "src": "silexhammer"
+                                        "src": "silexhammer",
+                                        "specialFilters": [
+                                            "weapons"
+                                        ]
                                     },
                                     {
                                         "name": "Jade Storm",
-                                        "src": "jadestorm"
+                                        "src": "jadestorm",
+                                        "specialFilters": [
+                                            "abilities"
+                                        ]
                                     },
                                     {
                                         "name": "Shield of Flowing Clarity",
-                                        "src": "flowingclarity"
+                                        "src": "flowingclarity",
+                                        "specialFilters": [
+                                            "abilities"
+                                        ]
                                     },
                                     {
                                         "name": "Cloak of the Mad God",
-                                        "src": "cloakofthemadgod"
+                                        "src": "cloakofthemadgod",
+                                        "specialFilters": [
+                                            "abilities"
+                                        ]
                                     }
                                 ]
                             }
@@ -1618,7 +2303,10 @@
                         "items": [
                             {
                                 "name": "Quiver of Thunder",
-                                "src": "qot"
+                                "src": "qot",
+                                "specialFilters": [
+                                    "abilities"
+                                ]
                             }
                         ]
                     }
@@ -1634,19 +2322,35 @@
                         "items": [
                             {
                                 "name": "The Phylactery",
-                                "src": "phylactery"
+                                "src": "phylactery",
+                                "specialFilters": [
+                                    "stitems",
+                                    "weapons"
+                                ]
                             },
                             {
                                 "name": "Soul of the Bearer",
-                                "src": "soulofthebearer"
+                                "src": "soulofthebearer",
+                                "specialFilters": [
+                                    "stitems",
+                                    "abilities"
+                                ]
                             },
                             {
                                 "name": "Soulless Robe",
-                                "src": "soullessrobe"
+                                "src": "soullessrobe",
+                                "specialFilters": [
+                                    "stitems",
+                                    "armor"
+                                ]
                             },
                             {
                                 "name": "Ring of the Covetous Heart",
-                                "src": "covetousheart"
+                                "src": "covetousheart",
+                                "specialFilters": [
+                                    "stitems",
+                                    "rings"
+                                ]
                             }
                         ]
                     }
@@ -1662,11 +2366,19 @@
                         "items": [
                             {
                                 "name": "Memento Mori",
-                                "src": "mementomori"
+                                "src": "mementomori",
+                                "specialFilters": [
+                                    "stitems",
+                                    "abilities"
+                                ]
                             },
                             {
                                 "name": "Interregnum",
-                                "src": "interregnum"
+                                "src": "interregnum",
+                                "specialFilters": [
+                                    "stitems",
+                                    "rings"
+                                ]
                             }
                         ]
                     }
@@ -1682,11 +2394,17 @@
                         "items": [
                             {
                                 "name": "Crystal Sword",
-                                "src": "csword"
+                                "src": "csword",
+                                "specialFilters": [
+                                    "weapons"
+                                ]
                             },
                             {
                                 "name": "Crystal Wand",
-                                "src": "cwand"
+                                "src": "cwand",
+                                "specialFilters": [
+                                    "weapons"
+                                ]
                             }
                         ]
                     },
@@ -1696,7 +2414,10 @@
                         "items": [
                             {
                                 "name": "Mini Crystal Steed Pet Skin",
-                                "src": "minicrystalsteed"
+                                "src": "minicrystalsteed",
+                                "specialFilters": [
+                                    "pets"
+                                ]
                             }
                         ]
                     },
@@ -1706,11 +2427,17 @@
                         "items": [
                             {
                                 "name": "Enchanted Ice Blade",
-                                "src": "ice-csword"
+                                "src": "ice-csword",
+                                "specialFilters": [
+                                    "weapons"
+                                ]
                             },
                             {
                                 "name": "Frozen Wand",
-                                "src": "ice-cwand"
+                                "src": "ice-cwand",
+                                "specialFilters": [
+                                    "weapons"
+                                ]
                             }
                         ]
                     }
@@ -1726,55 +2453,94 @@
                         "items": [
                             {
                                 "name": "Dirk of Cronus",
-                                "src": "cronus"
+                                "src": "cronus",
+                                "specialFilters": [
+                                    "weapons"
+                                ]
                             },
                             {
                                 "name": "Seal of Blasphemous Prayer",
-                                "src": "oreo"
+                                "src": "oreo",
+                                "specialFilters": [
+                                    "abilities"
+                                ]
                             },
                             {
                                 "name": "Orb of Conflict",
-                                "src": "conflict"
+                                "src": "conflict",
+                                "specialFilters": [
+                                    "abilities"
+                                ]
                             },
                             {
                                 "name": "Tablet of the King's Avatar",
-                                "src": "tablet"
+                                "src": "tablet",
+                                "specialFilters": [
+                                    "abilities"
+                                ]
                             },
                             {
                                 "name": "Helm of the Juggernaut",
-                                "src": "jugg"
+                                "src": "jugg",
+                                "specialFilters": [
+                                    "abilities"
+                                ]
                             },
                             {
                                 "name": "Trap of the Vile Spirit",
-                                "src": "vile"
+                                "src": "vile",
+                                "specialFilters": [
+                                    "abilities"
+                                ]
                             },
                             {
                                 "name": "Shield of Ogmur",
-                                "src": "ogmur"
+                                "src": "ogmur",
+                                "specialFilters": [
+                                    "abilities"
+                                ]
                             },
                             {
                                 "name": "Kageboshi",
-                                "src": "kageboshi"
+                                "src": "kageboshi",
+                                "specialFilters": [
+                                    "abilities"
+                                ]
                             },
                             {
                                 "name": "Red Beehemoth Quiver",
-                                "src": "redquiver"
+                                "src": "redquiver",
+                                "specialFilters": [
+                                    "abilities"
+                                ]
                             },
                             {
                                 "name": "Blue Beehemoth Quiver",
-                                "src": "bluequiver"
+                                "src": "bluequiver",
+                                "specialFilters": [
+                                    "abilities"
+                                ]
                             },
                             {
                                 "name": "Yellow Beehemoth Quiver",
-                                "src": "yellowquiver"
+                                "src": "yellowquiver",
+                                "specialFilters": [
+                                    "abilities"
+                                ]
                             },
                             {
                                 "name": "Ray Katana",
-                                "src": "ray"
+                                "src": "ray",
+                                "specialFilters": [
+                                    "weapons"
+                                ]
                             },
                             {
                                 "name": "Cloak of Bloody Surprises",
-                                "src": "bloody"
+                                "src": "bloody",
+                                "specialFilters": [
+                                    "abilities"
+                                ]
                             }
                         ]
                     },
@@ -1784,7 +2550,10 @@
                         "items": [
                             {
                                 "name": "Mini Sphinx Pet Skin",
-                                "src": "minisphinx"
+                                "src": "minisphinx",
+                                "specialFilters": [
+                                    "pets"
+                                ]
                             }
                         ]
                     }
@@ -1805,7 +2574,10 @@
                                 "items": [
                                     {
                                         "name": "Infected Skin",
-                                        "src": "infectedskin"
+                                        "src": "infectedskin",
+                                        "specialFilters": [
+                                            "chars"
+                                        ]
                                     }
                                 ]
                             }
@@ -1821,19 +2593,31 @@
                                 "items": [
                                     {
                                         "name": "Bunny Trickster Skin",
-                                        "src": "bunnytrickster"
+                                        "src": "bunnytrickster",
+                                        "specialFilters": [
+                                            "chars"
+                                        ]
                                     },
                                     {
                                         "name": "Moon Bunny Skin",
-                                        "src": "moonbunny"
+                                        "src": "moonbunny",
+                                        "specialFilters": [
+                                            "pets"
+                                        ]
                                     },
                                     {
                                         "name": "Vitamine Buster",
-                                        "src": "carrotspell"
+                                        "src": "carrotspell",
+                                        "specialFilters": [
+                                            "abilities"
+                                        ]
                                     },
                                     {
                                         "name": "Helm of the Swift Bunny",
-                                        "src": "bunnyhelm"
+                                        "src": "bunnyhelm",
+                                        "specialFilters": [
+                                            "abilities"
+                                        ]
                                     }
                                 ]
                             }

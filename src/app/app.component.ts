@@ -7,6 +7,7 @@ import { HostListener } from '@angular/core';
 import { OnInit } from '@angular/core';
 import { Settings } from './settings/settings.model';
 import { LocalStorageService } from './storage/local-storage.service';
+import { Observable, combineLatest } from 'rxjs';
 
 @Component({
   selector: 'app-root',
@@ -27,8 +28,13 @@ export class AppComponent implements OnDestroy, OnInit {
   ) { }
 
   ngOnInit(): void {
-    this.categoryService.getGroupFiltersJSON().subscribe((groupFilters) => {
-      this.settings = new Settings(groupFilters);
+    const filters = combineLatest(
+      this.categoryService.getGroupFiltersJSON(),
+      this.categoryService.getSpecialFiltersJSON()
+    );
+
+    filters.subscribe(([groupFilters, specialFilters]) => {
+      this.settings = new Settings(groupFilters, specialFilters);
       this.categoryService.getCategoriesJSON().subscribe((categories) => {
         this.categories = categories;
         this.storageService.loadAll(this.categories, this.settings);

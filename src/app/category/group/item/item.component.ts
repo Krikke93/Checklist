@@ -3,6 +3,7 @@ import { Input } from '@angular/core';
 import { Item } from 'src/app/category/group/item/item.model';
 import { environment } from '../../../../environments/environment';
 import { Settings } from '../../../settings/settings.model';
+import { CategoryService } from '../../category.service';
 
 @Component({
   selector: 'app-item',
@@ -16,13 +17,17 @@ export class ItemComponent implements OnInit {
   @Input() settings: Settings;
   @Input() folderName: string = 'items';
 
-  constructor() { }
+  constructor(private categoryService: CategoryService) { }
 
   ngOnInit() {
   }
 
   select() {
     this.item.checked = !this.item.checked;
+  }
+
+  isVisible(): boolean {
+    return this.categoryService.isItemVisible(this.item, this.settings);
   }
 
 }

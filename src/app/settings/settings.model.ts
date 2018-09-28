@@ -6,12 +6,14 @@ export class Settings {
     onlyEmpty: boolean = false;
     onlyChecked: boolean = false;
     groupFilters: Item[] = [];
+    specialFilters: Item[] = [];
     clickedNewAbout: boolean = false;
     profiles: string[] = ['Main Profile'];
     currentProfile: number = 0;
 
-    constructor(groupFilters: Item[]) {
+    constructor(groupFilters: Item[], specialFilters: Item[]) {
         this.groupFilters = groupFilters;
+        this.specialFilters = specialFilters;
     }
 
     toggleOnlyEmpty() {

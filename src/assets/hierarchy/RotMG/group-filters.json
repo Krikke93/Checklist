@@ -3,36 +3,36 @@
         "name": "White bags",
         "src": "whitebag",
         "checked": true,
-        "isGroupFilter": true
+        "isFilter": true
     },
     {
         "name": "Red bags",
         "src": "redbag",
         "checked": true,
-        "isGroupFilter": true
+        "isFilter": true
     },
     {
         "name": "ST bags",
         "src": "stbag",
         "checked": true,
-        "isGroupFilter": true
+        "isFilter": true
     },
     {
         "name": "Cyan bags",
         "src": "cyanbag",
         "checked": true,
-        "isGroupFilter": true
+        "isFilter": true
     },
     {
         "name": "Golden bags",
         "src": "goldenbag",
         "checked": true,
-        "isGroupFilter": true
+        "isFilter": true
     },
     {
         "name": "Limited Edition",
         "src": "limited",
         "checked": true,
-        "isGroupFilter": true
+        "isFilter": true
     }
 ]

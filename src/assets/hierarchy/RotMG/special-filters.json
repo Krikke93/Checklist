@@ -1,0 +1,56 @@
+[
+    {
+        "name": "Weapons",
+        "src": "weapons",
+        "checked": true,
+        "isFilter": true
+    },
+    {
+        "name": "Abilities",
+        "src": "abilities",
+        "checked": true,
+        "isFilter": true
+    },
+    {
+        "name": "Armor",
+        "src": "armor",
+        "checked": true,
+        "isFilter": true
+    },
+    {
+        "name": "Rings",
+        "src": "rings",
+        "checked": true,
+        "isFilter": true
+    },
+    {
+        "name": "ST Items",
+        "src": "stitems",
+        "checked": true,
+        "isFilter": true
+    },
+    {
+        "name": "Character Skins",
+        "src": "chars",
+        "checked": true,
+        "isFilter": true
+    },
+    {
+        "name": "Pet Skins",
+        "src": "pets",
+        "checked": true,
+        "isFilter": true
+    },
+    {
+        "name": "Treasures",
+        "src": "treasures",
+        "checked": true,
+        "isFilter": true
+    },
+    {
+        "name": "Consumables",
+        "src": "consumables",
+        "checked": true,
+        "isFilter": true
+    }
+]

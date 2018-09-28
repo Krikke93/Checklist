@@ -1,6 +1,6 @@
 <img  class="d-inline-block" 
       src="assets/images/{{game}}/{{folderName}}/{{item.src}}.png"
-      *ngIf="(!(item.checked && settings.onlyEmpty) && !(!item.checked && settings.onlyChecked)) || item.isGroupFilter" 
+      *ngIf="isVisible()" 
       [style.opacity]="item.checked ? '1' : '0.3'"
       title="{{item.name}}"
       (click)="select()" />
