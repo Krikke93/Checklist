@@ -192,6 +192,18 @@ export class CategoryService {
         return false;
       }
     }
+
+    if(settings.activeUniqueFilter !== 'none') {
+      if(item.specialFilters == undefined) {
+        return false;
+      }
+      if(item.specialFilters.length == 0) {
+        return false;
+      }
+      if(item.specialFilters.indexOf(settings.activeUniqueFilter) == -1 && item.specialFilters.indexOf('all-unique') == -1) {
+        return false;
+      }
+    }
     return true;
   }
 

@@ -15,14 +15,18 @@
                                 "name": "Poison Fang Dagger",
                                 "src": "poisonfangdagger",
                                 "specialFilters": [
-                                    "weapons"
+                                    "weapons",
+                                    "assassin",
+                                    "rogue",
+                                    "trickster"
                                 ]
                             },
                             {
                                 "name": "Spider Eye Ring",
                                 "src": "spidereyering",
                                 "specialFilters": [
-                                    "rings"
+                                    "rings",
+                                    "all-unique"
                                 ]
                             }
                         ]
@@ -41,28 +45,38 @@
                                 "name": "Staff of the Crystal Serpent",
                                 "src": "crystalserpent",
                                 "specialFilters": [
-                                    "weapons"
+                                    "weapons",
+                                    "mystic",
+                                    "necromancer",
+                                    "wizard"
                                 ]
                             },
                             {
                                 "name": "Cracked Crystal Skull",
                                 "src": "crystalskull",
                                 "specialFilters": [
-                                    "abilities"
+                                    "abilities",
+                                    "necromancer"
                                 ]
                             },
                             {
                                 "name": "Robe of the Tlatoani",
                                 "src": "tlatoani",
                                 "specialFilters": [
-                                    "armor"
+                                    "armor",
+                                    "mystic",
+                                    "necromancer",
+                                    "wizard",
+                                    "priest",
+                                    "sorcerer"
                                 ]
                             },
                             {
                                 "name": "Cracked Bone Ring",
                                 "src": "crystalbonering",
                                 "specialFilters": [
-                                    "rings"
+                                    "rings",
+                                    "all-unique"
                                 ]
                             }
                         ]
@@ -81,14 +95,16 @@
                                 "name": "Orb of Sweet Demise",
                                 "src": "demise",
                                 "specialFilters": [
-                                    "abilities"
+                                    "abilities",
+                                    "mystic"
                                 ]
                             },
                             {
                                 "name": "Honey Scepter",
                                 "src": "honeyscepter",
                                 "specialFilters": [
-                                    "abilities"
+                                    "abilities",
+                                    "sorcerer"
                                 ]
                             }
                         ]
@@ -107,14 +123,18 @@
                                 "name": "Spirit Staff",
                                 "src": "spirit-staff",
                                 "specialFilters": [
-                                    "weapons"
+                                    "weapons",
+                                    "mystic",
+                                    "necromancer",
+                                    "wizard"
                                 ]
                             },
                             {
                                 "name": "Enchantment Orb",
                                 "src": "enchantment-orb",
                                 "specialFilters": [
-                                    "abilities"
+                                    "abilities",
+                                    "mystic"
                                 ]
                             }
                         ]
@@ -127,14 +147,20 @@
                                 "name": "Woodland Robe",
                                 "src": "woodland-robe",
                                 "specialFilters": [
-                                    "armor"
+                                    "armor",
+                                    "mystic",
+                                    "necromancer",
+                                    "wizard",
+                                    "priest",
+                                    "sorcerer"
                                 ]
                             },
                             {
                                 "name": "Fiary Ring",
                                 "src": "fiary-ring",
                                 "specialFilters": [
-                                    "rings"
+                                    "rings",
+                                    "all-unique"
                                 ]
                             }
                         ]
@@ -153,7 +179,9 @@
                                 "name": "Wand of the Bulwark",
                                 "src": "bulwark",
                                 "specialFilters": [
-                                    "weapons"
+                                    "weapons",
+                                    "priest",
+                                    "sorcerer"
                                 ]
                             }
                         ]
@@ -186,21 +214,29 @@
                                 "name": "Snakeskin Armor",
                                 "src": "snakeskin-armor",
                                 "specialFilters": [
-                                    "armor"
+                                    "armor",
+                                    "archer",
+                                    "assassin",
+                                    "huntress",
+                                    "ninja",
+                                    "rogue",
+                                    "trickster"
                                 ]
                             },
                             {
                                 "name": "Snakeskin Shield",
                                 "src": "snakeskin-shield",
                                 "specialFilters": [
-                                    "abilities"
+                                    "abilities",
+                                    "knight"
                                 ]
                             },
                             {
                                 "name": "Snake Eye Ring",
                                 "src": "snakeeye-ring",
                                 "specialFilters": [
-                                    "rings"
+                                    "rings",
+                                    "all-unique"
                                 ]
                             }
                         ]
@@ -213,7 +249,9 @@
                                 "name": "Eternal Snowflake Wand",
                                 "src": "ice-bulwark",
                                 "specialFilters": [
-                                    "weapons"
+                                    "weapons",
+                                    "priest",
+                                    "sorcerer"
                                 ]
                             }
                         ]
@@ -232,14 +270,18 @@
                                 "name": "Staff of Extreme Prejudice",
                                 "src": "ep",
                                 "specialFilters": [
-                                    "weapons"
+                                    "weapons",
+                                    "mystic",
+                                    "necromancer",
+                                    "wizard"
                                 ]
                             },
                             {
                                 "name": "Cloak of the Planewalker",
                                 "src": "plane",
                                 "specialFilters": [
-                                    "abilities"
+                                    "abilities",
+                                    "rogue"
                                 ]
                             }
                         ]
@@ -252,7 +294,10 @@
                                 "name": "Staff of Iceblast",
                                 "src": "iceblast",
                                 "specialFilters": [
-                                    "weapons"
+                                    "weapons",
+                                    "mystic",
+                                    "necromancer",
+                                    "wizard"
                                 ]
                             }
                         ]
@@ -271,7 +316,11 @@
                                 "name": "Candy-Coated Armor",
                                 "src": "cc",
                                 "specialFilters": [
-                                    "armor"
+                                    "armor",
+                                    "knight",
+                                    "paladin",
+                                    "samurai",
+                                    "warrior"
                                 ]
                             }
                         ]
@@ -285,7 +334,10 @@
                                 "src": "pixie",
                                 "specialFilters": [
                                     "stitems",
-                                    "weapons"
+                                    "weapons",
+                                    "knight",
+                                    "paladin",
+                                    "warrior"
                                 ]
                             },
                             {
@@ -293,7 +345,8 @@
                                 "src": "stseal",
                                 "specialFilters": [
                                     "stitems",
-                                    "abilities"
+                                    "abilities",
+                                    "paladin"
                                 ]
                             },
                             {
@@ -301,7 +354,11 @@
                                 "src": "fairyplate",
                                 "specialFilters": [
                                     "stitems",
-                                    "armor"
+                                    "armor",
+                                    "knight",
+                                    "paladin",
+                                    "samurai",
+                                    "warrior"
                                 ]
                             },
                             {
@@ -309,7 +366,8 @@
                                 "src": "purewishes",
                                 "specialFilters": [
                                     "stitems",
-                                    "rings"
+                                    "rings",
+                                    "all-unique"
                                 ]
                             }
                         ]
@@ -328,14 +386,19 @@
                                 "name": "Plague Poison",
                                 "src": "plague",
                                 "specialFilters": [
-                                    "abilities"
+                                    "abilities",
+                                    "assassin"
                                 ]
                             },
                             {
                                 "name": "Ressurected Warrior's Armor",
                                 "src": "resu",
                                 "specialFilters": [
-                                    "armor"
+                                    "armor",
+                                    "knight",
+                                    "paladin",
+                                    "samurai",
+                                    "warrior"
                                 ]
                             }
                         ]
@@ -349,7 +412,10 @@
                                 "src": "etherite",
                                 "specialFilters": [
                                     "stitems",
-                                    "weapons"
+                                    "weapons",
+                                    "assassin",
+                                    "rogue",
+                                    "trickster"
                                 ]
                             },
                             {
@@ -357,7 +423,8 @@
                                 "src": "drape",
                                 "specialFilters": [
                                     "stitems",
-                                    "abilities"
+                                    "abilities",
+                                    "rogue"
                                 ]
                             },
                             {
@@ -365,7 +432,13 @@
                                 "src": "mantleofskuld",
                                 "specialFilters": [
                                     "stitems",
-                                    "armor"
+                                    "armor",
+                                    "archer",
+                                    "assassin",
+                                    "huntress",
+                                    "ninja",
+                                    "rogue",
+                                    "trickster"
                                 ]
                             },
                             {
@@ -373,7 +446,8 @@
                                 "src": "horrors",
                                 "specialFilters": [
                                     "stitems",
-                                    "rings"
+                                    "rings",
+                                    "all-unique"
                                 ]
                             }
                         ]
@@ -392,7 +466,9 @@
                                 "name": "Doom Bow",
                                 "src": "doom-bow",
                                 "specialFilters": [
-                                    "weapons"
+                                    "weapons",
+                                    "archer",
+                                    "huntress"
                                 ]
                             }
                         ]
@@ -406,7 +482,10 @@
                                 "src": "edictum",
                                 "specialFilters": [
                                     "stitems",
-                                    "weapons"
+                                    "weapons",
+                                    "mystic",
+                                    "necromancer",
+                                    "wizard"
                                 ]
                             },
                             {
@@ -414,7 +493,12 @@
                                 "src": "toga-picta",
                                 "specialFilters": [
                                     "stitems",
-                                    "armor"
+                                    "armor",
+                                    "mystic",
+                                    "necromancer",
+                                    "wizard",
+                                    "priest",
+                                    "sorcerer"
                                 ]
                             }
                         ]
@@ -427,7 +511,9 @@
                                 "name": "Bow of the Morning Star",
                                 "src": "morning-star",
                                 "specialFilters": [
-                                    "weapons"
+                                    "weapons",
+                                    "archer",
+                                    "huntress"
                                 ]
                             }
                         ]
@@ -446,7 +532,10 @@
                                 "name": "Demon Blade",
                                 "src": "demonblade",
                                 "specialFilters": [
-                                    "weapons"
+                                    "weapons",
+                                    "knight",
+                                    "paladin",
+                                    "warrior"
                                 ]
                             }
                         ]
@@ -486,7 +575,10 @@
                                 "name": "Sword of Illumination",
                                 "src": "illumination",
                                 "specialFilters": [
-                                    "weapons"
+                                    "weapons",
+                                    "knight",
+                                    "paladin",
+                                    "warrior"
                                 ]
                             }
                         ]
@@ -505,7 +597,8 @@
                                 "name": "Tome of Purification",
                                 "src": "puri",
                                 "specialFilters": [
-                                    "abilities"
+                                    "abilities",
+                                    "priest"
                                 ]
                             }
                         ]
@@ -531,28 +624,39 @@
                                 "name": "Bone Dagger",
                                 "src": "bonedagger",
                                 "specialFilters": [
-                                    "weapons"
+                                    "weapons",
+                                    "assassin",
+                                    "rogue",
+                                    "trickster"
                                 ]
                             },
                             {
                                 "name": "St. Abraham's Wand",
                                 "src": "stabrahams",
                                 "specialFilters": [
-                                    "weapons"
+                                    "weapons",
+                                    "priest",
+                                    "sorcerer"
                                 ]
                             },
                             {
                                 "name": "Chasuble of Holy Light",
                                 "src": "chasuble",
                                 "specialFilters": [
-                                    "armor"
+                                    "armor",
+                                    "mystic",
+                                    "necromancer",
+                                    "wizard",
+                                    "priest",
+                                    "sorcerer"
                                 ]
                             },
                             {
                                 "name": "Ring of Divine Faith",
                                 "src": "divinefaith",
                                 "specialFilters": [
-                                    "rings"
+                                    "rings",
+                                    "all-unique"
                                 ]
                             }
                         ]
@@ -591,14 +695,21 @@
                                 "name": "Harlequin Armor",
                                 "src": "harlequin",
                                 "specialFilters": [
-                                    "armor"
+                                    "armor",
+                                    "archer",
+                                    "assassin",
+                                    "huntress",
+                                    "ninja",
+                                    "rogue",
+                                    "trickster"
                                 ]
                             },
                             {
                                 "name": "Prism of Dancing Swords",
                                 "src": "dancingswords",
                                 "specialFilters": [
-                                    "abilities"
+                                    "abilities",
+                                    "trickster"
                                 ]
                             }
                         ]
@@ -637,14 +748,17 @@
                                 "name": "Murky Toxin",
                                 "src": "murky",
                                 "specialFilters": [
-                                    "abilities"
+                                    "abilities",
+                                    "assassin"
                                 ]
                             },
                             {
                                 "name": "Void Blade",
                                 "src": "voidblade",
                                 "specialFilters": [
-                                    "weapons"
+                                    "weapons",
+                                    "ninja",
+                                    "samurai"
                                 ]
                             }
                         ]
@@ -676,21 +790,29 @@
                                 "name": "Conducting Wand",
                                 "src": "conduct",
                                 "specialFilters": [
-                                    "weapons"
+                                    "weapons",
+                                    "priest",
+                                    "sorcerer"
                                 ]
                             },
                             {
                                 "name": "Scepter of Fulmination",
                                 "src": "fulmi",
                                 "specialFilters": [
-                                    "abilities"
+                                    "abilities",
+                                    "sorcerer"
                                 ]
                             },
                             {
                                 "name": "Robe of the Mad Scientist",
                                 "src": "labrobe",
                                 "specialFilters": [
-                                    "armor"
+                                    "armor",
+                                    "mystic",
+                                    "necromancer",
+                                    "wizard",
+                                    "priest",
+                                    "sorcerer"
                                 ]
                             }
                         ]
@@ -704,7 +826,8 @@
                                 "src": "grotesque",
                                 "specialFilters": [
                                     "stitems",
-                                    "abilities"
+                                    "abilities",
+                                    "sorcerer"
                                 ]
                             },
                             {
@@ -712,7 +835,8 @@
                                 "src": "horrificclaws",
                                 "specialFilters": [
                                     "stitems",
-                                    "rings"
+                                    "rings",
+                                    "all-unique"
                                 ]
                             }
                         ]
@@ -725,7 +849,8 @@
                                 "name": "Experimental Ring",
                                 "src": "expo",
                                 "specialFilters": [
-                                    "rings"
+                                    "rings",
+                                    "all-unique"
                                 ]
                             }
                         ]
@@ -764,21 +889,24 @@
                                 "name": "Recurring Terror Spell",
                                 "src": "recurringterror",
                                 "specialFilters": [
-                                    "abilities"
+                                    "abilities",
+                                    "wizard"
                                 ]
                             },
                             {
                                 "name": "Scepter of Devastation",
                                 "src": "devastation",
                                 "specialFilters": [
-                                    "abilities"
+                                    "abilities",
+                                    "sorcerer"
                                 ]
                             },
                             {
                                 "name": "Tome of Pain",
                                 "src": "pain",
                                 "specialFilters": [
-                                    "abilities"
+                                    "abilities",
+                                    "priest"
                                 ]
                             }
                         ]
@@ -792,7 +920,9 @@
                                 "src": "abominationswrath",
                                 "specialFilters": [
                                     "stitems",
-                                    "weapons"
+                                    "weapons",
+                                    "priest",
+                                    "sorcerer"
                                 ]
                             },
                             {
@@ -800,7 +930,12 @@
                                 "src": "garmentofthebeast",
                                 "specialFilters": [
                                     "stitems",
-                                    "armor"
+                                    "armor",
+                                    "mystic",
+                                    "necromancer",
+                                    "wizard",
+                                    "priest",
+                                    "sorcerer"
                                 ]
                             },
                             {
@@ -808,7 +943,8 @@
                                 "src": "concoction",
                                 "specialFilters": [
                                     "stitems",
-                                    "abilities"
+                                    "abilities",
+                                    "assassin"
                                 ]
                             },
                             {
@@ -816,7 +952,8 @@
                                 "src": "hivemind",
                                 "specialFilters": [
                                     "stitems",
-                                    "rings"
+                                    "rings",
+                                    "all-unique"
                                 ]
                             }
                         ]
@@ -835,14 +972,18 @@
                                 "name": "Spirit Dagger",
                                 "src": "spiritdagger",
                                 "specialFilters": [
-                                    "weapons"
+                                    "weapons",
+                                    "assassin",
+                                    "rogue",
+                                    "trickster"
                                 ]
                             },
                             {
                                 "name": "Ghostly Prism",
                                 "src": "ghostlyprism",
                                 "specialFilters": [
-                                    "abilities"
+                                    "abilities",
+                                    "trickster"
                                 ]
                             }
                         ]
@@ -855,14 +996,21 @@
                                 "name": "Spectral Cloth Armor",
                                 "src": "spectral",
                                 "specialFilters": [
-                                    "armor"
+                                    "armor",
+                                    "archer",
+                                    "assassin",
+                                    "huntress",
+                                    "ninja",
+                                    "rogue",
+                                    "trickster"
                                 ]
                             },
                             {
                                 "name": "Captain's Ring",
                                 "src": "captainsring",
                                 "specialFilters": [
-                                    "rings"
+                                    "rings",
+                                    "all-unique"
                                 ]
                             }
                         ]
@@ -908,14 +1056,17 @@
                                 "name": "Orb of Aether",
                                 "src": "aether",
                                 "specialFilters": [
-                                    "abilities"
+                                    "abilities",
+                                    "mystic"
                                 ]
                             },
                             {
                                 "name": "Wand of the Fallen",
                                 "src": "fallen",
                                 "specialFilters": [
-                                    "weapons"
+                                    "weapons",
+                                    "priest",
+                                    "sorcerer"
                                 ]
                             }
                         ]
@@ -929,7 +1080,9 @@
                                 "src": "kazekiri",
                                 "specialFilters": [
                                     "stitems",
-                                    "weapons"
+                                    "weapons",
+                                    "ninja",
+                                    "samurai"
                                 ]
                             },
                             {
@@ -937,7 +1090,8 @@
                                 "src": "ryusblade",
                                 "specialFilters": [
                                     "stitems",
-                                    "abilities"
+                                    "abilities",
+                                    "samurai"
                                 ]
                             },
                             {
@@ -945,7 +1099,11 @@
                                 "src": "kamishimo",
                                 "specialFilters": [
                                     "stitems",
-                                    "armor"
+                                    "armor",
+                                    "knight",
+                                    "paladin",
+                                    "samurai",
+                                    "warrior"
                                 ]
                             },
                             {
@@ -953,7 +1111,8 @@
                                 "src": "akumastear",
                                 "specialFilters": [
                                     "stitems",
-                                    "rings"
+                                    "rings",
+                                    "all-unique"
                                 ]
                             }
                         ]
@@ -972,35 +1131,53 @@
                                 "name": "Sullen Blade",
                                 "src": "sullenblade",
                                 "specialFilters": [
-                                    "weapons"
+                                    "weapons",
+                                    "ninja",
+                                    "samurai"
                                 ]
                             },
                             {
                                 "name": "Leaf Dragon Hide Armor",
                                 "src": "leafhide",
                                 "specialFilters": [
-                                    "armor"
+                                    "armor",
+                                    "archer",
+                                    "assassin",
+                                    "huntress",
+                                    "ninja",
+                                    "rogue",
+                                    "trickster"
                                 ]
                             },
                             {
                                 "name": "Water Dragon Silk Robe",
                                 "src": "waterrobe",
                                 "specialFilters": [
-                                    "armor"
+                                    "armor",
+                                    "mystic",
+                                    "necromancer",
+                                    "wizard",
+                                    "priest",
+                                    "sorcerer"
                                 ]
                             },
                             {
                                 "name": "Fire Dragon Battle Armor",
                                 "src": "firearmor",
                                 "specialFilters": [
-                                    "armor"
+                                    "armor",
+                                    "knight",
+                                    "paladin",
+                                    "samurai",
+                                    "warrior"
                                 ]
                             },
                             {
                                 "name": "Midnight Star",
                                 "src": "midnightstar",
                                 "specialFilters": [
-                                    "abilities"
+                                    "abilities",
+                                    "ninja"
                                 ]
                             }
                         ]
@@ -1014,7 +1191,10 @@
                                 "src": "indomptable",
                                 "specialFilters": [
                                     "stitems",
-                                    "weapons"
+                                    "weapons",
+                                    "knight",
+                                    "paladin",
+                                    "warrior"
                                 ]
                             },
                             {
@@ -1022,7 +1202,8 @@
                                 "src": "draconicdominance",
                                 "specialFilters": [
                                     "stitems",
-                                    "abilities"
+                                    "abilities",
+                                    "warrior"
                                 ]
                             },
                             {
@@ -1030,7 +1211,11 @@
                                 "src": "zaarvoxheart",
                                 "specialFilters": [
                                     "stitems",
-                                    "armor"
+                                    "armor",
+                                    "knight",
+                                    "paladin",
+                                    "samurai",
+                                    "warrior"
                                 ]
                             },
                             {
@@ -1038,7 +1223,8 @@
                                 "src": "drakefyre",
                                 "specialFilters": [
                                     "stitems",
-                                    "rings"
+                                    "rings",
+                                    "all-unique"
                                 ]
                             }
                         ]
@@ -1057,7 +1243,10 @@
                                 "name": "Cutlass",
                                 "src": "cutlass",
                                 "specialFilters": [
-                                    "weapons"
+                                    "weapons",
+                                    "knight",
+                                    "paladin",
+                                    "warrior"
                                 ]
                             }
                         ]
@@ -1076,14 +1265,17 @@
                                 "name": "Leaf Bow",
                                 "src": "leafbow",
                                 "specialFilters": [
-                                    "weapons"
+                                    "weapons",
+                                    "archer",
+                                    "huntress"
                                 ]
                             },
                             {
                                 "name": "Wakizashi of Eastern Winds",
                                 "src": "easternwinds",
                                 "specialFilters": [
-                                    "rings"
+                                    "abilities",
+                                    "samurai"
                                 ]
                             }
                         ]
@@ -1115,7 +1307,9 @@
                                 "name": "Doku No Ken",
                                 "src": "doku",
                                 "specialFilters": [
-                                    "weapons"
+                                    "weapons",
+                                    "ninja",
+                                    "samurai"
                                 ]
                             }
                         ]
@@ -1129,7 +1323,10 @@
                                 "src": "symbioticripper",
                                 "specialFilters": [
                                     "stitems",
-                                    "weapons"
+                                    "weapons",
+                                    "assassin",
+                                    "rogue",
+                                    "trickster"
                                 ]
                             },
                             {
@@ -1137,7 +1334,13 @@
                                 "src": "rags",
                                 "specialFilters": [
                                     "stitems",
-                                    "armor"
+                                    "armor",
+                                    "archer",
+                                    "assassin",
+                                    "huntress",
+                                    "ninja",
+                                    "rogue",
+                                    "trickster"
                                 ]
                             }
                         ]
@@ -1156,14 +1359,18 @@
                                 "name": "Staff of Esben",
                                 "src": "esbenstaff",
                                 "specialFilters": [
-                                    "weapons"
+                                    "weapons",
+                                    "mystic",
+                                    "necromancer",
+                                    "wizard"
                                 ]
                             },
                             {
                                 "name": "Skullish Remains of Esben",
                                 "src": "esbenskull",
                                 "specialFilters": [
-                                    "abilities"
+                                    "abilities",
+                                    "necromancer"
                                 ]
                             }
                         ]
@@ -1182,14 +1389,17 @@
                                 "name": "Coral Bow",
                                 "src": "cbow",
                                 "specialFilters": [
-                                    "weapons"
+                                    "weapons",
+                                    "archer",
+                                    "huntress"
                                 ]
                             },
                             {
                                 "name": "Coral Venom Trap",
                                 "src": "ctrap",
                                 "specialFilters": [
-                                    "abilities"
+                                    "abilities",
+                                    "huntress"
                                 ]
                             }
                         ]
@@ -1202,14 +1412,21 @@
                                 "name": "Coral Silk Armor",
                                 "src": "csilk",
                                 "specialFilters": [
-                                    "armor"
+                                    "armor",
+                                    "archer",
+                                    "assassin",
+                                    "huntress",
+                                    "ninja",
+                                    "rogue",
+                                    "trickster"
                                 ]
                             },
                             {
                                 "name": "Coral Ring",
                                 "src": "coralring",
                                 "specialFilters": [
-                                    "rings"
+                                    "rings",
+                                    "all-unique"
                                 ]
                             }
                         ]
@@ -1249,7 +1466,9 @@
                                 "name": "Arctic Bow",
                                 "src": "arcticbow",
                                 "specialFilters": [
-                                    "weapons"
+                                    "weapons",
+                                    "archer",
+                                    "huntress"
                                 ]
                             }
                         ]
@@ -1268,28 +1487,32 @@
                                 "name": "Tome of Holy Protection",
                                 "src": "prot",
                                 "specialFilters": [
-                                    "abilities"
+                                    "abilities",
+                                    "priest"
                                 ]
                             },
                             {
                                 "name": "Ring of the Pyramid",
                                 "src": "pyra",
                                 "specialFilters": [
-                                    "rings"
+                                    "rings",
+                                    "all-unique"
                                 ]
                             },
                             {
                                 "name": "Ring of the Sphinx",
                                 "src": "sphinx",
                                 "specialFilters": [
-                                    "rings"
+                                    "rings",
+                                    "all-unique"
                                 ]
                             },
                             {
                                 "name": "Ring of the Nile",
                                 "src": "nile",
                                 "specialFilters": [
-                                    "rings"
+                                    "rings",
+                                    "all-unique"
                                 ]
                             }
                         ]
@@ -1303,7 +1526,9 @@
                                 "src": "wandofgeb",
                                 "specialFilters": [
                                     "stitems",
-                                    "weapons"
+                                    "weapons",
+                                    "priest",
+                                    "sorcerer"
                                 ]
                             },
                             {
@@ -1311,7 +1536,8 @@
                                 "src": "bookofgeb",
                                 "specialFilters": [
                                     "stitems",
-                                    "abilities"
+                                    "abilities",
+                                    "priest"
                                 ]
                             },
                             {
@@ -1319,7 +1545,12 @@
                                 "src": "shendyt",
                                 "specialFilters": [
                                     "stitems",
-                                    "armor"
+                                    "armor",
+                                    "mystic",
+                                    "necromancer",
+                                    "wizard",
+                                    "priest",
+                                    "sorcerer"
                                 ]
                             },
                             {
@@ -1327,7 +1558,8 @@
                                 "src": "gebring",
                                 "specialFilters": [
                                     "stitems",
-                                    "rings"
+                                    "rings",
+                                    "all-unique"
                                 ]
                             },
                             {
@@ -1409,7 +1641,8 @@
                                 "name": "Tome of Frigid Protection",
                                 "src": "icetome",
                                 "specialFilters": [
-                                    "abilities"
+                                    "abilities",
+                                    "priest"
                                 ]
                             }
                         ]
@@ -1428,14 +1661,18 @@
                                 "name": "Queen's Stinger Dagger",
                                 "src": "stinger",
                                 "specialFilters": [
-                                    "weapons"
+                                    "weapons",
+                                    "assassin",
+                                    "rogue",
+                                    "trickster"
                                 ]
                             },
                             {
                                 "name": "Hivemaster Helm",
                                 "src": "hivemasterhelm",
                                 "specialFilters": [
-                                    "abilities"
+                                    "abilities",
+                                    "warrior"
                                 ]
                             }
                         ]
@@ -1449,7 +1686,9 @@
                                 "src": "nectarcrossfire",
                                 "specialFilters": [
                                     "stitems",
-                                    "weapons"
+                                    "weapons",
+                                    "archer",
+                                    "huntress"
                                 ]
                             },
                             {
@@ -1457,7 +1696,8 @@
                                 "src": "honeytombsnare",
                                 "specialFilters": [
                                     "stitems",
-                                    "abilities"
+                                    "abilities",
+                                    "huntress"
                                 ]
                             },
                             {
@@ -1465,7 +1705,13 @@
                                 "src": "apiary",
                                 "specialFilters": [
                                     "stitems",
-                                    "armor"
+                                    "armor",
+                                    "archer",
+                                    "assassin",
+                                    "huntress",
+                                    "ninja",
+                                    "rogue",
+                                    "trickster"
                                 ]
                             },
                             {
@@ -1473,7 +1719,8 @@
                                 "src": "honeycirclet",
                                 "specialFilters": [
                                     "stitems",
-                                    "rings"
+                                    "rings",
+                                    "all-unique"
                                 ]
                             },
                             {
@@ -1493,21 +1740,39 @@
                                 "name": "Blue Beehemoth Armor",
                                 "src": "bluebee",
                                 "specialFilters": [
-                                    "armor"
+                                    "armor",
+                                    "archer",
+                                    "assassin",
+                                    "huntress",
+                                    "ninja",
+                                    "rogue",
+                                    "trickster"
                                 ]
                             },
                             {
                                 "name": "Red Beehemoth Armor",
                                 "src": "redbee",
                                 "specialFilters": [
-                                    "armor"
+                                    "armor",
+                                    "archer",
+                                    "assassin",
+                                    "huntress",
+                                    "ninja",
+                                    "rogue",
+                                    "trickster"
                                 ]
                             },
                             {
                                 "name": "Yellow Beehemoth Armor",
                                 "src": "yellowbee",
                                 "specialFilters": [
-                                    "armor"
+                                    "armor",
+                                    "archer",
+                                    "assassin",
+                                    "huntress",
+                                    "ninja",
+                                    "rogue",
+                                    "trickster"
                                 ]
                             }
                         ]
@@ -1526,21 +1791,24 @@
                                 "name": "Bracer",
                                 "src": "bracer",
                                 "specialFilters": [
-                                    "rings"
+                                    "rings",
+                                    "all-unique"
                                 ]
                             },
                             {
                                 "name": "Gemstone",
                                 "src": "gemstone",
                                 "specialFilters": [
-                                    "rings"
+                                    "rings",
+                                    "all-unique"
                                 ]
                             },
                             {
                                 "name": "Crown",
                                 "src": "crown",
                                 "specialFilters": [
-                                    "rings"
+                                    "rings",
+                                    "all-unique"
                                 ]
                             }
                         ]
@@ -1554,7 +1822,10 @@
                                 "src": "sentient",
                                 "specialFilters": [
                                     "stitems",
-                                    "weapons"
+                                    "weapons",
+                                    "mystic",
+                                    "necromancer",
+                                    "wizard"
                                 ]
                             },
                             {
@@ -1562,7 +1833,8 @@
                                 "src": "stspell",
                                 "specialFilters": [
                                     "stitems",
-                                    "abilities"
+                                    "abilities",
+                                    "wizard"
                                 ]
                             },
                             {
@@ -1570,7 +1842,12 @@
                                 "src": "twilight",
                                 "specialFilters": [
                                     "stitems",
-                                    "armor"
+                                    "armor",
+                                    "mystic",
+                                    "necromancer",
+                                    "wizard",
+                                    "priest",
+                                    "sorcerer"
                                 ]
                             },
                             {
@@ -1578,7 +1855,8 @@
                                 "src": "forgottenring",
                                 "specialFilters": [
                                     "stitems",
-                                    "rings"
+                                    "rings",
+                                    "all-unique"
                                 ]
                             }
                         ]
@@ -1591,7 +1869,8 @@
                                 "name": "Ice crown",
                                 "src": "ice-crown",
                                 "specialFilters": [
-                                    "rings"
+                                    "rings",
+                                    "all-unique"
                                 ]
                             }
                         ]
@@ -1614,14 +1893,18 @@
                                         "name": "Ancient Stone Sword",
                                         "src": "ass",
                                         "specialFilters": [
-                                            "weapons"
+                                            "weapons",
+                                            "knight",
+                                            "paladin",
+                                            "warrior"
                                         ]
                                     },
                                     {
                                         "name": "Spiteful Scutum",
                                         "src": "scutum",
                                         "specialFilters": [
-                                            "abilities"
+                                            "abilities",
+                                            "knight"
                                         ]
                                     }
                                 ]
@@ -1640,21 +1923,30 @@
                                         "name": "Chicken Leg of Doom",
                                         "src": "cleg",
                                         "specialFilters": [
-                                            "weapons"
+                                            "weapons",
+                                            "assassin",
+                                            "rogue",
+                                            "trickster"
                                         ]
                                     },
                                     {
                                         "name": "Anatis Staff",
                                         "src": "anatis",
                                         "specialFilters": [
-                                            "weapons"
+                                            "weapons",
+                                            "mystic",
+                                            "necromancer",
+                                            "wizard"
                                         ]
                                     },
                                     {
                                         "name": "Apocalypse Feather",
                                         "src": "apocalypsefeather",
                                         "specialFilters": [
-                                            "weapons"
+                                            "weapons",
+                                            "knight",
+                                            "paladin",
+                                            "warrior"
                                         ]
                                     }
                                 ]
@@ -1674,7 +1966,10 @@
                                         "src": "swordofthemadgod",
                                         "specialFilters": [
                                             "stitems",
-                                            "weapons"
+                                            "weapons",
+                                            "knight",
+                                            "paladin",
+                                            "warrior"
                                         ]
                                     },
                                     {
@@ -1682,7 +1977,8 @@
                                         "src": "shieldofthemadgod",
                                         "specialFilters": [
                                             "stitems",
-                                            "abilities"
+                                            "abilities",
+                                            "knight"
                                         ]
                                     },
                                     {
@@ -1690,7 +1986,11 @@
                                         "src": "almandinearmor",
                                         "specialFilters": [
                                             "stitems",
-                                            "armor"
+                                            "armor",
+                                            "knight",
+                                            "paladin",
+                                            "samurai",
+                                            "warrior"
                                         ]
                                     },
                                     {
@@ -1698,7 +1998,8 @@
                                         "src": "almandinering",
                                         "specialFilters": [
                                             "stitems",
-                                            "rings"
+                                            "rings",
+                                            "all-unique"
                                         ]
                                     }
                                 ]
@@ -1717,14 +2018,16 @@
                                         "name": "Skull of Endless Torment",
                                         "src": "torment",
                                         "specialFilters": [
-                                            "abilities"
+                                            "abilities",
+                                            "necromancer"
                                         ]
                                     },
                                     {
                                         "name": "Wakizashi of Crossing Fires",
                                         "src": "crossingfires",
                                         "specialFilters": [
-                                            "abilities"
+                                            "abilities",
+                                            "samurai"
                                         ]
                                     }
                                 ]
@@ -1743,14 +2046,17 @@
                                         "name": "Thousand Shot",
                                         "src": "tshot",
                                         "specialFilters": [
-                                            "weapons"
+                                            "weapons",
+                                            "archer",
+                                            "huntress"
                                         ]
                                     },
                                     {
                                         "name": "Prism of Dire Instability",
                                         "src": "instability",
                                         "specialFilters": [
-                                            "abilities"
+                                            "abilities",
+                                            "trickster"
                                         ]
                                     }
                                 ]
@@ -1782,14 +2088,16 @@
                                         "name": "Bottled Medusozoan",
                                         "src": "medusozoan",
                                         "specialFilters": [
-                                            "abilities"
+                                            "abilities",
+                                            "assassin"
                                         ]
                                     },
                                     {
                                         "name": "Cnidaria Rod",
                                         "src": "cnidariarod",
                                         "specialFilters": [
-                                            "abilities"
+                                            "abilities",
+                                            "sorcerer"
                                         ]
                                     }
                                 ]
@@ -1821,21 +2129,24 @@
                                         "name": "Frimarra",
                                         "src": "frimarra",
                                         "specialFilters": [
-                                            "rings"
+                                            "rings",
+                                            "all-unique"
                                         ]
                                     },
                                     {
                                         "name": "Enchanted Ice Shard",
                                         "src": "iceshard",
                                         "specialFilters": [
-                                            "rings"
+                                            "rings",
+                                            "all-unique"
                                         ]
                                     },
                                     {
                                         "name": "Ring of the Northern Light",
                                         "src": "northernlight",
                                         "specialFilters": [
-                                            "rings"
+                                            "rings",
+                                            "all-unique"
                                         ]
                                     }
                                 ]
@@ -1861,28 +2172,37 @@
                                         "name": "Sword of the Colossus",
                                         "src": "colossussword",
                                         "specialFilters": [
-                                            "weapons"
+                                            "weapons",
+                                            "knight",
+                                            "paladin",
+                                            "warrior"
                                         ]
                                     },
                                     {
                                         "name": "Marble Seal",
                                         "src": "marbleseal",
                                         "specialFilters": [
-                                            "abilities"
+                                            "abilities",
+                                            "paladin"
                                         ]
                                     },
                                     {
                                         "name": "Breastplate of New Life",
                                         "src": "breastplate",
                                         "specialFilters": [
-                                            "armor"
+                                            "armor",
+                                            "knight",
+                                            "paladin",
+                                            "samurai",
+                                            "warrior"
                                         ]
                                     },
                                     {
                                         "name": "Magical Lodestone",
                                         "src": "potato",
                                         "specialFilters": [
-                                            "rings"
+                                            "rings",
+                                            "all-unique"
                                         ]
                                     }
                                 ]
@@ -1896,7 +2216,10 @@
                                         "src": "golemremains",
                                         "specialFilters": [
                                             "stitems",
-                                            "weapons"
+                                            "weapons",
+                                            "assassin",
+                                            "rogue",
+                                            "trickster"
                                         ]
                                     },
                                     {
@@ -1904,7 +2227,8 @@
                                         "src": "golembrain",
                                         "specialFilters": [
                                             "stitems",
-                                            "abilities"
+                                            "abilities",
+                                            "trickster"
                                         ]
                                     },
                                     {
@@ -1912,7 +2236,13 @@
                                         "src": "golemgarments",
                                         "specialFilters": [
                                             "stitems",
-                                            "armor"
+                                            "armor",
+                                            "archer",
+                                            "assassin",
+                                            "huntress",
+                                            "ninja",
+                                            "rogue",
+                                            "trickster"
                                         ]
                                     },
                                     {
@@ -1920,7 +2250,8 @@
                                         "src": "cuffs",
                                         "specialFilters": [
                                             "stitems",
-                                            "rings"
+                                            "rings",
+                                            "all-unique"
                                         ]
                                     }
                                 ]
@@ -1939,28 +2270,38 @@
                                         "name": "Staff of Unholy Sacrifice",
                                         "src": "sacrifice",
                                         "specialFilters": [
-                                            "weapons"
+                                            "weapons",
+                                            "mystic",
+                                            "necromancer",
+                                            "wizard"
                                         ]
                                     },
                                     {
                                         "name": "Skull of Corrupted Souls",
                                         "src": "corruptedsouls",
                                         "specialFilters": [
-                                            "abilities"
+                                            "abilities",
+                                            "necromancer"
                                         ]
                                     },
                                     {
                                         "name": "Ritual Robe",
                                         "src": "ritualrobe",
                                         "specialFilters": [
-                                            "armor"
+                                            "armor",
+                                            "mystic",
+                                            "necromancer",
+                                            "wizard",
+                                            "priest",
+                                            "sorcerer"
                                         ]
                                     },
                                     {
                                         "name": "Bloodshed Ring",
                                         "src": "bloodshedring",
                                         "specialFilters": [
-                                            "rings"
+                                            "rings",
+                                            "all-unique"
                                         ]
                                     }
                                 ]
@@ -1992,35 +2333,46 @@
                                         "name": "Omnipotence Ring",
                                         "src": "omni",
                                         "specialFilters": [
-                                            "rings"
+                                            "rings",
+                                            "all-unique"
                                         ]
                                     },
                                     {
                                         "name": "Bow of the Void",
                                         "src": "voidbow",
                                         "specialFilters": [
-                                            "weapons"
+                                            "weapons",
+                                            "archer",
+                                            "huntress"
                                         ]
                                     },
                                     {
                                         "name": "Quiver of the Shadows",
                                         "src": "voidquiver",
                                         "specialFilters": [
-                                            "abilities"
+                                            "abilities",
+                                            "archer"
                                         ]
                                     },
                                     {
                                         "name": "Armor of Nil",
                                         "src": "nil",
                                         "specialFilters": [
-                                            "armor"
+                                            "armor",
+                                            "archer",
+                                            "assassin",
+                                            "huntress",
+                                            "ninja",
+                                            "rogue",
+                                            "trickster"
                                         ]
                                     },
                                     {
                                         "name": "Sourcestone",
                                         "src": "sourcestone",
                                         "specialFilters": [
-                                            "rings"
+                                            "rings",
+                                            "all-unique"
                                         ]
                                     }
                                 ]
@@ -2033,63 +2385,93 @@
                                         "name": "Dagger of Sinister Deeds",
                                         "src": "t13dagger",
                                         "specialFilters": [
-                                            "weapons"
+                                            "weapons",
+                                            "assassin",
+                                            "rogue",
+                                            "trickster"
                                         ]
                                     },
                                     {
                                         "name": "Bow of Mystical Energy",
                                         "src": "t13bow",
                                         "specialFilters": [
-                                            "weapons"
+                                            "weapons",
+                                            "archer",
+                                            "huntress"
                                         ]
                                     },
                                     {
                                         "name": "Staff of the Vital Unity",
                                         "src": "t13staff",
                                         "specialFilters": [
-                                            "weapons"
+                                            "weapons",
+                                            "mystic",
+                                            "necromancer",
+                                            "wizard"
                                         ]
                                     },
                                     {
                                         "name": "Wand of Evocation",
                                         "src": "t13wand",
                                         "specialFilters": [
-                                            "weapons"
+                                            "weapons",
+                                            "priest",
+                                            "sorcerer"
                                         ]
                                     },
                                     {
                                         "name": "Sword of Splendor",
                                         "src": "t13sword",
                                         "specialFilters": [
-                                            "weapons"
+                                            "weapons",
+                                            "knight",
+                                            "paladin",
+                                            "warrior"
                                         ]
                                     },
                                     {
                                         "name": "Sadamune",
                                         "src": "t13katana",
                                         "specialFilters": [
-                                            "weapons"
+                                            "weapons",
+                                            "ninja",
+                                            "samurai"
                                         ]
                                     },
                                     {
                                         "name": "Wyrmhide Armor",
                                         "src": "t14leather",
                                         "specialFilters": [
-                                            "armor"
+                                            "armor",
+                                            "archer",
+                                            "assassin",
+                                            "huntress",
+                                            "ninja",
+                                            "rogue",
+                                            "trickster"
                                         ]
                                     },
                                     {
                                         "name": "Robe of the Starmother",
                                         "src": "t14robe",
                                         "specialFilters": [
-                                            "armor"
+                                            "armor",
+                                            "mystic",
+                                            "necromancer",
+                                            "wizard",
+                                            "priest",
+                                            "sorcerer"
                                         ]
                                     },
                                     {
                                         "name": "Dominion Armor",
                                         "src": "t14armor",
                                         "specialFilters": [
-                                            "armor"
+                                            "armor",
+                                            "knight",
+                                            "paladin",
+                                            "samurai",
+                                            "warrior"
                                         ]
                                     }
                                 ]
@@ -2115,42 +2497,57 @@
                                         "name": "Sunshine Shiv",
                                         "src": "sunshineshiv",
                                         "specialFilters": [
-                                            "weapons"
+                                            "weapons",
+                                            "assassin",
+                                            "rogue",
+                                            "trickster"
                                         ]
                                     },
                                     {
                                         "name": "Robobow",
                                         "src": "robobow",
                                         "specialFilters": [
-                                            "weapons"
+                                            "weapons",
+                                            "archer",
+                                            "huntress"
                                         ]
                                     },
                                     {
                                         "name": "KoalaPOW",
                                         "src": "koalapow",
                                         "specialFilters": [
-                                            "weapons"
+                                            "weapons",
+                                            "mystic",
+                                            "necromancer",
+                                            "wizard"
                                         ]
                                     },
                                     {
                                         "name": "Wand of Spicy Spice",
                                         "src": "spicy",
                                         "specialFilters": [
-                                            "weapons"
+                                            "weapons",
+                                            "priest",
+                                            "sorcerer"
                                         ]
                                     },
                                     {
                                         "name": "Doctor Swordsworth",
                                         "src": "doctorswordsworth",
                                         "specialFilters": [
-                                            "weapons"
+                                            "weapons",
+                                            "knight",
+                                            "paladin",
+                                            "warrior"
                                         ]
                                     },
                                     {
                                         "name": "Arbiters Wrath",
                                         "src": "arbiterswrath",
                                         "specialFilters": [
-                                            "weapons"
+                                            "weapons",
+                                            "ninja",
+                                            "samurai"
                                         ]
                                     }
                                 ]
@@ -2183,7 +2580,8 @@
                                         "name": "Heart of Gold Prism",
                                         "src": "heartofgold",
                                         "specialFilters": [
-                                            "abilities"
+                                            "abilities",
+                                            "trickster"
                                         ]
                                     }
                                 ]
@@ -2216,14 +2614,19 @@
                                         "name": "Clover Bow",
                                         "src": "cloverbow",
                                         "specialFilters": [
-                                            "weapons"
+                                            "weapons",
+                                            "archer",
+                                            "huntress"
                                         ]
                                     },
                                     {
                                         "name": "Sword of the Rainbow's End",
                                         "src": "rainbowsword",
                                         "specialFilters": [
-                                            "weapons"
+                                            "weapons",
+                                            "knight",
+                                            "paladin",
+                                            "warrior"
                                         ]
                                     }
                                 ]
@@ -2242,42 +2645,51 @@
                                         "name": "Random Spell Extraction Device",
                                         "src": "ipad",
                                         "specialFilters": [
-                                            "abilities"
+                                            "abilities",
+                                            "wizard"
                                         ]
                                     },
                                     {
                                         "name": "Krathana",
                                         "src": "krathana",
                                         "specialFilters": [
-                                            "weapons"
+                                            "weapons",
+                                            "ninja",
+                                            "samurai"
                                         ]
                                     },
                                     {
                                         "name": "Silex's Hammer",
                                         "src": "silexhammer",
                                         "specialFilters": [
-                                            "weapons"
+                                            "weapons",
+                                            "knight",
+                                            "paladin",
+                                            "warrior"
                                         ]
                                     },
                                     {
                                         "name": "Jade Storm",
                                         "src": "jadestorm",
                                         "specialFilters": [
-                                            "abilities"
+                                            "abilities",
+                                            "wizard"
                                         ]
                                     },
                                     {
                                         "name": "Shield of Flowing Clarity",
                                         "src": "flowingclarity",
                                         "specialFilters": [
-                                            "abilities"
+                                            "abilities",
+                                            "knight"
                                         ]
                                     },
                                     {
                                         "name": "Cloak of the Mad God",
                                         "src": "cloakofthemadgod",
                                         "specialFilters": [
-                                            "abilities"
+                                            "abilities",
+                                            "rogue"
                                         ]
                                     }
                                 ]
@@ -2305,7 +2717,8 @@
                                 "name": "Quiver of Thunder",
                                 "src": "qot",
                                 "specialFilters": [
-                                    "abilities"
+                                    "abilities",
+                                    "archer"
                                 ]
                             }
                         ]
@@ -2325,7 +2738,10 @@
                                 "src": "phylactery",
                                 "specialFilters": [
                                     "stitems",
-                                    "weapons"
+                                    "weapons",
+                                    "mystic",
+                                    "necromancer",
+                                    "wizard"
                                 ]
                             },
                             {
@@ -2333,7 +2749,8 @@
                                 "src": "soulofthebearer",
                                 "specialFilters": [
                                     "stitems",
-                                    "abilities"
+                                    "abilities",
+                                    "mystic"
                                 ]
                             },
                             {
@@ -2341,7 +2758,12 @@
                                 "src": "soullessrobe",
                                 "specialFilters": [
                                     "stitems",
-                                    "armor"
+                                    "armor",
+                                    "mystic",
+                                    "necromancer",
+                                    "wizard",
+                                    "priest",
+                                    "sorcerer"
                                 ]
                             },
                             {
@@ -2349,7 +2771,8 @@
                                 "src": "covetousheart",
                                 "specialFilters": [
                                     "stitems",
-                                    "rings"
+                                    "rings",
+                                    "all-unique"
                                 ]
                             }
                         ]
@@ -2369,7 +2792,8 @@
                                 "src": "mementomori",
                                 "specialFilters": [
                                     "stitems",
-                                    "abilities"
+                                    "abilities",
+                                    "necromancer"
                                 ]
                             },
                             {
@@ -2377,7 +2801,8 @@
                                 "src": "interregnum",
                                 "specialFilters": [
                                     "stitems",
-                                    "rings"
+                                    "rings",
+                                    "all-unique"
                                 ]
                             }
                         ]
@@ -2396,14 +2821,19 @@
                                 "name": "Crystal Sword",
                                 "src": "csword",
                                 "specialFilters": [
-                                    "weapons"
+                                    "weapons",
+                                    "knight",
+                                    "paladin",
+                                    "warrior"
                                 ]
                             },
                             {
                                 "name": "Crystal Wand",
                                 "src": "cwand",
                                 "specialFilters": [
-                                    "weapons"
+                                    "weapons",
+                                    "priest",
+                                    "sorcerer"
                                 ]
                             }
                         ]
@@ -2429,14 +2859,19 @@
                                 "name": "Enchanted Ice Blade",
                                 "src": "ice-csword",
                                 "specialFilters": [
-                                    "weapons"
+                                    "weapons",
+                                    "knight",
+                                    "paladin",
+                                    "warrior"
                                 ]
                             },
                             {
                                 "name": "Frozen Wand",
                                 "src": "ice-cwand",
                                 "specialFilters": [
-                                    "weapons"
+                                    "weapons",
+                                    "priest",
+                                    "sorcerer"
                                 ]
                             }
                         ]
@@ -2455,91 +2890,107 @@
                                 "name": "Dirk of Cronus",
                                 "src": "cronus",
                                 "specialFilters": [
-                                    "weapons"
+                                    "weapons",
+                                    "assassin",
+                                    "rogue",
+                                    "trickster"
                                 ]
                             },
                             {
                                 "name": "Seal of Blasphemous Prayer",
                                 "src": "oreo",
                                 "specialFilters": [
-                                    "abilities"
+                                    "abilities",
+                                    "paladin"
                                 ]
                             },
                             {
                                 "name": "Orb of Conflict",
                                 "src": "conflict",
                                 "specialFilters": [
-                                    "abilities"
+                                    "abilities",
+                                    "mystic"
                                 ]
                             },
                             {
                                 "name": "Tablet of the King's Avatar",
                                 "src": "tablet",
                                 "specialFilters": [
-                                    "abilities"
+                                    "abilities",
+                                    "wizard"
                                 ]
                             },
                             {
                                 "name": "Helm of the Juggernaut",
                                 "src": "jugg",
                                 "specialFilters": [
-                                    "abilities"
+                                    "abilities",
+                                    "warrior"
                                 ]
                             },
                             {
                                 "name": "Trap of the Vile Spirit",
                                 "src": "vile",
                                 "specialFilters": [
-                                    "abilities"
+                                    "abilities",
+                                    "huntress"
                                 ]
                             },
                             {
                                 "name": "Shield of Ogmur",
                                 "src": "ogmur",
                                 "specialFilters": [
-                                    "abilities"
+                                    "abilities",
+                                    "knight"
                                 ]
                             },
                             {
                                 "name": "Kageboshi",
                                 "src": "kageboshi",
                                 "specialFilters": [
-                                    "abilities"
+                                    "abilities",
+                                    "ninja"
                                 ]
                             },
                             {
                                 "name": "Red Beehemoth Quiver",
                                 "src": "redquiver",
                                 "specialFilters": [
-                                    "abilities"
+                                    "abilities",
+                                    "archer"
                                 ]
                             },
                             {
                                 "name": "Blue Beehemoth Quiver",
                                 "src": "bluequiver",
                                 "specialFilters": [
-                                    "abilities"
+                                    "abilities",
+                                    "archer"
                                 ]
                             },
                             {
                                 "name": "Yellow Beehemoth Quiver",
                                 "src": "yellowquiver",
                                 "specialFilters": [
-                                    "abilities"
+                                    "abilities",
+                                    "archer"
                                 ]
                             },
                             {
                                 "name": "Ray Katana",
                                 "src": "ray",
                                 "specialFilters": [
-                                    "weapons"
+                                    "weapons",
+                                    "ninja",
+                                    "samurai"
                                 ]
                             },
                             {
                                 "name": "Cloak of Bloody Surprises",
                                 "src": "bloody",
                                 "specialFilters": [
-                                    "abilities"
+                                    "abilities",
+                                    "rogue"
                                 ]
                             }
                         ]
@@ -2609,14 +3060,16 @@
                                         "name": "Vitamine Buster",
                                         "src": "carrotspell",
                                         "specialFilters": [
-                                            "abilities"
+                                            "abilities",
+                                            "wizard"
                                         ]
                                     },
                                     {
                                         "name": "Helm of the Swift Bunny",
                                         "src": "bunnyhelm",
                                         "specialFilters": [
-                                            "abilities"
+                                            "abilities",
+                                            "warrior"
                                         ]
                                     }
                                 ]
