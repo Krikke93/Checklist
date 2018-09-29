@@ -1,6 +1,6 @@
 <div class="container mt-3 mb-3">
   <div class="row">
-    <form class="col-12 col-lg-6 float-left">
+    <form class="col-12 col-lg-4 float-left">
       <h4 class="border-bottom" [ngClass]="(settings.nightMode)?'border-secondary':''"><i class="fas fa-desktop pr-1"></i> Display</h4>
       <div class="col-12">
         <div class="form-check">
@@ -13,9 +13,9 @@
         </div>
       </div>
     </form>
-    <form class="col-12 col-lg-6 float-left">
+    <form class="col-12 col-lg-8 float-left">
       <h4 class="border-bottom" [ngClass]="(settings.nightMode)?'border-secondary':''"><i class="fas fa-suitcase pr-1"></i> Item Management</h4>
-      <div class="col-12 col-sm-6 col-lg-12 col-xl-6 float-left">
+      <div class="col-12 col-sm-6 col-xl-5 float-left">
         <div class="form-check">
           <input [checked]="settings.onlyEmpty" (change)="settings.toggleOnlyEmpty()" type="checkbox" class="form-check-input" id="incomplete-only">
           <label class="form-check-label" for="incomplete-only">Only show incomplete <i class="fas fa-times"></i></label>
@@ -25,7 +25,7 @@
           <label class="form-check-label" for="checked-only">Only show completed <i class="fas fa-check"></i></label>
         </div>
       </div>
-      <div class="col-12 col-sm-6 col-lg-12 col-xl-6 float-left mt-1 mt-sm-0 mt-md-1">
+      <div class="col-12 col-sm-6 col-xl-7 float-left mt-1 mt-sm-0 mt-md-1">
         <span class="font-weight-bold">Select Group Filters</span>
         <a href="#" class="text-secondary toggle-all" (click)="toggleAll(settings.groupFilters)"><i title="Toggle All" class="fas fa-chevron-circle-left ml-2"></i></a>
         <div class="w-100 d-inline-block">
@@ -34,23 +34,23 @@
           </div>
         </div>
       </div>
-      <div class="col-6 float-left">
+      <div class="col-12 col-sm-6 col-xl-5 float-left dropdown">
+        <div class="w-100"><span class="font-weight-bold">Class Specific</span></div>
+        <app-item [item]="settings.getActiveUniqueFilter()" [(settings)]="settings" [folderName]="'unique-filters'" [disable]="true"></app-item>
+        <button class="btn btn-secondary dropdown-toggle ml-2" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          {{settings.getActiveUniqueFilter().name}}
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a *ngFor="let uniqueFilter of settings.uniqueFilters" class="dropdown-item" href="#" (click)="settings.activeUniqueFilter = uniqueFilter.src">{{uniqueFilter.name}}</a>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-xl-7 float-left">
         <span class="font-weight-bold">Select Special Filters</span>
         <a href="#" class="text-secondary toggle-all" (click)="toggleAll(settings.specialFilters)"><i title="Toggle All" class="fas fa-chevron-circle-left ml-2"></i></a>
         <div class="w-100 d-inline-block">
           <div class="float-left" *ngFor="let filter of settings.specialFilters">
             <app-item [item]="filter" [(settings)]="settings" [folderName]="'special-filters'"></app-item>
           </div>
-        </div>
-      </div>
-      <div class="col-6 float-left dropdown">
-        <div class="w-100"><span class="font-weight-bold">Class Specific</span></div>
-        <app-item [item]="settings.getActiveUniqueFilter()" [(settings)]="settings" [folderName]="'unique-filters'" [disable]="true"></app-item>
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          {{settings.getActiveUniqueFilter().name}}
-        </button>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-          <a *ngFor="let uniqueFilter of settings.uniqueFilters" class="dropdown-item" href="#" (click)="settings.activeUniqueFilter = uniqueFilter.src">{{uniqueFilter.name}}</a>
         </div>
       </div>
     </form>
