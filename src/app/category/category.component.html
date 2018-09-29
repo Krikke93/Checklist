@@ -3,7 +3,7 @@
     <img class="float-left d-inline-block mr-2" 
       *ngIf="category.src"
       src="assets/images/{{game}}/categories/{{((category.src === 'winecellar' || category.src === 'cultist') && allChecked(category))?'closed_':''}}{{category.src}}.png"
-      [style.opacity]="allChecked(category) ? '1' : '0.5'" />
+      [style.opacity]="allVisibleChecked(category) ? '1' : '0.5'" />
     <div class="fixed-target" id="{{category.src}}"></div>
     <h3 class="category-header float-left">{{category.name}}</h3>
     <div class="float-right minimalize">

@@ -40,6 +40,13 @@ export class CategoryService {
     );
   }
 
+  public groupAllVisibleChecked(group: Group, settings: Settings): boolean {
+    for(let item of group.items) {
+      if(this.isItemVisible(item, settings) && !item.checked) return false; 
+    }
+    return true;
+  }
+
   public groupAllChecked(group: Group): boolean {
       for(let item of group.items) {
           if(!item.checked) return false;
@@ -59,6 +66,20 @@ export class CategoryService {
       if(this.isItemVisible(item, settings) && settings.hasGroupFilterActive(group.src)) return true;
     }
     return false;
+  }
+
+  public categoryAllVisibleChecked(category: Category, settings: Settings): boolean {
+    if(category.subCategories && category.subCategories.length > 0) {
+      for(let subCategory of category.subCategories) {
+        if(!this.categoryAllVisibleChecked(subCategory, settings)) return false;
+      }
+    }
+    if(category.groups && category.groups.length > 0) {
+      for(let group of category.groups) {
+        if(!this.groupAllVisibleChecked(group, settings)) return false;
+      }
+    }
+    return true;
   }
 
   public categoryAllChecked(category: Category): boolean {

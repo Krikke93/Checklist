@@ -26,6 +26,10 @@ export class CategoryComponent implements OnInit {
     this.minimized = this.initialMinimized;
   }
 
+  allVisibleChecked(category: Category): boolean {
+    return this.categoryService.categoryAllVisibleChecked(category, this.settings);
+  }
+
   allChecked(category: Category): boolean {
     return this.categoryService.categoryAllChecked(category);
   }
