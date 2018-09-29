@@ -1,5 +1,11 @@
 <a class="text-secondary return-link" href="#" (click)="returnToHome()"><i class="fas fa-chevron-circle-left"></i> Return to Checklist</a>
 <h3 class="border-bottom border-secondary mb-3">Manage Profiles</h3>
+<p>
+  Profiles each store their own items and settings seperately. This can be especially useful if you wish to track your PPE/NPE's progress or
+  when multiple people use the same computer.<br/>
+  Deleting a profile simply clears its name and makes it unaccessible. Should you wish to delete all progress from a certain profile, you can do
+  so by activating the profile first, then using the trash bin at the top-right of your screen.
+</p>
 <div class="row">
   <div *ngFor="let i of [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14]" class="w-100 border-bottom text-center" (click)="setCurrentProfile(i)"
     [ngClass]="{'text-secondary': !settings.getProfile(i),

@@ -1,5 +1,21 @@
 [
     {
+        "name": "PPE Btw",
+        "date": "2018-09-29",
+        "version": "1.1.0",
+        "added": [
+            "Profiles",
+            "Special filters: Weapons, Abilities, Armor, Rings, Character Skins, Pet Skins, Treasures, Consumables",
+            "Class specific filters (only shows items that are useful to that class, mainly for PPEs/NPEs)"
+        ],
+        "changed": [
+            "Improved support for mobile devices",
+            "About icon and more compact Toggle All option for filters",
+            "Group icons now lit up when all -visible- items are checked"
+        ],
+        "removed": []
+    },
+    {
         "name": "New generation",
         "date": "2018-09-24",
         "version": "1.0.1",

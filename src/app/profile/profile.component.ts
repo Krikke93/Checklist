@@ -47,6 +47,9 @@ export class ProfileComponent implements OnInit, OnDestroy {
   }
 
   setCurrentProfile(i: number) {
+    if(!this.settings.getProfile(i)) {
+      return;
+    }
     this.profileAboutToChange.emit(this.settings.currentProfile);
     this.settings.currentProfile = i;
     this.profileChanged.emit(i);
