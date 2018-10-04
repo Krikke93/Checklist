@@ -1,5 +1,17 @@
 [
     {
+        "name": "Secluded Thicket",
+        "date": "2018-10-04",
+        "version": "1.1.2",
+        "added": [
+            "Secluded Thicket and its 4 new white bags",
+            "Missing Freezing Quiver in Ice Tomb",
+            "Missing Candy Ring in Candyland Hunting Grounds"
+        ],
+        "changed": [],
+        "removed": []
+    },
+    {
         "name": "Oops",
         "date": "2018-09-29",
         "version": "1.1.1",

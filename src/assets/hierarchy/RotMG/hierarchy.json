@@ -371,6 +371,20 @@
                                 ]
                             }
                         ]
+                    },
+                    {
+                        "name": "Cyan bags",
+                        "src": "cyanbag",
+                        "items": [
+                            {
+                                "name": "Candy Ring",
+                                "src": "cring",
+                                "specialFilters": [
+                                    "rings",
+                                    "all-unique"
+                                ]
+                            }
+                        ]
                     }
                 ]
             },
@@ -2118,6 +2132,56 @@
                         ]
                     },
                     {
+                        "name": "Secluded Thicket",
+                        "src": "secludedthicket",
+                        "groups": [
+                            {
+                                "name": "White bags",
+                                "src": "whitebag",
+                                "items": [
+                                    {
+                                        "name": "Tezcacoatl's Tail",
+                                        "src": "teztail",
+                                        "specialFilters": [
+                                            "weapons",
+                                            "wizard",
+                                            "mystic",
+                                            "necromancer"
+                                        ]
+                                    },
+                                    {
+                                        "name": "Sealed Crystal Skull",
+                                        "src": "sealedcrystal",
+                                        "specialFilters": [
+                                            "abilities",
+                                            "necromancer"
+                                        ]
+                                    },
+                                    {
+                                        "name": "Penetrating Blast Spell",
+                                        "src": "penetrating",
+                                        "specialFilters": [
+                                            "abilities",
+                                            "wizard"
+                                        ]
+                                    },
+                                    {
+                                        "name": "Tlatoani's Shroud",
+                                        "src": "tlatoanishroud",
+                                        "specialFilters": [
+                                            "armor",
+                                            "mystic",
+                                            "necromancer",
+                                            "wizard",
+                                            "priest",
+                                            "sorcerer"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
                         "name": "Ice Tomb",
                         "src": "icetomb",
                         "groups": [
@@ -2125,6 +2189,14 @@
                                 "name": "Limited Edition",
                                 "src": "limited",
                                 "items": [
+                                    {
+                                        "name": "Freezing Quiver",
+                                        "src": "freezingquiver",
+                                        "specialFilters": [
+                                            "abilities",
+                                            "archer"
+                                        ]
+                                    },
                                     {
                                         "name": "Frimarra",
                                         "src": "frimarra",
