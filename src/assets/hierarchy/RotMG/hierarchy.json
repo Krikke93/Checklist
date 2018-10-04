@@ -2164,7 +2164,13 @@
                                             "abilities",
                                             "wizard"
                                         ]
-                                    },
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Cyan bags",
+                                "src": "cyanbag",
+                                "items": [
                                     {
                                         "name": "Tlatoani's Shroud",
                                         "src": "tlatoanishroud",

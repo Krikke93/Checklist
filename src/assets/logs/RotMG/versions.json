@@ -1,5 +1,15 @@
 [
     {
+        "name": "It's not that special...",
+        "date": "2018-10-04",
+        "version": "1.1.3",
+        "added": [],
+        "changed": [
+            "Moved Tlatoani's Shroud from White Bag group to Cyan Bag"
+        ],
+        "removed": []
+    },
+    {
         "name": "Secluded Thicket",
         "date": "2018-10-04",
         "version": "1.1.2",
